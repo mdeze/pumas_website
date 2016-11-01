@@ -1,14 +1,501 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <title>PumasWebsite</title>
-  <base href="/">
+	<title>Pumas Volleyball Club</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Web Fonts -->
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700'>
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/blog.style.css">
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="assets/css/headers/header-v8.css">
+	<link rel="stylesheet" href="assets/css/footers/footer-v3.css">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="assets/plugins/animate.css">
+	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
+	<link rel="stylesheet" href="assets/css/theme-skins/dark.css">
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+  
+  	<base href="/">
+
 </head>
-<body>
-  <app-root>Loading...</app-root>
+<body class="header-fixed header-fixed-space-v2">
+<div class="wrapper">
+	<!--=== Header v8 ===-->
+	<div class="header-v8 header-sticky">
+		<!-- Topbar blog -->
+		<div class="blog-topbar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-xs-8">
+						<div class="topbar-time">Pumas Volleyball Club</div>
+						<div class="topbar-toggler"><span class="fa fa-angle-down"></span></div>
+						<ul class="topbar-list topbar-menu">
+							<li><a href="/home" routerLink="/home">Home</a></li>
+							<li><a href="/news" routerLink="/news">News</a></li>
+							<li><a href="/programs-club" routerLink="/programs-club">Programs</a></li>
+							<li><a href="/schedule-tournament" routerLink="/schedule-tournament">Schedule</a></li>
+							<li><a href="/club-contact" routerLink="/club-contact">Contact</a></li>
+						</ul>
+					</div>
+				</div><!--/end row-->
+			</div><!--/end container-->
+		</div>
+		<!-- End Topbar blog -->
+
+		<!-- Navbar -->
+		<div class="navbar mega-menu" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="res-container">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img src="assets/img/PumasLogoColorLarge.gif" height="110" alt="Logo">
+						</a>
+					</div>
+				</div><!--/end responsive container-->
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-responsive-collapse">
+					<div class="res-container">
+						<ul class="nav navbar-nav">
+
+							<!-- Home -->
+							<li class="active home"><a href="/home" routerLink="/home">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
+							<!-- End Home -->
+
+							<!-- News -->
+							<li class="home"><a href="/news" routerLink="/news">News <i class="fa fa-newspaper-o" aria-hidden="true"></i></a></li>
+							<!-- End News -->
+
+							<!-- Programs -->
+							<li class="dropdown home">
+								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Programs
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="/programs-club" routerLink="/programs-club">Club Division</a></li>
+									<li><a href="/programs-open" routerLink="/programs-open">Open Division</a></li>
+									<li><a href="/programs-jnc" routerLink="/programs-jnc">Junior National Championship</a></li>
+									<li><a href="/programs-inhouse" routerLink="/programs-inhouse">In House Skills Program</a></li>
+									<li><a href="/programs-philosophy" routerLink="/programs-philosophy">Club Philosophy</a></li>
+									<li ><a href="/club-faq" routerLink="/club-faq">FAQ <i class="fa fa-question-circle-o" aria-hidden="true"></i></a></li>								</ul>
+							</li>
+							<!-- End Programs -->
+
+							<!-- Tryouts -->
+							<li class="dropdown home">
+								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Tryouts
+								</a>
+								<ul class="dropdown-menu">
+									<li ><a href="/tryouts-guidelines" routerLink="/tryouts-guidelines">Guidelines</a></li>
+									<li ><a href="/tryouts-expect" routerLink="/tryouts-expect">What to Expect</a></li>
+									<li ><a href="/tryouts-registration" routerLink="/tryouts-registration">Registration</a></li>
+									<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Schedule</a></li>
+									<li ><a href="/tryouts-results" routerLink="/tryouts-results">Results</a></li>
+								</ul>
+							</li>							
+							<!-- End Tryouts -->
+
+							<!-- Teams -->
+							<li class="dropdown mega-menu-fullwidth">
+								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Teams <i class="fa fa-users"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<div class="mega-menu-content">
+											<div class="container">
+												<div class="row">
+													<div class="col-md-4 md-margin-bottom-30">
+														<!-- 2016 -->
+														<div class="blog-thumb margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/Sapphire 15 NERVA V Gold.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-users"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">2016 Team Rosters</a></h3>
+															</div>
+														</div>
+														<!-- End 2016 -->
+														<!-- 2013 -->
+														<div class="blog-thumb margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/Sapphire 15 NERVA V Gold.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-users"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">2013 Team Rosters</a></h3>
+															</div>
+														</div>
+														<!-- End 2013 -->
+														<!-- 2010 -->
+														<div class="blog-thumb margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/Sapphire 15 NERVA V Gold.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-users"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">2010 Team Rosters</a></h3>
+															</div>
+														</div>
+														<!-- End 2010 -->
+
+													</div>
+													<div class="col-md-4 md-margin-bottom-30">
+														<!-- Blog Thumb -->
+														<div class="blog-thumb margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/blog/img36.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-video-camera"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">You CAN be sensitive to gluten without having coeliac disease, study finds</a></h3>
+																<ul class="blog-thumb-info">
+																	<li>Mar 6, 2015</li>
+																	<li><a href="#"><i class="fa fa-comments"></i> 0</a></li>
+																</ul>
+															</div>
+														</div>
+														<!-- End Blog Thumb -->
+
+														<!-- Blog Thumb -->
+														<div class="blog-thumb margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/blog/img27.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-photo"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">Starbucks is introducing new coffee</a></h3>
+																<ul class="blog-thumb-info">
+																	<li>Mar 6, 2015</li>
+																	<li><a href="#"><i class="fa fa-comments"></i> 0</a></li>
+																</ul>
+															</div>
+														</div>
+														<!-- End Blog Thumb -->
+
+														<!-- Blog Thumb -->
+														<div class="blog-thumb md-margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/blog/img25.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-volume-up"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">The benefits of tea</a></h3>
+																<ul class="blog-thumb-info">
+																	<li>Mar 6, 2015</li>
+																	<li><a href="#"><i class="fa fa-comments"></i> 0</a></li>
+																</ul>
+															</div>
+														</div>
+														<!-- End Blog Thumb -->
+													</div>
+													<div class="col-md-4">
+														<!-- Blog Thumb -->
+														<div class="blog-thumb margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/blog/img26.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-volume-up"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">Salted dessert recipes that walk the fine line of...</a></h3>
+																<ul class="blog-thumb-info">
+																	<li>Mar 6, 2015</li>
+																	<li><a href="#"><i class="fa fa-comments"></i> 0</a></li>
+																</ul>
+															</div>
+														</div>
+														<!-- End Blog Thumb -->
+
+														<!-- Blog Thumb -->
+														<div class="blog-thumb margin-bottom-20">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/blog/img28.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-photo"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">Why your next glass of orange juice will cost you more</a></h3>
+																<ul class="blog-thumb-info">
+																	<li>Mar 6, 2015</li>
+																	<li><a href="#"><i class="fa fa-comments"></i> 0</a></li>
+																</ul>
+															</div>
+														</div>
+														<!-- End Blog Thumb -->
+
+														<!-- Blog Thumb -->
+														<div class="blog-thumb md-margin-bottom-30">
+															<div class="blog-thumb-hover">
+																<img src="assets/img/blog/img28.jpg" alt="">
+																<a class="hover-grad" href="blog_single.html"><i class="fa fa-photo"></i></a>
+															</div>
+															<div class="blog-thumb-desc">
+																<h3><a href="blog_single.html">Why your next glass of orange juice will cost you more</a></h3>
+																<ul class="blog-thumb-info">
+																	<li>Mar 6, 2015</li>
+																	<li><a href="#"><i class="fa fa-comments"></i> 0</a></li>
+																</ul>
+															</div>
+														</div>
+														<!-- End Blog Thumb -->
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<!-- End Teams -->
+
+							<!-- Schedules -->
+							<li class="dropdown home">
+								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Schedules <i class="fa fa-calendar"></i></a>
+								</a>
+								<ul class="dropdown-menu">
+									<li ><a href="#">January - February Practices</a></li>
+									<li ><a href="#">March - May Practices</a></li>
+									<li ><a href="/schedule-tournament" routerLink="/schedule-tournament">Tournaments</a></li>
+									<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Tryouts</a></li>
+								</ul>
+							</li>							
+							<!-- End Schedules -->
+
+							<!-- Pictures -->
+							<li class="dropdown mega-menu-fullwidth">
+								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Pictures <i class="fa fa-camera"></i></a>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<div class="mega-menu-content">
+											<div class="container">
+												<div class="row">
+													<div class="col-sm-4 md-margin-bottom-30">
+														<div class="blog-grid">
+															<img class="img-responsive" src="assets/img/Sapphire 15 NERVA II Silver.jpg" height="973" width="615" alt="">
+															<h3 class="blog-grid-title-sm"><a href="#">Champions</a></h3>
+														</div>
+													</div>
+													<div class="col-sm-4 md-margin-bottom-30">
+														<div class="blog-grid">
+															<img class="img-responsive" src="assets/img/Ebony 15 Winterfest Team Picture.jpg" alt="">
+															<h3 class="blog-grid-title-sm"><a href="#">On The Court</a></h3>
+														</div>
+													</div>
+													<div class="col-sm-4 md-margin-bottom-30">
+														<div class="blog-grid blog-thumb">
+															<img class="img-responsive" src="assets/img/Sapphire Doubles Tournament Queen of the Court.jpg" alt="">
+															<h3 class="blog-grid-title-sm"><a href="#">Off The Court</a></h3>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<!-- End Pictures -->
+
+							<!-- Coaches -->
+							<li class="dropdown home">
+								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Coaches <i class="fa fa-binoculars" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li ><a href="/coaches-profiles" routerLink="/coaches-profiles">Coaches Profiles</a></li>
+									<li ><a href="/coaches-interested" routerLink="/coaches-interested">Interested In Coaching</a></li>
+									<li ><a href="/coaches-registration" routerLink="/coaches-registration">Registration</a></li>
+									<li ><a href="#">Coaches Page</a></li>
+								</ul>
+							</li>							
+							<!-- End Coaches -->
+
+							<!-- Info -->
+							<li class="dropdown home">
+								<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+									Club Info <i class="fa fa-info-circle" aria-hidden="true"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li ><a href="/club-about" routerLink="/club-about">About</a></li>
+									<li ><a href="/club-bod" routerLink="/club-bod">Board Of Directors</a></li>
+									<li ><a href="/club-contact" routerLink="/club-contact">Contact</a></li>
+									<li ><a href="/club-directions" routerLink="/club-directions">Directions</a></li>
+									<li ><a href="/club-faq" routerLink="/club-faq">FAQ <i class="fa fa-question-circle-o" aria-hidden="true"></i></a></li>
+								</ul>
+							</li>							
+							<!-- End Info -->
+
+						</ul>
+					</div><!--/responsive container-->
+				</div><!--/navbar-collapse-->
+			</div><!--/end contaoner-->
+		</div>
+		<!-- End Navbar -->
+	</div>
+	<!--=== End Header v8 ===-->
+
+	<!--=== Container Part ===-->
+	<div class="container content">
+		<div class="row">
+			<app-root>
+				<div class="col-md-12 text-center">
+					<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+					<span class="sr-only">Loading...</span>
+				</div>
+			</app-root>
+		</div>
+	</div>
+	<!--=== End Container Part ===-->
+
+	<!--=== Footer v3 ===-->
+	<div id="footer-v3" class="footer-v3">
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<!-- About -->
+					<div class="col-sm-3 md-margin-bottom-40">
+						<div class="thumb-headline"><h2>Pumas Volleyball Club</h2></div>
+						<ul class="list-unstyled simple-list margin-bottom-20">
+							<li></li>
+							<li><a href="/home" routerLink="/home"><i class="fa fa-home"></i> 22 Marblehead Street, North Andover, Ma 01845</a></li>
+							<li><a href="/home" routerLink="/home"><i class="fa fa-envelope"></i> PumasVolleyballClub@gmail.com</a></li>
+							<li><a href="/home" routerLink="/home"><i class="fa fa-phone"></i> 617-285-1362</a></li>
+						</ul>
+						<ul class="list-unstyled simple-list">
+							<li ><a href="/club-about" routerLink="/club-about">About</a></li>
+							<li ><a href="/club-bod" routerLink="/club-bod">Board Of Directors</a></li>
+							<li ><a href="/cclub-contact" routerLink="/club-contact">Contact</a></li>
+							<li ><a href="/club-directions" routerLink="/club-directions">Directions</a></li>
+						</ul>							
+					</div><!--/col-md-3-->
+					<!-- End About -->
+
+					<!-- Simple List -->
+					<div class="col-sm-3 md-margin-bottom-40">
+						<div class="thumb-headline"><h2>Programs</h2></div>
+						<ul class="list-unstyled simple-list margin-bottom-20">
+							<li><a href="/programs-club" routerLink="/programs-club">Club Division</a></li>
+							<li ><a href="/programs-open" routerLink="/programs-open">Open Division</a></li>
+							<li ><a href="/programs-jnc" routerLink="/programs-jnc">Junior National Championship</a></li>
+							<li ><a href="/programs-inhouse" routerLink="/programs-inhouse">In House Skills Program</a></li>
+							<li ><a href="/programs-philosophy" routerLink="/programs-philosophy">Club Philosophy</a></li>
+							<li ><a href="/club-faq" routerLink="/club-faq">FAQ</a></li>
+						</ul>
+
+						<div class="thumb-headline"><h2>Schedules <i class="fa fa-calendar"></i></h2></div>
+						<ul class="list-unstyled simple-list">
+							<li ><a href="#">January - February Practices</a></li>
+							<li ><a href="#">March - May Practices</a></li>
+							<li ><a href="/schedule-tournament" routerLink="/schedule-tournament">Tournaments</a></li>
+							<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Tryouts</a></li>
+						</ul>
+																		
+					</div><!--/col-md-3-->
+									
+									
+					<div class="col-sm-3">
+						<div class="thumb-headline"><h2>Tryouts</h2></div>
+						<ul class="list-unstyled simple-list margin-bottom-20">
+							<li ><a href="/tryouts-guidelines" routerLink="/tryouts-guidelines">Guidelines</a></li>
+							<li ><a href="/tryouts-expect" routerLink="/tryouts-expect">What to Expect</a></li>
+							<li ><a href="/tryouts-registration" routerLink="/tryouts-registration">Registration</a></li>
+							<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Schedule</a></li>
+							<li ><a href="/tryouts-results" routerLink="/tryouts-results">Results</a></li>
+							<li >&nbsp;</li>
+						</ul>
+
+						<div class="thumb-headline"><h2>Pictures <i class="fa fa-camera"></i></a></h2></div>
+						<ul class="list-unstyled simple-list">
+							<li><a href="#">Champions</a></li>
+							<li><a href="#">On The Court</a></li>
+							<li><a href="#">Off The Court</a></li>
+						</ul>
+
+					</div><!--/col-md-3-->
+
+					<div class="col-sm-3">
+						<div class="thumb-headline"><h2>Teams <i class="fa fa-users"></i></h2></div>
+						<ul class="list-unstyled simple-list margin-bottom-20">
+							<li><a href="#">2016 Team Rosters</a></li>
+							<li><a href="#">2015 Team Rosters</a></li>
+							<li><a href="#">2014 Team Rosters</a></li>
+							<li><a href="#">2013 Team Rosters</a></li>
+							<li><a href="#">2012 Team Rosters</a></li>
+							<li><a href="#">2011 Team Rosters</a></li>
+						</ul>
+
+						<div class="thumb-headline"><h2>Coaches <i class="fa fa-binoculars" aria-hidden="true"></i></h2></div>
+						<ul class="list-unstyled simple-list">
+							<li ><a href="/coaches-profiles" routerLink="/coaches-profiles">Coaches Profiles</a></li>
+							<li ><a href="/coaches-interested" routerLink="/coaches-interested">Interested In Coaching</a></li>
+							<li ><a href="/coaches-registration" routerLink="/coaches-registration">Registration</a></li>
+							<li ><a href="#">Coaches Page</a></li>
+						</ul>
+					</div><!--/col-md-3-->
+					<!-- End Simple List -->
+				</div>
+			</div>
+		</div><!--/footer-->
+	</div>
+	<!--=== End Footer v3 ===-->
+
+</div><!--/wrapper-->
+
+
+<!-- JS Global Compulsory -->
+<script src="assets/plugins/jquery/jquery.min.js"></script>
+<script src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script src="assets/plugins/back-to-top.js"></script>
+<script src="assets/plugins/smoothScroll.js"></script>
+<script src="assets/plugins/modernizr.js"></script>
+<!-- JS Customization -->
+<script src="assets/js/custom.js"></script>
+<!-- JS Page Level -->
+<script src="assets/js/app.js"></script>
+<script>
+	jQuery(document).ready(function() {
+		App.init();
+	});
+</script>
+<!--[if lt IE 9]>
+	<script src="assets/plugins/respond.js"></script>
+	<script src="assets/plugins/html5shiv.js"></script>
+	<script src="assets/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
 </body>
 </html>

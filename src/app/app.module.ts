@@ -2,17 +2,87 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { RouterModule }   from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { NewsComponent } from './news/news.component';
+import { NewsItemsComponent } from './news-items/news-items.component';
+import { ProgramsClubComponent } from './programs-club/programs-club.component';
+import { ProgramsOpenComponent } from './programs-open/programs-open.component';
+import { ProgramsJncComponent } from './programs-jnc/programs-jnc.component';
+import { ProgramsInhouseComponent } from './programs-inhouse/programs-inhouse.component';
+import { ProgramsPhilosophyComponent } from './programs-philosophy/programs-philosophy.component';
+import { TryoutsExpectComponent } from './tryouts-expect/tryouts-expect.component';
+import { TryoutsGuidelinesComponent } from './tryouts-guidelines/tryouts-guidelines.component';
+import { TryoutsRegistrationComponent } from './tryouts-registration/tryouts-registration.component';
+import { TryoutsResultsComponent } from './tryouts-results/tryouts-results.component';
+import { ScheduleTournamentComponent } from './schedule-tournament/schedule-tournament.component';
+import { ScheduleTryoutsComponent } from './schedule-tryouts/schedule-tryouts.component';
+import { CoachesProfilesComponent } from './coaches-profiles/coaches-profiles.component';
+import { CoachesInterestedComponent } from './coaches-interested/coaches-interested.component';
+import { CoachesRegistrationComponent } from './coaches-registration/coaches-registration.component';
+import { ClubAboutComponent } from './club-about/club-about.component';
+import { ClubBodComponent } from './club-bod/club-bod.component';
+import { ClubContactComponent } from './club-contact/club-contact.component';
+import { ClubDirectionsComponent } from './club-directions/club-directions.component';
+import { ClubFaqComponent } from './club-faq/club-faq.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NewsComponent,
+    NewsItemsComponent,
+    ProgramsClubComponent,
+    ProgramsOpenComponent,
+    ProgramsJncComponent,
+    ProgramsInhouseComponent,
+    ProgramsPhilosophyComponent,
+    TryoutsExpectComponent,
+    TryoutsGuidelinesComponent,
+    TryoutsRegistrationComponent,
+    TryoutsResultsComponent,
+    ScheduleTryoutsComponent,
+    ScheduleTournamentComponent,
+    CoachesProfilesComponent,
+    CoachesInterestedComponent,
+    CoachesRegistrationComponent,
+    ClubAboutComponent,
+    ClubBodComponent,
+    ClubContactComponent,
+    ClubDirectionsComponent,
+    ClubFaqComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot([
+      { path: 'home', component: HomeComponent },
+      { path: 'news', component: NewsComponent },
+      { path: 'news-items', component: NewsItemsComponent },
+      { path: 'programs-club', component: ProgramsClubComponent },
+      { path: 'programs-open', component: ProgramsOpenComponent },
+      { path: 'programs-jnc', component: ProgramsJncComponent },
+      { path: 'programs-inhouse', component: ProgramsInhouseComponent },
+      { path: 'programs-philosophy', component: ProgramsPhilosophyComponent },
+      { path: 'tryouts-expect', component: TryoutsExpectComponent },
+      { path: 'tryouts-guidelines', component: TryoutsGuidelinesComponent },
+      { path: 'tryouts-registration', component: TryoutsRegistrationComponent },
+      { path: 'tryouts-results', component: TryoutsResultsComponent },
+      { path: 'schedule-tournament', component: ScheduleTournamentComponent },
+      { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
+      { path: 'coaches-profiles', component: CoachesProfilesComponent },
+      { path: 'coaches-interested', component: CoachesInterestedComponent },
+      { path: 'coaches-registration', component: CoachesRegistrationComponent },
+      { path: 'club-about', component: ClubAboutComponent },
+      { path: 'club-bod', component: ClubBodComponent },
+      { path: 'club-contact', component: ClubContactComponent },
+      { path: 'club-directions', component: ClubDirectionsComponent },
+      { path: 'club-faq', component: ClubFaqComponent },
+      { path: '', component: AppComponent }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

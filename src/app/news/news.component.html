@@ -1,0 +1,52 @@
+
+      <link rel="stylesheet" href="assets/plugins/line-icons-pro/styles.css">
+
+			<!-- main body news -->
+			<div class="col-md-9 md-margin-bottom-50">
+
+				<!-- News Item Block -->
+				<div class="row margin-bottom-50" *ngFor="let news of newsItems">
+					<div class="col-sm-4 sm-margin-bottom-20 text-right">
+						<span aria-hidden="true" class="{{news.displayIcon}} sport-icon-default"></span>
+					</div>
+					<div class="col-sm-8">
+						<div class="blog-grid">
+							<h3><a href="news-items.html#2017tryouts">{{news.title}}</a></h3>
+							<ul class="blog-grid-info">
+								<li>{{news.postedBy}}</li>
+								<li>{{news.postedOn.toString('dddd, MMMM ,yyyy')}}</li>
+							</ul>
+							<p [innerHTML]="news.summary" ></p>
+							<a class="r-more" href="/news-items" routerLink="/news-items">Read More</a>
+							
+						</div>
+					</div>
+				</div>
+				<!-- End News Item Block -->
+
+			</div>
+			<!-- end main body news -->
+
+			<!-- recent news -->
+			<div class="col-md-3">
+
+				<div class="margin-bottom-50">
+					<h2 class="title-v4">Recent News</h2>
+
+					<!-- recent news item block -->
+					<div class="blog-thumb blog-thumb-circle margin-bottom-15" *ngFor="let news of newsItems">
+						<div class="blog-thumb-hover">
+							<i class="fa fa-newspaper-o fa-4x" aria-hidden="true"></i>
+						</div>							
+						<div class="blog-thumb-desc">
+							<h3><a href="news-items.html#2017tryouts">{{news.title}}</a></h3>
+							<ul class="blog-thumb-info">
+								<li>{{news.postedOn.toString('dddd, MMMM ,yyyy')}}</li>
+							</ul>
+						</div>
+					</div>
+					<!-- end recent news item block -->
+
+				</div>
+			</div>
+			<!-- end recent news -->
