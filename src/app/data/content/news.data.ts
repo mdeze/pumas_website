@@ -16,7 +16,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         title: '2017 Tournament Dates Announced',
         summary: 'Tournament dates and locations for Club and Open teams for the 2017 season have been set.',
         detail: 'Tournament dates and locations for Club and Open teams for the 2017 season have been set. These include NERVA, optional regaional andd national championships. See the <a href="season-tournaments.html"> tournament schedule</a> for more details.',
-        displayIcon: 'icon-sport-015',
+        displayIcon: 'icon-sport-004',
         displayIconStyle: '',
         postedOn: new Date(2016, 9, 15),
         postedBy: 'Mike Ezekiel',
@@ -26,10 +26,9 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         title: 'Looking For Coaches',
         summary: '<strong>Pumas Volleyball Club</strong> is always looking for coaches (head or assistant). ',
         detail: '<strong>Pumas Volleyball Club</strong> is always looking for coaches (head or assistant). If you have any volleyball experience, please see our <a href="interested-in-coaching.html">Looking for Coaches</a> page and <a href="#">contact the director</a> for more specific information.',
-        displayIcon: 'icon-sport-019',
+        displayIcon: 'icon-sport-008',
         displayIconStyle: '',
         postedOn: new Date(2016, 8, 4),
         postedBy: 'Mike Ezekiel',
     }
-];
-
+]; 
