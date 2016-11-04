@@ -1,4 +1,4 @@
-import { NewsItem } from '../../news//NewsItem';
+import { NewsItem } from '../../news/NewsItem';
 
 export const NEWS_ITEM_LIST: NewsItem[] = [
     {

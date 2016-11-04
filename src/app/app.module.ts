@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
 
+import { AgmCoreModule } from 'angular2-google-maps/core';
+
 import { AppComponent } from './app.component';
 import { NewsComponent } from './news/news.component';
 import { NewsItemsComponent } from './news-items/news-items.component';
@@ -58,6 +60,9 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA6HhJcsPCxP7jnO5_C2_DSpmO7kltiuzI'
+    }),
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'news', component: NewsComponent },
