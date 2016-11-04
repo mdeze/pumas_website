@@ -1,7 +1,7 @@
 	<div class="col-md-9">
 				<div class="panel panel-green equal-height-column">
 					<div class="panel-heading">
-						<h3 class="panel-title"><i class="fa fa-home" aria-hidden="true"></i> Pumas Home Practice &amp; <i class="fa fa-trophy" aria-hidden="true"></i> Tournament Sites</h3>
+						<h3 class="panel-title"><i class="fa fa-home" aria-hidden="true"></i> Pumas Practice &amp; <i class="fa fa-trophy" aria-hidden="true"></i> Tournament Sites</h3>
 					</div>
 					<div class="panel-body">
 
@@ -11,48 +11,55 @@
 						<div class="panel panel-default" *ngFor="let direction of directionItems">
 							<div class="panel-heading">
 								<h4 class="panel-title">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-One">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-{{direction.id}}">
 										<i class="fa fa-caret-right" aria-hidden="true"></i> {{direction.locationName}}
 									</a>
 								</h4>
 							</div>
-							<div id="collapse-One" class="panel-collapse collapse in">
+							<div id="collapse-{{direction.id}}" class="panel-collapse collapse in">
 								<div class="panel-body">
 									<div class="row">
 										<div class="col-md-12">
-											<h4>{{direction.address}}</h4>
-
+											<div class="row">
+												<div class="col-md-12">
+													<h4 class="color-green"><strong>{{direction.locationName}}</strong></h4>
+													<h5><i class="fa fa-road" aria-hidden="true"></i> {{direction.address}}</h5>
+												</div>
+											</div>
+                      <div class="row" *ngIf="direction.notes">
+												<div class="contex-bg col-md-12" >
+													<p class="bg-info rounded-2x" ><i class="fa fa-info-circle" aria-hidden="true"></i> {{direction.notes}}</p>
+												</div>
+                      </div>
                       <!-- gym directions -->
                       <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                           <div class="tag-box tag-box-v2 margin-bottom-40">
-                            <h2>From the North - Route 93 South</h2>
-                            <p>Take Route 93 South to Exit 45 (River Road). At the top of the ramp, turn right. Proceed on River Road for approximately 1/4 (one quarter) of a mile; at the third traffic light, turn left into the school driveway and parking lot area.</p>
+                            <h2>From the North</h2>
+                            <p>{{direction.directionsFromNorth}}</p>
                           </div>
                         </div>
-                        <div class="col-md-2">&nbsp;</div>
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                           <div class="tag-box tag-box-v2 margin-bottom-40">
-                            <h4>From the South - Route 93 North</h4>
-                            <p>Take Route 93 North to Exit 45 (River Road). At top of the ramp, turn left onto River Road. Proceed on River Road for approximately 1/4 (one quarter) of a mile; at the second traffic light, turn left into the school driveway and parking lot area</p>
+                            <h4>From the South</h4>
+                            <p>{{direction.directionsFromSouth}}</p>
                           </div>
                         </div>
                       </div>
                       <!-- end gym directions -->
 
                       <!-- google map -->
-                      <sebm-google-map [latitude]="direction.lat" [longitude]="direction.lng" [zoom]="direction.zoom">
+											<div class="text-center"><a href="{{direction.googleMapUrl}}" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Google Maps Link</a></div>
+                      <sebm-google-map [latitude]="direction.lat" [longitude]="direction.lng" [zoom]="direction.zoom" [disableDefaultUI]="disableDefaultUI">
                         <sebm-google-map-marker [latitude]="direction.lat" [longitude]="direction.lng"></sebm-google-map-marker>
                       </sebm-google-map>
                       <!-- end google map -->
-
+											
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-
-
 
 					</div>
 					<!-- End Accordion v1 -->

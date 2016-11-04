@@ -8,6 +8,7 @@ export class DirectionItem {
     displayIcon: string;
     displayIconStyle: string;
     mapTitle: string;
+    googleMapUrl: string;
     lat: number;
     lng: number;
     zoom: number;
