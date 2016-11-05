@@ -29,6 +29,7 @@ import { ClubContactComponent } from './club-contact/club-contact.component';
 import { ClubDirectionsComponent } from './club-directions/club-directions.component';
 import { ClubFaqComponent } from './club-faq/club-faq.component';
 import { HomeComponent } from './home/home.component';
+import { TeamRosterComponent } from './team-roster/team-roster.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { HomeComponent } from './home/home.component';
     ClubContactComponent,
     ClubDirectionsComponent,
     ClubFaqComponent,
-    HomeComponent
+    HomeComponent,
+    TeamRosterComponent
   ],
   imports: [
     BrowserModule,
@@ -76,6 +78,7 @@ import { HomeComponent } from './home/home.component';
       { path: 'tryouts-guidelines', component: TryoutsGuidelinesComponent },
       { path: 'tryouts-registration', component: TryoutsRegistrationComponent },
       { path: 'tryouts-results', component: TryoutsResultsComponent },
+      { path: 'team-roster', component: TeamRosterComponent },
       { path: 'schedule-tournament', component: ScheduleTournamentComponent },
       { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
       { path: 'coaches-profiles', component: CoachesProfilesComponent },

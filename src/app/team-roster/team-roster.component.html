@@ -1,0 +1,113 @@
+
+	<div class="col-md-9">
+					
+          <div class="panel panel-green margin-bottom-40" *ngFor="let team of teamList">
+						<div class="panel-heading">
+							<h3 class="panel-title"><i class="fa fa-users"></i> {{team.name}} {{team.year}}</h3>
+						</div>
+						<div class="panel-body">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="team-thumbnail" *ngIf="team.teamPhoto">
+                      <div class="thumbnails thumbnail-style">
+                      <a class="fancybox" data-rel="fancybox-button" title="{{team.name}} {{team.year}}" href="{{team.teamPhoto}}">
+                        <img class="img-responsive" src="{{team.teamPhoto}}" width="160" height="120" alt="">
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td align='right'><span class="label label-primary rounded-2x">Name</span></td>
+                          <td>{{team.name}}</td>
+                        </tr>
+                        <tr>
+                          <td align='right'><span class="label label-primary rounded-2x">Division</span></td>
+                          <td>{{team.division}}</td>
+                        </tr>
+                        <tr>
+                          <td align='right'><span class="label label-primary rounded-2x">Age</span></td>
+                          <td>{{team.ageGroup}}</td>
+                        </tr>
+                        <tr>
+                          <td align='right'><span class="label label-primary rounded-2x">Head Coach</span></td>
+                          <td>{{team.headCoach}}</td>
+                        </tr>
+                        <tr>
+                          <td align='right'><span class="label label-primary rounded-2x">Asst. Coach</span></td>
+                          <td>
+                            <ul class="list-unstyled" *ngFor="let coach of team.assistantCoaches">
+                              <li>{{coach}}</li>
+                            </ul>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                  <div class="col-md-3">
+                      <ul class="list-unstyled" *ngFor="let player of team.players.slice(0,5)">
+                        <li><span aria-hidden="true" class="icon-sport-124 sport-icon-xsmall"></span> {{player}}</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <ul class="list-unstyled" *ngFor="let player of team.players.slice(6)">
+                        <li><span aria-hidden="true" class="icon-sport-124 sport-icon-xsmall"></span> {{player}}</li>
+                      </ul>
+                  </div>                  
+                </div>
+						</div>
+					</div>
+
+
+	</div>
+
+  <div class="col-md-3">
+			<div class="margin-bottom-50">
+				<h2 class="title-v4">More in Teams <i class="fa fa-users"></i></h2>
+
+				<div class="blog-thumb-v3">
+					<small>Teams</small>
+					<h3><a href="/team-roster" routerLink="/team-roster">2016 Roster</a></h3>
+				</div>
+
+				<hr class="hr-xs">
+
+				<div class="blog-thumb-v3">
+					<small>Teams</small>
+					<h3><a href="/team-roster" routerLink="/team-roster">2015 Roster</a></h3>
+				</div>
+
+				<hr class="hr-xs">
+
+				<div class="blog-thumb-v3">
+					<small>Teams</small>
+					<h3><a href="/team-roster" routerLink="/team-roster">2014 Roster</a></h3>
+				</div>
+
+				<hr class="hr-xs">
+
+				<div class="blog-thumb-v3">
+					<small>Teams</small>
+					<h3><a href="/team-roster" routerLink="/team-roster">2013 Roster</a></h3>
+				</div>
+
+				<hr class="hr-xs">
+
+				<div class="blog-thumb-v3">
+					<small>Teams</small>
+					<h3><a href="/team-roster" routerLink="/team-roster">2012 Roster</a></h3>
+				</div>
+
+				<hr class="hr-xs">
+
+				<div class="blog-thumb-v3">
+					<small>Teams</small>
+					<h3><a href="/team-roster" routerLink="/team-roster">2011 Roster</a></h3>
+				</div>
+
+
+			</div>
+	</div>
