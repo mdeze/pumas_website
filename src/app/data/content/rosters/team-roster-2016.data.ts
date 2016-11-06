@@ -42,7 +42,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         headCoach: 'Mike Ezekiel',
         assistantCoaches: ['Cheryl Farnum'],
         players: ['Butler, Emily','Cheng, Cathy','DeGeorge, Samantha','Ervin, Kaitlin','Ezekiel, Elizabeth','Farnum, Laura','Harrison, Nicole','Hu, Grace','Shea, Kerry','Som, Pichanny','Thawnghmung, Dai'],
-        teamPhoto: 'assets/img/teams/2016/Sapphire 15 NERVA V Gold.jpg',
+        teamPhoto: 'assets/img/teams/2016/Sapphire 15.jpg',
         teamPhotoThumbNail: 'assets/img/teams/2016/Sapphire 15 NERVA V Gold-thumbnail.jpg'
     }
 ];

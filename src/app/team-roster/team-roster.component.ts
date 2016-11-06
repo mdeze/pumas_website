@@ -1,10 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
-// declare var $:any;
-// declare var jQuery:any;
 declare var FancyBox:any;
-
-
 
 import { TeamRoster } from './TeamRoster';
 import { TeamRosterService } from '../data/services/team-roster.service';
