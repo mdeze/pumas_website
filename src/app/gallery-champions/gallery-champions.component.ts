@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { ActivatedRoute, Params }   from '@angular/router';
 
 declare var FancyBox:any;
 
@@ -16,27 +17,37 @@ export class GalleryChampionsComponent implements OnInit, AfterViewInit {
   galleryYear: number = 2016;
   galleryList: GalleryItem[][];
 
-  constructor(private galleryService: GalleryChampionService) { }
+  constructor(
+      private galleryService: GalleryChampionService,
+      private route: ActivatedRoute
+    ) { }
 
   ngOnInit() {
-    this.galleryList = this.getGalleryChampionByYear();
+    this.route.params.forEach((params: Params) => {
+        this.galleryYear = +params['year'];
+        this.galleryList = this.getGalleryChampionByYear(this.galleryYear);
+      });
   }
 
   ngAfterViewInit() {
     FancyBox.initFancybox();
   }
 
-  getGalleryChampionByYear(): GalleryItem[][] {
+  getGalleryChampionByYear(year: number): GalleryItem[][] {
     let galleryData: GalleryItem[][] = [];
 
     let rowItems: number = 4;
     let startItem: number = 0;
     let endItem: number = rowItems;
 
-    let galleryList = this.galleryService.getGalleryChampionByYear();
+    let galleryList = this.galleryService.getGalleryChampionByYear(year);
     let itemsRemaining: number = galleryList.length;
 
     for (let i: number = 0; i < galleryList.length; i++) {
+
+      if (itemsRemaining < 0) {
+        break;
+      }
 
       let row: GalleryItem[];
       if (itemsRemaining >= rowItems) {
@@ -48,11 +59,7 @@ export class GalleryChampionsComponent implements OnInit, AfterViewInit {
 
       startItem = endItem;
       endItem = endItem + rowItems;
-      itemsRemaining = (galleryList.length - endItem);
-
-      if (endItem > galleryList.length) {
-        break;
-      }
+      itemsRemaining = (galleryList.length - startItem);
     }
 
     return galleryData;

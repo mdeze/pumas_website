@@ -83,7 +83,7 @@ import { GalleryChampionsComponent } from './gallery-champions/gallery-champions
       { path: 'team-roster/:year', component: TeamRosterComponent },
       { path: 'schedule-tournament', component: ScheduleTournamentComponent },
       { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
-      { path: 'gallery-champions', component: GalleryChampionsComponent },
+      { path: 'gallery-champions/:year', component: GalleryChampionsComponent },
       { path: 'coaches-profiles', component: CoachesProfilesComponent },
       { path: 'coaches-interested', component: CoachesInterestedComponent },
       { path: 'coaches-registration', component: CoachesRegistrationComponent },

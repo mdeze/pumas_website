@@ -10,7 +10,7 @@ import { TEAM_ROSTER_2014 } from '../content/rosters/team-roster-2014.data';
 export class TeamRosterService {
 
     getRosterByYear(year: number): TeamRoster[] {
-        switch(year) {
+        switch (year) {
             case 2016:
                 return TEAM_ROSTER_2016;
             case 2015:
