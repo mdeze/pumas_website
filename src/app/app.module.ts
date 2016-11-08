@@ -31,6 +31,7 @@ import { ClubFaqComponent } from './club-faq/club-faq.component';
 import { HomeComponent } from './home/home.component';
 import { TeamRosterComponent } from './team-roster/team-roster.component';
 import { GalleryChampionsComponent } from './gallery-champions/gallery-champions.component';
+import { GalleryChampionsListComponent } from './gallery-champions-list/gallery-champions-list.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +59,8 @@ import { GalleryChampionsComponent } from './gallery-champions/gallery-champions
     ClubFaqComponent,
     HomeComponent,
     TeamRosterComponent,
-    GalleryChampionsComponent
+    GalleryChampionsComponent,
+    GalleryChampionsListComponent
   ],
   imports: [
     BrowserModule,
@@ -84,6 +86,7 @@ import { GalleryChampionsComponent } from './gallery-champions/gallery-champions
       { path: 'schedule-tournament', component: ScheduleTournamentComponent },
       { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
       { path: 'gallery-champions/:year', component: GalleryChampionsComponent },
+      { path: 'gallery-champions-list', component: GalleryChampionsListComponent },
       { path: 'coaches-profiles', component: CoachesProfilesComponent },
       { path: 'coaches-interested', component: CoachesInterestedComponent },
       { path: 'coaches-registration', component: CoachesRegistrationComponent },
