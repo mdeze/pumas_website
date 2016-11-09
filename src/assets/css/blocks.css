@@ -6543,10 +6543,11 @@ a.thumbnail {
 .thumbnail-style {
 	padding: 7px;
 	margin-bottom: 20px;
+  box-shadow: 0 0 8px #ddd;
 }
 .thumbnail-style:hover {
-	box-shadow: 0 0 8px #ddd;
-  transition: box-shadow 0.2s ease-in-out;
+	/*box-shadow: 0 0 8px #ddd;
+  transition: box-shadow 0.2s ease-in-out;*/
 }
 
 .thumbnail h3,
