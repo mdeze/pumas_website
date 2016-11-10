@@ -35,6 +35,7 @@ import { GalleryChampionsListComponent } from './gallery-champions-list/gallery-
 import { GallerySideMenuComponent } from './gallery-side-menu/gallery-side-menu.component';
 import { ClubSideMenuComponent } from './club-side-menu/club-side-menu.component';
 import { CoachesSideMenuComponent } from './coaches-side-menu/coaches-side-menu.component';
+import { ProgramsSideMenuComponent } from './programs-side-menu/programs-side-menu.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { CoachesSideMenuComponent } from './coaches-side-menu/coaches-side-menu.
     GalleryChampionsListComponent,
     GallerySideMenuComponent,
     ClubSideMenuComponent,
-    CoachesSideMenuComponent
+    CoachesSideMenuComponent,
+    ProgramsSideMenuComponent
   ],
   imports: [
     BrowserModule,
