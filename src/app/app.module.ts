@@ -37,6 +37,7 @@ import { ClubSideMenuComponent } from './club-side-menu/club-side-menu.component
 import { CoachesSideMenuComponent } from './coaches-side-menu/coaches-side-menu.component';
 import { ProgramsSideMenuComponent } from './programs-side-menu/programs-side-menu.component';
 import { ScheduleSideMenuComponent } from './schedule-side-menu/schedule-side-menu.component';
+import { TryoutSideMenuComponent } from './tryout-side-menu/tryout-side-menu.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { ScheduleSideMenuComponent } from './schedule-side-menu/schedule-side-me
     ClubSideMenuComponent,
     CoachesSideMenuComponent,
     ProgramsSideMenuComponent,
-    ScheduleSideMenuComponent
+    ScheduleSideMenuComponent,
+    TryoutSideMenuComponent
   ],
   imports: [
     BrowserModule,
