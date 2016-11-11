@@ -9,6 +9,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         displayIcon: 'icon-sport-065',
         displayIconStyle: '',
         postedOn: new Date(2016, 9, 31),
+        postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
     },
     {
@@ -19,6 +20,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         displayIcon: 'icon-sport-004',
         displayIconStyle: '',
         postedOn: new Date(2016, 9, 15),
+        postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
     },
     {
@@ -29,6 +31,40 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         displayIcon: 'icon-sport-008',
         displayIconStyle: '',
         postedOn: new Date(2016, 8, 4),
+        postedOnDisplay: '',
+        postedBy: 'Mike Ezekiel',
+    },
+    {
+        id: 4,
+        title: 'Old News Story #1',
+        summary: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information.',
+        displayIcon: 'icon-sport-008',
+        displayIconStyle: '',
+        postedOn: new Date(2016, 7, 4),
+        postedOnDisplay: '',
+        postedBy: 'Mike Ezekiel',
+    },
+    {
+        id: 5,
+        title: 'Old News Story #2',
+        summary: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information.',
+        displayIcon: 'icon-sport-008',
+        displayIconStyle: '',
+        postedOn: new Date(2016, 4, 12),
+        postedOnDisplay: '',
+        postedBy: 'Mike Ezekiel',
+    },
+    {
+        id: 5,
+        title: 'Old News Story #3',
+        summary: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
+        detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information.',
+        displayIcon: 'icon-sport-008',
+        displayIconStyle: '',
+        postedOn: new Date(2016, 2, 26),
+        postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
     }
-]; 
+];

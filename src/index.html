@@ -33,7 +33,7 @@
 	<link rel="stylesheet" href="/assets/plugins/fancybox/source/jquery.fancybox.css">	
 
 	<!-- CSS Theme -->
-	<link rel="stylesheet" href="/assets/css/theme-colors/green.css" id="style_color">
+	<link rel="stylesheet" href="/assets/css/theme-colors/goldenrod.css" id="style_color">
 	<link rel="stylesheet" href="/assets/css/theme-skins/dark.css">
 
 	<!-- CSS Customization -->
@@ -41,15 +41,17 @@
   
   	<base href="/">
 
-	<!-- workaround for serving application from github pages. can be removed when in production -->
+	<!-- workaround for serving application from github pages. can be removed when in production 
+		http://developer.telerik.com/featured/quick-angular-2-hosting-angular-cli-github-pages/
+	-->
 	<script>
-	(function(){
-		var redirect = sessionStorage.redirect;
-		delete sessionStorage.redirect;
-		if (redirect && redirect != location.href) {
-		history.replaceState(null, null, redirect);
-		}
-	})();
+		(function(){
+			var redirect = sessionStorage.redirect;
+			delete sessionStorage.redirect;
+			if (redirect && redirect != location.href) {
+			history.replaceState(null, null, redirect);
+			}
+		})();
 	</script>
 
 </head>
@@ -102,7 +104,7 @@
 						<ul class="nav navbar-nav">
 
 							<!-- Home -->
-							<li class="active home"><a href="/home" routerLink="/home">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
+							<li class="home"><a href="/home" routerLink="/home">Home <i class="fa fa-home" aria-hidden="true"></i></a></li>
 							<!-- End Home -->
 
 							<!-- News -->
@@ -402,16 +404,17 @@
 						<div class="thumb-headline"><h2>Pumas Volleyball Club</h2></div>
 						<ul class="list-unstyled simple-list margin-bottom-20">
 							<li></li>
-							<li><a href="/home" routerLink="/home"><i class="fa fa-home"></i> 22 Marblehead Street, North Andover, Ma 01845</a></li>
+							<li><a href="/home" routerLink="/home"><i class="fa fa-home"></i> 22 Marblehead Street <br/>North Andover, Ma 01845</a></li>
 							<li><a href="/home" routerLink="/home"><i class="fa fa-envelope"></i> PumasVolleyballClub@gmail.com</a></li>
 							<li><a href="/home" routerLink="/home"><i class="fa fa-phone"></i> 617-285-1362</a></li>
 						</ul>
 						<ul class="list-unstyled simple-list">
-							<li ><a href="/club-about" routerLink="/club-about">About</a></li>
+							<li ><a href="/club-about" routerLink="/club-about">About Pumas</a></li>
 							<li ><a href="/club-bod" routerLink="/club-bod">Board Of Directors</a></li>
-							<li ><a href="/club-contact" routerLink="/club-contact">Contact</a></li>
-							<li ><a href="/club-directions" routerLink="/club-directions">Directions</a></li>
-						</ul>							
+							<li ><a href="/club-contact" routerLink="/club-contact">Contact Club</a></li>
+							<li ><a href="/club-directions" routerLink="/club-directions">Facility Directions</a></li>
+						</ul>
+
 					</div><!--/col-md-3-->
 					<!-- End About -->
 
@@ -439,6 +442,11 @@
 									
 									
 					<div class="col-sm-3">
+						<div class="thumb-headline"><h2>News <i class="fa fa-newspaper-o" aria-hidden="true"></i></h2></div>
+						<ul class="list-unstyled simple-list margin-bottom-20">
+							<li><a <a href="/news-items" routerLink="/news-items">Recent News</a></li>
+						</ul>
+
 						<div class="thumb-headline"><h2>Tryouts</h2></div>
 						<ul class="list-unstyled simple-list margin-bottom-20">
 							<li ><a href="/tryouts-guidelines" routerLink="/tryouts-guidelines">Guidelines</a></li>
@@ -459,6 +467,14 @@
 					</div><!--/col-md-3-->
 
 					<div class="col-sm-3">
+						<div class="thumb-headline"><h2>Coaches <span aria-hidden="true" class="icon-sport-008"></span> </h2></div>
+						<ul class="list-unstyled simple-list">
+							<li ><a href="/coaches-profiles" routerLink="/coaches-profiles">Coaches Profiles</a></li>
+							<li ><a href="/coaches-interested" routerLink="/coaches-interested">Interested In Coaching</a></li>
+							<li ><a href="/coaches-registration" routerLink="/coaches-registration">Registration</a></li>
+							<li ><a href="#">Coaches Page</a></li>
+						</ul>
+
 						<div class="thumb-headline"><h2>Teams <i class="fa fa-users"></i></h2></div>
 						<ul class="list-unstyled simple-list margin-bottom-20">
 							<li><a href="/team-roster/2016" routerLink="/team-roster/2016">2016 Team Rosters</a></li>
@@ -467,15 +483,12 @@
 							<li><a href="#">2013 Team Rosters</a></li>
 							<li><a href="#">2012 Team Rosters</a></li>
 							<li><a href="#">2011 Team Rosters</a></li>
+							<li><a href="#">2010 Team Rosters</a></li>
+							<li><a href="#">2009 Team Rosters</a></li>
+							<li><a href="#">2008 Team Rosters</a></li>
 						</ul>
 
-						<div class="thumb-headline"><h2>Coaches <span aria-hidden="true" class="icon-sport-008"></span> </h2></div>
-						<ul class="list-unstyled simple-list">
-							<li ><a href="/coaches-profiles" routerLink="/coaches-profiles">Coaches Profiles</a></li>
-							<li ><a href="/coaches-interested" routerLink="/coaches-interested">Interested In Coaching</a></li>
-							<li ><a href="/coaches-registration" routerLink="/coaches-registration">Registration</a></li>
-							<li ><a href="#">Coaches Page</a></li>
-						</ul>
+
 					</div><!--/col-md-3-->
 					<!-- End Simple List -->
 				</div>
@@ -495,6 +508,7 @@
 <script src="/assets/plugins/back-to-top.js"></script>
 <script src="/assets/plugins/smoothScroll.js"></script>
 <script src="/assets/plugins/modernizr.js"></script>
+<script src="/assets/plugins/moment/moment.min.js"></script>
 <script type="text/javascript" src="/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
 <!-- JS Customization -->
 <script src="/assets/js/custom.js"></script>

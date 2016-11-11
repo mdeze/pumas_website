@@ -6,5 +6,6 @@ export class NewsItem {
     displayIcon: string;
     displayIconStyle: string;
     postedOn: Date;
+    postedOnDisplay: string;
     postedBy: string;
 }
