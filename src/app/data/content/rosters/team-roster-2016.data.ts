@@ -96,7 +96,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         ageGroup: '18U',
         headCoach: 'Joseph Seid',
         assistantCoaches: ['Kaltelyn Marr'],
-        players: ['Cassidy, Jacqueline','Chisholm, Delaney','Cullen, Delanie','DAddario, Lindsey','Favreau, Adrianna','Griffin, Cailee','LoConte, Katrina','Martin, Fiona','Mucci, Laura','Noyes, Christina','Trabucco, Luciana','Zhang, Qiqi'],
+        players: ['Cassidy, Jacqueline','Chisholm, Delaney','Cullen, Delanie',"D'Addario, Lindsey",'Favreau, Adrianna','Griffin, Cailee','LoConte, Katrina','Martin, Fiona','Mucci, Laura','Noyes, Christina','Trabucco, Luciana','Zhang, Qiqi'],
         teamPhoto: '',
         teamPhotoThumbNail: ''
     },
@@ -140,7 +140,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         ageGroup: '16U',
         headCoach: 'Jim Ray',
         assistantCoaches: ['Ali Remagio'],
-        players: ['Bresnahan, Morgan','He, Stephanie','Karim, Julia','Kirkland, Alexis','OConnor, Meghan','Shattuck, Sarah','Steed, MaryRose','Wang, Sophia','Williams, Sarah'],
+        players: ['Bresnahan, Morgan','He, Stephanie','Karim, Julia','Kirkland, Alexis',"O'Connor, Meghan,'Shattuck, Sarah','Steed, MaryRose','Wang, Sophia','Williams, Sarah'],
         teamPhoto: '',
         teamPhotoThumbNail: ''
     },
@@ -150,7 +150,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         division: 'Club',
         ageGroup: '16U',
         headCoach: 'Emily Martel',
-        assistantCoaches: ['Danielle McDonald','Julie OCoin'],
+        assistantCoaches: ['Danielle McDonald',"Julie O'Coin"],
         players: ['Butler, Catherine','Gaspar, Olivia','Kurr, Leah','Lamothe, Brooke','Li, Joy','Plodzik, Jamie','Redmond, Fiona','Schramm, Katelyn','Stevens, Taylor','Tang, Sunny','Xu, Isabella'],
         teamPhoto: '',
         teamPhotoThumbNail: ''
@@ -204,7 +204,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         name: 'Viridian',
         division: 'Open',
         ageGroup: '17U',
-        headCoach: 'Dan OConnor',
+        headCoach: "Dan O'Connor",
         assistantCoaches: ['Sarah Shainwald', 'Sophia Basuri'],
         players: ['Ada, Ruth','Bluhm, Sarah','Caruso, Victoria','Davies, Rachel','Dawley, Megan','Green, Alicia','Keiver, Abigail','McCloskey, Nicole','OConnor, Allison','Stewart, Natasha'],
         teamPhoto: '',
