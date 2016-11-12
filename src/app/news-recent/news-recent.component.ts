@@ -15,7 +15,7 @@ export class NewsRecentComponent implements OnInit {
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
-    this.newsItems = this.newsService.getNews();
+    this.newsItems = this.newsService.getNewsItems(3);
   }
 
 }

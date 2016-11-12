@@ -14,4 +14,8 @@ export class NewsService {
         }
         return NEWS_ITEM_LIST;
     }
+
+    getNewsItems(count: number): NewsItem[] {
+        return this.getNews().slice(0, count);
+    }
 }
