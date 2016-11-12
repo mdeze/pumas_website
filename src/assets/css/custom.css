@@ -1,5 +1,7 @@
 /* Add here all your css styles (customizations) */
 
+/* body background - #FFFFE0;*/
+
 .sport-icon-default {
     font-size: 72px;
 }
@@ -13,5 +15,16 @@
 }
 
 .pumas_title{
-    color: #daa520;
+    /*color: #daa520;*/
+    color: rgb(218, 165, 32);
+}
+
+
+.panel-black {
+	border-color: #000000;
+}
+
+.panel-black > .panel-heading {
+	background: #000000;
+    color:  #FFFFFF; 
 }
