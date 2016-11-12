@@ -1,0 +1,28 @@
+
+      <link rel="stylesheet" href="assets/plugins/line-icons-pro/styles.css">
+
+		<!-- main body news -->
+		<div class="col-md-9 md-margin-bottom-50">
+
+			<!-- News Item Block -->
+			<div class="row margin-bottom-20" *ngFor="let news of newsItems">
+				<div class="col-sm-4 sm-margin-bottom-20 text-right">
+					<span aria-hidden="true" class="{{news.displayIcon}} sport-icon-small"></span>
+				</div>
+				<div class="col-sm-8">
+					<div class="blog-grid">
+						<h4 class="pumas_title">{{news.title}}</h4>
+						<ul class="blog-grid-info">
+							<li>{{news.postedBy}}</li>
+							<li>{{news.postedOnDisplay}}</li>
+							<li><a class="r-more" href="/news-items" routerLink="/news-items">Read More</a></li>
+						</ul>
+						<p [innerHTML]="news.summary" ></p>
+						
+					</div>
+				</div>
+			</div>
+			<!-- End News Item Block -->
+
+		</div>
+		<!-- end main body news -->
