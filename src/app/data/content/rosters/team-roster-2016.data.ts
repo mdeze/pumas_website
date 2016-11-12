@@ -140,7 +140,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         ageGroup: '16U',
         headCoach: 'Jim Ray',
         assistantCoaches: ['Ali Remagio'],
-        players: ['Bresnahan, Morgan','He, Stephanie','Karim, Julia','Kirkland, Alexis',"O'Connor, Meghan,'Shattuck, Sarah','Steed, MaryRose','Wang, Sophia','Williams, Sarah'],
+        players: ['Bresnahan, Morgan','He, Stephanie','Karim, Julia','Kirkland, Alexis',"O'Connor, Meghan",'Shattuck, Sarah','Steed, MaryRose','Wang, Sophia','Williams, Sarah'],
         teamPhoto: '',
         teamPhotoThumbNail: ''
     },
