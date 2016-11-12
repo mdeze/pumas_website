@@ -1,0 +1,8 @@
+[ Feature ]
+Add thumbnail support to gallery and team photos
+Check mobile layout and positioning
+
+
+
+[ Clean Up ]
+Centralize component CSS if it should be global
