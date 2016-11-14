@@ -40,6 +40,7 @@ import { ScheduleSideMenuComponent } from './schedule-side-menu/schedule-side-me
 import { TryoutSideMenuComponent } from './tryout-side-menu/tryout-side-menu.component';
 import { NewsRecentComponent } from './news-recent/news-recent.component';
 import { NewsHomeComponent } from './news-home/news-home.component';
+import { ScheduleNextComponent } from './schedule-next/schedule-next.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +77,8 @@ import { NewsHomeComponent } from './news-home/news-home.component';
     ScheduleSideMenuComponent,
     TryoutSideMenuComponent,
     NewsRecentComponent,
-    NewsHomeComponent
+    NewsHomeComponent,
+    ScheduleNextComponent
   ],
   imports: [
     BrowserModule,

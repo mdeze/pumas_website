@@ -1,0 +1,19 @@
+			<!-- next tournaments -->
+			<div class="margin-bottom-50">
+				<h2 class="title-v4">Next 4 Tournaments</h2>
+
+				<div class="blog-thumb blog-thumb-circle margin-bottom-15" *ngFor="let tournament of tournamentItems">
+					<div class="blog-thumb-hover">
+						<span aria-hidden="true" class="icon-sport-004 sport-icon-small"></span>
+					</div>							
+					<div class="blog-thumb-desc">
+						<h3><a href="/schedule-tournament" routerLink="/schedule-tournament">{{tournament.name}}</a></h3>
+						<ul class="blog-thumb-info">
+							<li>{{tournament.dateOnDisplay}}</li>
+              				<li>{{tournament.location}}</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<!-- end next tournaments -->
