@@ -1,0 +1,15 @@
+					<h2 class="title-v4">{{galleryYear}} Tournament Results</h2>
+          <!-- Carousel -->
+					<div class="owl-carousel-style-v2 margin-bottom-10">
+						
+						<div class="owl-slider-v3">
+							<div *ngFor="let champion of galleryList">
+								<div class="item">
+									<img class="img-responsive" src="{{champion.photo}}" width="160" height="120" alt="">
+									{{champion.description}}
+								</div>
+							</div>
+						</div>
+						<p><a href="/gallery-champions-list" routerLink="/gallery-champions-list"><i class="fa fa-camera"></i> See more in the Champions Gallery</a></p>
+					</div>
+					<!-- End Carousel -->

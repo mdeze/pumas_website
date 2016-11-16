@@ -39,8 +39,9 @@ import { ProgramsSideMenuComponent } from './programs-side-menu/programs-side-me
 import { ScheduleSideMenuComponent } from './schedule-side-menu/schedule-side-menu.component';
 import { TryoutSideMenuComponent } from './tryout-side-menu/tryout-side-menu.component';
 import { NewsRecentComponent } from './news-recent/news-recent.component';
-import { NewsHomeComponent } from './news-home/news-home.component';
 import { ScheduleNextComponent } from './schedule-next/schedule-next.component';
+import { NewsAnnouncementsComponent } from './news-announcements/news-announcements.component';
+import { GalleryTournamentResultsComponent } from './gallery-tournament-results/gallery-tournament-results.component';
 
 @NgModule({
   declarations: [
@@ -77,8 +78,9 @@ import { ScheduleNextComponent } from './schedule-next/schedule-next.component';
     ScheduleSideMenuComponent,
     TryoutSideMenuComponent,
     NewsRecentComponent,
-    NewsHomeComponent,
-    ScheduleNextComponent
+    ScheduleNextComponent,
+    NewsAnnouncementsComponent,
+    GalleryTournamentResultsComponent
   ],
   imports: [
     BrowserModule,
