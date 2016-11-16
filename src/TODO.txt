@@ -8,8 +8,11 @@ Schedule:: Fix table strip - http://stackoverflow.com/questions/25193156/bootstr
 Next Tournaments:: Fix icon hover
 Recent News:: Fix icon hover 
 
+News Home:: Move to Announcements component
+Announcements:: Make data driven using news service
+Announcements:: Add EndDate property
 Tournament Results:: Create component
-Tournament Results:: Make data driven 
+Tournament Results::  
 Tournament Results:: Fix photo size
 
 
