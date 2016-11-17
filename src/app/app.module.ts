@@ -42,6 +42,7 @@ import { NewsRecentComponent } from './news-recent/news-recent.component';
 import { ScheduleNextComponent } from './schedule-next/schedule-next.component';
 import { NewsAnnouncementsComponent } from './news-announcements/news-announcements.component';
 import { GalleryTournamentResultsComponent } from './gallery-tournament-results/gallery-tournament-results.component';
+import { ProgramsCostComponent } from './programs-cost/programs-cost.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { GalleryTournamentResultsComponent } from './gallery-tournament-results/
     NewsRecentComponent,
     ScheduleNextComponent,
     NewsAnnouncementsComponent,
-    GalleryTournamentResultsComponent
+    GalleryTournamentResultsComponent,
+    ProgramsCostComponent
   ],
   imports: [
     BrowserModule,
@@ -97,6 +99,7 @@ import { GalleryTournamentResultsComponent } from './gallery-tournament-results/
       { path: 'programs-open', component: ProgramsOpenComponent },
       { path: 'programs-jnc', component: ProgramsJncComponent },
       { path: 'programs-inhouse', component: ProgramsInhouseComponent },
+      { path: 'programs-cost', component: ProgramsCostComponent },
       { path: 'programs-philosophy', component: ProgramsPhilosophyComponent },
       { path: 'tryouts-expect', component: TryoutsExpectComponent },
       { path: 'tryouts-guidelines', component: TryoutsGuidelinesComponent },
