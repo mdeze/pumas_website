@@ -43,6 +43,7 @@ import { ScheduleNextComponent } from './schedule-next/schedule-next.component';
 import { NewsAnnouncementsComponent } from './news-announcements/news-announcements.component';
 import { GalleryTournamentResultsComponent } from './gallery-tournament-results/gallery-tournament-results.component';
 import { ProgramsCostComponent } from './programs-cost/programs-cost.component';
+import { AgegroupTesterComponent } from './agegroup-tester/agegroup-tester.component';
 
 @NgModule({
   declarations: [
@@ -82,7 +83,8 @@ import { ProgramsCostComponent } from './programs-cost/programs-cost.component';
     ScheduleNextComponent,
     NewsAnnouncementsComponent,
     GalleryTournamentResultsComponent,
-    ProgramsCostComponent
+    ProgramsCostComponent,
+    AgegroupTesterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+
 <div class="col-md-9">
 		<div class="panel panel-grey equal-height-column">
 			<div class="panel-heading">
@@ -16,7 +17,7 @@
 				<ol>
 					<li>Determine where you fit in the program:
 						<ul>
-							<li>What age group are you in? **TODO** Age Tester</li>
+							<li>What age group are you in? <a data-toggle="modal" href="#ageTester">Age Group Tester</a></li>
 							<li>Do you want to play in the <a href="/programs-club" routerLink="/programs-club">Club</a> or <a href="/programs-open" routerLink="/programs-open">Open</a> division?</li>
 					</ul>
 					</li>
@@ -32,8 +33,10 @@
 						</ul>
 					</li>
 				</ol>
-      </div>
-    </div>
+      		</div>					
+		</div>
+
+		<app-agegroup-tester></app-agegroup-tester>
 </div>
 
 <app-tryout-side-menu></app-tryout-side-menu>

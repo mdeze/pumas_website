@@ -1,0 +1,39 @@
+<div class="modal fade" id="ageTester" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel4">Age Group Tester</h4>
+			</div>
+			<div id="ageTester" class="modal-body well">
+
+       <div class="row">
+          <form class="form-inline">
+          <div class="col-md-3">Date of Birth:</div>
+          <div class="form-group col-md-5">
+            <select name="month" class="form-control" #m (change)="setMonth(m.value)">
+              <option *ngFor="let month of months" [value]="month.number">{{month.name}}</option>
+            </select>
+            <select name="day" class="form-control" #d (change)="setDay(d.value)">
+              <option *ngFor="let day of days" [value]="day">{{day}}</option>
+            </select>
+            <select name="year" class="form-control" #y (change)="setYear(y.value)">
+              <option *ngFor="let year of years" [value]="year">{{year}}</option>
+            </select>                        
+          </div>
+          <div class="form-group col-md-2"><button name="calcBtn" class="btn-u btn-u-yellow" (click)="calculateAgeGroup()">Find Age Group</button></div>
+          </form>
+        </div>
+        <div class="row">
+            <div id="ageHere" class="col-md-12 text-center">
+              <span id="playerAgeGroup" name="ageGroup" [innerText]="calculatedPlayerAgeGroup"></span>
+            </div>
+        </div> 
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn-u btn-u-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
