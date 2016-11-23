@@ -31,7 +31,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         headCoach: 'Stephen Boyle',
         assistantCoaches: ['Chanel Batiste', 'Megan Young'],
         players: ['Boyle, Jillian','Butt, Lauren','Crowley, Ashley','Crowley, Shawna','Donahue, Ann','Farley, Hannah','Latam, Olivia','Mancha, Alexis','McBride, Julia','Mullins, Colleen','Soha, Liz'],
-        teamPhoto: '',
+        teamPhoto: 'assets/img/teams/2016/Crimson.jpg',
         teamPhotoThumbNail: ''
     },
     {
@@ -75,7 +75,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         headCoach: 'Brian Healey',
         assistantCoaches: ['Rachel Arnason','Guy Tucker','Alicia Bursey'],
         players: ['Badger, Jessica','Cataldo, Marissa','Cooper, Katalinn','Cooper, Kellie','Crovo, Victoria','Desrochers, Gabrielle','Doyle, Sabrina','Groele, Jamie','Huynh, Dalena','MacInnes, Kaitlyn','Petherbridge, Nicole','Shattuck, Lynn'],
-        teamPhoto: '',
+        teamPhoto: 'assets/img/teams/2016/Jade.jpg',
         teamPhotoThumbNail: ''
     },
     {
@@ -119,7 +119,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         headCoach: 'Anny Din',
         assistantCoaches: ['Pedro Figueroa'],
         players: ['Albanese, Rebecca','Amodei, Amelia','Barnes, Virginia','Bricknell, Jordan','Butler, Nora','Cheverie, Erin','McDonnell, Hailey','McGrath, Jennifer','Riccardi, Lauren','Zhang, Vanessa'],
-        teamPhoto: '',
+        teamPhoto: 'assets/img/teams/2016/Onyx.jpg',
         teamPhotoThumbNail: ''
     },
     {
@@ -174,7 +174,7 @@ export const TEAM_ROSTER_2016: TeamRoster[] = [
         headCoach: 'Emily Cox',
         assistantCoaches: ['Erin Cox','Rachel McIntosh'],
         players: ['Byers, Jenna','Chang, Anica','Geary, Brynn','Green, Niamh','Hamilton, Johanna','McDonald, Kayleigh','Morin, Katherine','Savio, Julia','Warner, Riley','Willoughby, Lillian'],
-        teamPhoto: '',
+        teamPhoto: 'assets/img/teams/2016/Starlite.jpg',
         teamPhotoThumbNail: ''
     },
     {
