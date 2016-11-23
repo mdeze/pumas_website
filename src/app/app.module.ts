@@ -44,6 +44,7 @@ import { NewsAnnouncementsComponent } from './news-announcements/news-announceme
 import { GalleryTournamentResultsComponent } from './gallery-tournament-results/gallery-tournament-results.component';
 import { ProgramsCostComponent } from './programs-cost/programs-cost.component';
 import { AgegroupTesterComponent } from './agegroup-tester/agegroup-tester.component';
+import { UsavRegistrationComponent } from './usav-registration/usav-registration.component';
 
 @NgModule({
   declarations: [
@@ -84,7 +85,8 @@ import { AgegroupTesterComponent } from './agegroup-tester/agegroup-tester.compo
     NewsAnnouncementsComponent,
     GalleryTournamentResultsComponent,
     ProgramsCostComponent,
-    AgegroupTesterComponent
+    AgegroupTesterComponent,
+    UsavRegistrationComponent
   ],
   imports: [
     BrowserModule,
@@ -107,6 +109,7 @@ import { AgegroupTesterComponent } from './agegroup-tester/agegroup-tester.compo
       { path: 'tryouts-guidelines', component: TryoutsGuidelinesComponent },
       { path: 'tryouts-registration', component: TryoutsRegistrationComponent },
       { path: 'tryouts-results', component: TryoutsResultsComponent },
+      { path: 'usav-registration', component: UsavRegistrationComponent },
       { path: 'team-roster/:year', component: TeamRosterComponent },
       { path: 'schedule-tournament', component: ScheduleTournamentComponent },
       { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
