@@ -45,6 +45,9 @@ import { GalleryTournamentResultsComponent } from './gallery-tournament-results/
 import { ProgramsCostComponent } from './programs-cost/programs-cost.component';
 import { AgegroupTesterComponent } from './agegroup-tester/agegroup-tester.component';
 import { UsavRegistrationComponent } from './usav-registration/usav-registration.component';
+import { LinksOutdoorTournamentsComponent } from './links-outdoor-tournaments/links-outdoor-tournaments.component';
+import { LinksSummerCampsComponent } from './links-summer-camps/links-summer-camps.component';
+import { LinksSideMenuComponent } from './links-side-menu/links-side-menu.component';
 
 @NgModule({
   declarations: [
@@ -86,7 +89,10 @@ import { UsavRegistrationComponent } from './usav-registration/usav-registration
     GalleryTournamentResultsComponent,
     ProgramsCostComponent,
     AgegroupTesterComponent,
-    UsavRegistrationComponent
+    UsavRegistrationComponent,
+    LinksOutdoorTournamentsComponent,
+    LinksSummerCampsComponent,
+    LinksSideMenuComponent
   ],
   imports: [
     BrowserModule,
@@ -115,6 +121,8 @@ import { UsavRegistrationComponent } from './usav-registration/usav-registration
       { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
       { path: 'gallery-champions/:year', component: GalleryChampionsComponent },
       { path: 'gallery-champions-list', component: GalleryChampionsListComponent },
+      { path: 'links-outdoor-tournaments', component: LinksOutdoorTournamentsComponent },
+      { path: 'links-summer-camps', component: LinksSummerCampsComponent },
       { path: 'coaches-profiles', component: CoachesProfilesComponent },
       { path: 'coaches-interested', component: CoachesInterestedComponent },
       { path: 'coaches-registration', component: CoachesRegistrationComponent },
