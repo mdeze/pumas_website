@@ -49,6 +49,7 @@ import { LinksOutdoorTournamentsComponent } from './links-outdoor-tournaments/li
 import { LinksSummerCampsComponent } from './links-summer-camps/links-summer-camps.component';
 import { LinksSideMenuComponent } from './links-side-menu/links-side-menu.component';
 import { LinksMiscComponent } from './links-misc/links-misc.component';
+import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions.component';
 
 @NgModule({
   declarations: [
@@ -94,7 +95,8 @@ import { LinksMiscComponent } from './links-misc/links-misc.component';
     LinksOutdoorTournamentsComponent,
     LinksSummerCampsComponent,
     LinksSideMenuComponent,
-    LinksMiscComponent
+    LinksMiscComponent,
+    GalleryAdditionsComponent
   ],
   imports: [
     BrowserModule,
