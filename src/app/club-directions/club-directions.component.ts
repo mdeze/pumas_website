@@ -22,13 +22,13 @@ export class ClubDirectionsComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(){
     // collapse panels after load - required for gmaps render
-    setTimeout(
+    setTimeout(() => {
       $('.panel-collapse').each(function(){
           if ($(this).hasClass('in')) {
               $(this).collapse('toggle');
           }
       })
-    , 500);
+    }, 1000);
 
     // enable toggle caret on panel expand
     $('.accordion-toggle').on('click', function() {
