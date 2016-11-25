@@ -48,6 +48,7 @@ import { UsavRegistrationComponent } from './usav-registration/usav-registration
 import { LinksOutdoorTournamentsComponent } from './links-outdoor-tournaments/links-outdoor-tournaments.component';
 import { LinksSummerCampsComponent } from './links-summer-camps/links-summer-camps.component';
 import { LinksSideMenuComponent } from './links-side-menu/links-side-menu.component';
+import { LinksMiscComponent } from './links-misc/links-misc.component';
 
 @NgModule({
   declarations: [
@@ -92,7 +93,8 @@ import { LinksSideMenuComponent } from './links-side-menu/links-side-menu.compon
     UsavRegistrationComponent,
     LinksOutdoorTournamentsComponent,
     LinksSummerCampsComponent,
-    LinksSideMenuComponent
+    LinksSideMenuComponent,
+    LinksMiscComponent
   ],
   imports: [
     BrowserModule,
@@ -123,6 +125,7 @@ import { LinksSideMenuComponent } from './links-side-menu/links-side-menu.compon
       { path: 'gallery-champions-list', component: GalleryChampionsListComponent },
       { path: 'links-outdoor-tournaments', component: LinksOutdoorTournamentsComponent },
       { path: 'links-summer-camps', component: LinksSummerCampsComponent },
+      { path: 'links-misc', component: LinksMiscComponent },
       { path: 'coaches-profiles', component: CoachesProfilesComponent },
       { path: 'coaches-interested', component: CoachesInterestedComponent },
       { path: 'coaches-registration', component: CoachesRegistrationComponent },
