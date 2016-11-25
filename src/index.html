@@ -88,7 +88,15 @@
 					<!-- End Home -->
 
 					<!-- News -->
-					<li><a href="/news" routerLink="/news">News</a></li>
+					<li class="dropdown home">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">News</a>
+						<ul class="dropdown-menu">
+							<li><a href="/news" routerLink="/news">Club News</a></li>
+							<li><a href="/links-misc" routerLink="/links-misc">Equipment, Organizations, Rules</a></li>
+							<li><a href="/links-outdoor-tournaments" routerLink="/links-outdoor-tournaments">Outdoor Tournaments</a></li>
+							<li><a href="/links-summer-camps" routerLink="/links-summer-camps">Summer Camps</a></li>								
+						</ul>
+					</li>
 					<!-- End News -->
 
 					<!-- Programs -->
@@ -106,87 +114,85 @@
 					</li>
 					<!-- End Programs -->
 
-						<!-- Tryouts -->
-						<li class="dropdown home">
-							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Tryouts</a>
-							<ul class="dropdown-menu">
-								<li ><a href="/tryouts-guidelines" routerLink="/tryouts-guidelines">Guidelines</a></li>
-								<li ><a href="/tryouts-expect" routerLink="/tryouts-expect">What to Expect</a></li>
-								<li ><a href="/tryouts-registration" routerLink="/tryouts-registration">Registration</a></li>
-								<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Schedule</a></li>
-								<li ><a href="/tryouts-results" routerLink="/tryouts-results">Results</a></li>
-							</ul>
-						</li>							
-						<!-- End Tryouts -->
+					<!-- Tryouts -->
+					<li class="dropdown home">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Tryouts</a>
+						<ul class="dropdown-menu">
+							<li ><a href="/tryouts-guidelines" routerLink="/tryouts-guidelines">Guidelines</a></li>
+							<li ><a href="/tryouts-expect" routerLink="/tryouts-expect">What to Expect</a></li>
+							<li ><a href="/tryouts-registration" routerLink="/tryouts-registration">Registration</a></li>
+							<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Schedule</a></li>
+							<li ><a href="/tryouts-results" routerLink="/tryouts-results">Results</a></li>
+						</ul>
+					</li>							
+					<!-- End Tryouts -->
 
-						<!-- Schedules -->
-						<li class="dropdown home">
-							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Schedules</a>
-							<ul class="dropdown-menu">
-								<li ><a href="#">January - February Practices</a></li>
-								<li ><a href="#">March - May Practices</a></li>
-								<li ><a href="/schedule-tournament" routerLink="/schedule-tournament">Tournaments</a></li>
-								<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Tryouts</a></li>
-							</ul>
-						</li>							
-						<!-- End Schedules -->
+					<!-- Schedules -->
+					<li class="dropdown home">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Schedules</a>
+						<ul class="dropdown-menu">
+							<li ><a href="#">January - February Practices</a></li>
+							<li ><a href="#">March - May Practices</a></li>
+							<li ><a href="/schedule-tournament" routerLink="/schedule-tournament">Tournaments</a></li>
+							<li ><a href="/schedule-tryouts" routerLink="/schedule-tryouts">Tryouts</a></li>
+						</ul>
+					</li>							
+					<!-- End Schedules -->
 
-						<!-- Teams -->
-						<li class="dropdown home">
-							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Teams</a>
-							<ul class="dropdown-menu">
-								<li class="dropdown-submenu">
-									<a href="javascript:void(0);">Rosters</a>
-									<ul class="dropdown-menu">
-										<li><a href="/team-roster/2016" routerLink="/team-roster/2016">2016 Team Rosters</a></li>
-										<li><a href="/team-roster/2015" routerLink="/team-roster/2015">2015 Team Rosters</a></li>
-										<li><a href="#">2014 Team Rosters</a></li>
-										<li><a href="#">2013 Team Rosters</a></li>
-										<li><a href="#">2012 Team Rosters</a></li>
-										<li><a href="#">2011 Team Rosters</a></li>
-										<li><a href="#">2010 Team Rosters</a></li>
-										<li><a href="#">2009 Team Rosters</a></li>
-										<li><a href="#">2008 Team Rosters</a></li>
-									</ul>
-								</li>
-								<li class="dropdown-submenu">
-									<a href="javascript:void(0);">Pictures</a>
-									<ul class="dropdown-menu">
-										<li><a href="/gallery-champions-list" routerLink="/gallery-champions-list">Tournament Champions</a></li>
-										<li><a href="#">Pumas On The Court</a></li>
-										<li><a href="#">Pumas Off The Court</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<!-- End Teams -->
+					<!-- Teams -->
+					<li class="dropdown home">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Teams</a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-submenu">
+								<a href="javascript:void(0);">Rosters</a>
+								<ul class="dropdown-menu">
+									<li><a href="/team-roster/2016" routerLink="/team-roster/2016">2016 Team Rosters</a></li>
+									<li><a href="/team-roster/2015" routerLink="/team-roster/2015">2015 Team Rosters</a></li>
+									<li><a href="#">2014 Team Rosters</a></li>
+									<li><a href="#">2013 Team Rosters</a></li>
+									<li><a href="#">2012 Team Rosters</a></li>
+									<li><a href="#">2011 Team Rosters</a></li>
+									<li><a href="#">2010 Team Rosters</a></li>
+									<li><a href="#">2009 Team Rosters</a></li>
+									<li><a href="#">2008 Team Rosters</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu">
+								<a href="javascript:void(0);">Pictures</a>
+								<ul class="dropdown-menu">
+									<li><a href="/gallery-champions-list" routerLink="/gallery-champions-list">Tournament Champions</a></li>
+									<li><a href="#">Pumas On The Court</a></li>
+									<li><a href="#">Pumas Off The Court</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<!-- End Teams -->
 
-						<!-- Coaches -->
-						<li class="dropdown home">
-							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Coaches</a>
-							<ul class="dropdown-menu">
-								<li ><a href="/coaches-profiles" routerLink="/coaches-profiles">Coaches Profiles</a></li>
-								<li ><a href="/coaches-interested" routerLink="/coaches-interested">Interested In Coaching</a></li>
-								<li ><a href="/coaches-registration" routerLink="/coaches-registration">Registration</a></li>
-								<li ><a href="#">Coaches Page</a></li>
-							</ul>
-						</li>							
-						<!-- End Coaches -->
+					<!-- Coaches -->
+					<li class="dropdown home">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Coaches</a>
+						<ul class="dropdown-menu">
+							<li ><a href="/coaches-profiles" routerLink="/coaches-profiles">Coaches Profiles</a></li>
+							<li ><a href="/coaches-interested" routerLink="/coaches-interested">Interested In Coaching</a></li>
+							<li ><a href="/coaches-registration" routerLink="/coaches-registration">Registration</a></li>
+							<li ><a href="#">Coaches Page</a></li>
+						</ul>
+					</li>							
+					<!-- End Coaches -->
 
-						<!-- Info -->
-						<li class="dropdown home">
-							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Club Info</a>
-							<ul class="dropdown-menu">
-								<li ><a href="/club-about" routerLink="/club-about">About</a></li>
-								<li ><a href="/club-bod" routerLink="/club-bod">Board Of Directors</a></li>
-								<li ><a href="/club-contact" routerLink="/club-contact">Contact</a></li>
-								<li ><a href="/club-directions" routerLink="/club-directions">Directions</a></li>
-								<li ><a href="/club-faq" routerLink="/club-faq">FAQ <i class="fa fa-question-circle-o" aria-hidden="true"></i></a></li>
-							</ul>
-						</li>							
-						<!-- End Info -->
-
-
+					<!-- Info -->
+					<li class="dropdown home">
+						<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Club Info</a>
+						<ul class="dropdown-menu">
+							<li ><a href="/club-about" routerLink="/club-about">About</a></li>
+							<li ><a href="/club-bod" routerLink="/club-bod">Board Of Directors</a></li>
+							<li ><a href="/club-contact" routerLink="/club-contact">Contact</a></li>
+							<li ><a href="/club-directions" routerLink="/club-directions">Directions</a></li>
+							<li ><a href="/club-faq" routerLink="/club-faq">FAQ <i class="fa fa-question-circle-o" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>							
+					<!-- End Info -->
 
 				</ul>
 			</div><!--/end container-->
