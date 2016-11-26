@@ -1,3 +1,9 @@
 .picture-row{
     margin-bottom: 5px;
 }
+
+#galleryAdditions .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}

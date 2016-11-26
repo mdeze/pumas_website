@@ -36,13 +36,31 @@ var OwlCarousel = function () {
 
 
 	        //Owl Slider v3
-			jQuery(".owl-slider-v3").owlCarousel({
+			// jQuery(".owl-slider-v3").owlCarousel({
+            // 	items : 5,
+            // 	autoPlay : 5000,
+			// 	itemsDesktop : [1000,5],
+			// 	itemsDesktopSmall : [900,4],
+			// 	itemsTablet: [600,3],
+			// 	itemsMobile : [300,2]
+            // });
+
+			jQuery("#tournamentResults").owlCarousel({
             	items : 5,
             	autoPlay : 5000,
 				itemsDesktop : [1000,5],
 				itemsDesktopSmall : [900,4],
 				itemsTablet: [600,3],
 				itemsMobile : [300,2]
+            });
+
+			jQuery("#galleryAdditions").owlCarousel({
+            	items : 1,
+            	autoPlay : 5000,
+				itemsDesktop : [1000,1],
+				itemsDesktopSmall : [900,1],
+				itemsTablet: [600,1],
+				itemsMobile : [300,1]
             });
 
 

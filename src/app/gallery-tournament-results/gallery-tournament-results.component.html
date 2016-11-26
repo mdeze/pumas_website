@@ -2,8 +2,8 @@
           <!-- Carousel -->
 					<div class="owl-carousel-style-v2 margin-bottom-10">
 						
-						<div class="owl-slider-v3">
-							<div id="tournamentResults" *ngFor="let champion of galleryList">
+						<div id="tournamentResults" class="owl-slider-v3">
+							<div *ngFor="let champion of galleryList">
 								<div class="item">
 									<img class="img-responsive" src="{{champion.photo}}" alt="">
 									{{champion.description}}
