@@ -4,6 +4,13 @@
     margin-right: auto;
 }
 
+.team-thumbnail-icon {
+    margin-left: auto;
+    margin-right: auto;
+    color: #daa520;
+    text-align: center;
+}
+
 .service-block-v1{
     padding: 30px 10px 10px;
 }
