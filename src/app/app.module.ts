@@ -106,6 +106,7 @@ import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions
       apiKey: 'AIzaSyA6HhJcsPCxP7jnO5_C2_DSpmO7kltiuzI'
     }),
     RouterModule.forRoot([
+      { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'home', component: HomeComponent },
       { path: 'news', component: NewsComponent },
       { path: 'news-items', component: NewsItemsComponent },
