@@ -50,6 +50,11 @@ import { LinksSummerCampsComponent } from './links-summer-camps/links-summer-cam
 import { LinksSideMenuComponent } from './links-side-menu/links-side-menu.component';
 import { LinksMiscComponent } from './links-misc/links-misc.component';
 import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions.component';
+import { CoachesPageComponent } from './coaches-page/coaches-page.component';
+import { GalleryOnCourtComponent } from './gallery-on-court/gallery-on-court.component';
+import { GalleryOffCourtComponent } from './gallery-off-court/gallery-off-court.component';
+import { GalleryOffCourtListComponent } from './gallery-off-court-list/gallery-off-court-list.component';
+import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-court-list.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +75,7 @@ import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions
     CoachesProfilesComponent,
     CoachesInterestedComponent,
     CoachesRegistrationComponent,
+    CoachesPageComponent,
     ClubAboutComponent,
     ClubBodComponent,
     ClubContactComponent,
@@ -80,6 +86,11 @@ import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions
     GalleryChampionsComponent,
     GalleryChampionsListComponent,
     GallerySideMenuComponent,
+    GalleryAdditionsComponent,
+    GalleryOnCourtComponent,
+    GalleryOffCourtComponent,
+    GalleryOffCourtListComponent,
+    GalleryOnCourtListComponent,
     ClubSideMenuComponent,
     CoachesSideMenuComponent,
     ProgramsSideMenuComponent,
@@ -95,8 +106,7 @@ import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions
     LinksOutdoorTournamentsComponent,
     LinksSummerCampsComponent,
     LinksSideMenuComponent,
-    LinksMiscComponent,
-    GalleryAdditionsComponent
+    LinksMiscComponent
   ],
   imports: [
     BrowserModule,
@@ -126,12 +136,15 @@ import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions
       { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
       { path: 'gallery-champions/:year', component: GalleryChampionsComponent },
       { path: 'gallery-champions-list', component: GalleryChampionsListComponent },
+      { path: 'gallery-off-court-list', component: GalleryOffCourtListComponent },
+      { path: 'gallery-on-court-list', component: GalleryOnCourtListComponent },
       { path: 'links-outdoor-tournaments', component: LinksOutdoorTournamentsComponent },
       { path: 'links-summer-camps', component: LinksSummerCampsComponent },
       { path: 'links-misc', component: LinksMiscComponent },
       { path: 'coaches-profiles', component: CoachesProfilesComponent },
       { path: 'coaches-interested', component: CoachesInterestedComponent },
       { path: 'coaches-registration', component: CoachesRegistrationComponent },
+      { path: 'coaches-page', component: CoachesPageComponent },
       { path: 'club-about', component: ClubAboutComponent },
       { path: 'club-bod', component: ClubBodComponent },
       { path: 'club-contact', component: ClubContactComponent },
