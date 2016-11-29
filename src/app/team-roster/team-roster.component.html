@@ -3,6 +3,7 @@
 					
           <div class="row">
             <div class="col-sm-4 col-sm-offset-4">
+              <br />
               <div class="service-block-v1">
                 <i class="rounded-x fa fa-users"></i>
                 <h2 class="text-center"> {{year}} Pumas Teams</h2>
@@ -21,7 +22,7 @@
                     <div class="team-thumbnail" *ngIf="team.teamPhoto">
                       <div class="thumbnails thumbnail-style">
                       <a class="fancybox" data-rel="fancybox-button" title="{{team.name}} {{team.year}}" href="{{team.teamPhoto}}">
-                        <img class="img-responsive" src="{{team.teamPhoto}}" width="160" height="120" alt="">
+                        <img class="img-responsive" src="{{team.teamPhotoThumbNail}}" width="160" height="120" alt="">
                       </a>
                       </div>
                     </div>

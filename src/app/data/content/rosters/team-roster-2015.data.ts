@@ -21,7 +21,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: [],
         players: ['Bata, Taylor', 'Boese, Sara Beth', 'Coutu, Stella', 'Desai, Diya', 'Determan, Allison', 'Geary, Brynn', 'Goldthwaite, Neena', 'Hitchcock, Nicole', 'McNaughton, Jennifer', 'Murphy, Lauren'],
         teamPhoto: 'assets/img/teams/2015/cerulean.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/cerulean.jpg'
     },
     {
         year: 2015,
@@ -32,7 +32,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: [],
         players: ['Blue, Ellie', 'Boyle, Jillian', 'Cataldo, Marissa', 'Farley, Hannah', 'Higgins, Karolyn', 'King, Mairin', 'McGourty, Marie', 'Rega, Allison', 'Smerczynski, Casey', 'Tang, Aubrey'],
         teamPhoto: 'assets/img/teams/2015/crimson.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/crimson.jpg'
     },
     {
         year: 2015,
@@ -54,7 +54,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: ['Bridget Shainwald'],
         players: ['Cooper, Katalinn','Cooper, Kelliann','Ezekiel, Jordan','Fortier, Danielle','Laverdiere, Julianna','Murray, Michelle','Nelson, Samantha','Nyarko-Dufie, Emily','Shainwald, Shannon','Thompson, Caroline'],
         teamPhoto: 'assets/img/teams/2015/Emerald.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/Emerald.jpg'
     },
     {
         year: 2015,
@@ -65,7 +65,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: [],
         players: ['Bessette, Hannah', 'Doherty, Hannah', 'Farris, Isabella', 'Gardner, Abaigeal', 'Gonzalez, Emely', 'Hamori, Phoebe', 'La Grassa, Catriona', 'MacEachern, Devyn', 'Maher, Allison', 'McPherson, Ali', 'Shahtanian, Anna'],
         teamPhoto: 'assets/img/teams/2015/heliotrope.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/heliotrope.jpg'
     },
     {
         year: 2015,
@@ -76,7 +76,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: ['Nancy Hartmann'],
         players: ['Barbehenn, Sinclair', 'Camelo, Madison', 'Donahue, Ann', 'Donahue, Paige', 'Groele, Jamie', 'Mancini, Emma', 'Mullins, Colleen', 'Nason, Jessie', 'Nolan, Allie', 'Petherbridge, Nicole', 'Stankiewicz, Amy'],
         teamPhoto: 'assets/img/teams/2015/Jade.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/Jade.jpg'
     },
     {
         year: 2015,
@@ -87,7 +87,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: ['Marla Marcum'],
         players: ['Boucher, Valerie', 'Butt, Lauren', 'Cullen, Delanie', 'Geary, Lauren', 'Griffin, Cailee', 'Kaplan, Sophia', 'Manuel, Kerry', "O'Connor, Maddi", 'Sandvos, Becki', 'Santhanakrishnan, Natasha', 'Slater, Abby'],
         teamPhoto: 'assets/img/teams/2015/jasper.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/jasper.jpg'
     },
     {
         year: 2015,
@@ -109,7 +109,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: ['Danielle McDonald'],
         players: ['Barrett, Nicole', 'Brajak, Heidi', 'Cameron, Maddie', 'Coste, Carolyn', 'Cronin, Emily', "D'Addario, Lindsey", 'Goulet, Alyssa', "O'Neill, Emily", 'Pangione, Sophie', 'Sweeney, Mackenzie', 'Tomei, Lauren'],
         teamPhoto: 'assets/img/teams/2015/Lazulite.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/Lazulite.jpg'
     },
     {
         year: 2015,
@@ -131,7 +131,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: [],
         players: ['Ada, Ruth', 'Bowler, Catherine', 'Casavant, Aimee', 'Cebi, Olivia', 'Connor, Colleen', 'Doyle, Sabrina', 'Hoehn, Greta', 'Malone, Emma', 'Perryman, Samantha', 'Reich, Clara'],
         teamPhoto: 'assets/img/teams/2015/mica.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/mica.jpg'
     },
     {
         year: 2015,
@@ -153,7 +153,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: ['Fred Ahlholm'],
         players: ['Ahlholm, Lauren', 'Ahlholm, Samantha', 'Breton, Meaghan', 'Butler, Emily', 'Cheng, Cathy', 'Cunha, Arianna', 'Kirsch, Carly', 'Mitchell, Sophie', 'Morelli, Melissa', 'Morelli, Victoria'],
         teamPhoto: 'assets/img/teams/2015/obsidian.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/obsidian.jpg'
     },
     {
         year: 2015,
@@ -164,7 +164,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: ['Pedro Figueroa'],
         players: ['Chisholm, Delaney', 'Olan, Samantha', 'Donahue, Lindsay', 'Favreau, Adrianna', 'Godfroy, Victoria', 'Junek, Olivia', 'Murray, Theresa', 'Noyes, Christina', 'Robertson, Molly', 'Severino, Jasmine'],
         teamPhoto: 'assets/img/teams/2015/onyx.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/onyx.jpg'
     },
     {
         year: 2015,
@@ -197,7 +197,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: [],
         players: ['Danahy, Claire', 'Farnum, Laura', 'Farnum, Sarah', 'Gillman, Olivia', 'Harrison, Nicole', 'Keener, Jacqueline', 'King, Autumn', 'Lawton, Ashley', 'Parenti, Kristina', 'Sawka, Renee'],
         teamPhoto: 'assets/img/teams/2015/saffron.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/saffron.jpg'
     },
     {
         year: 2015,
@@ -208,7 +208,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: ['Jessica Torres'],
         players: ['Abouhamad, Brooke','Atwood, Emma','Cioto, Gianna','Cloutier, Marissa','Dand, Diya','Ezekiel, Elizabeth','Fraser, Caroline','Hu, Grace','Mitchell, Samantha','Pray, Lydia','Preller, Chris','Souza, Jenna'],
         teamPhoto: 'assets/img/teams/2015/sapphire_team.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/sapphire_team.jpg'
     },
     {
         year: 2015,
@@ -230,7 +230,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: [],
         players: ['Alminde, Olivia', 'Caswell, Emory', 'Hartley-Ward, Jaidin', 'Kobelski, Toni', 'Li, Joy', 'Macallister, Hannah', "O'Brien, Sophie", 'Roberts, Heather', 'St.Amand, Rylee', 'Tracy, Abby'],
         teamPhoto: 'assets/img/teams/2015/tanzanite.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/tanzanite.jpg'
     },
     {
         year: 2015,
@@ -241,7 +241,7 @@ export const TEAM_ROSTER_2015: TeamRoster[] = [
         assistantCoaches: [],
         players: ['Almeida, Barbara', 'Bluhm, Sarah', 'Bright, Erin', 'Buczynski, Amanda', 'DiMarzio, Papillon', 'Kasprzak, Haley', 'Keener, Katelyn', 'Pavao, Olivia', 'Trant, Teagan', 'Woronko, Lina'],
         teamPhoto: 'assets/img/teams/2015/Titanium.jpg',
-        teamPhotoThumbNail: ''
+        teamPhotoThumbNail: 'assets/img/teams/2015/thumbnails/Titanium.jpg'
     },
     {
         year: 2015,

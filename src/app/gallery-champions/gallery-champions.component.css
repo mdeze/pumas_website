@@ -8,6 +8,11 @@
     padding: 30px 10px 10px;
 }
 
+.service-block-v1 i{
+    background: #daa520; /* #72c02c; - green*/
+}
+
 .pumas_title{
     color: #daa520;
 }
+
