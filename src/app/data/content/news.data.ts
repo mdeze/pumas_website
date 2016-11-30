@@ -4,6 +4,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
     {
         id: 1,
         title: '2017 Season Tryouts',
+        category: 'Tryouts',
         summary: 'Tryout registration is now open! Program, cost and tryout information has been updated on the website for the 2017 season.',
         detail: 'Tryout registration is now open! Program, cost and tryout information has been updated on the website for the 2017 season. Open tryouts will be held Sunday 11/13 and Sunday 11/20. Club tryouts will be held Sunday 11/27 and Saturday 12/3.',
         displayIcon: 'icon-sport-065',
@@ -15,6 +16,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
     {
         id: 2,
         title: '2017 Tournament Dates Announced',
+        category: 'Tournaments',
         summary: 'Tournament dates and locations for Club and Open teams for the 2017 season have been set.',
         detail: 'Tournament dates and locations for Club and Open teams for the 2017 season have been set. These include NERVA, optional regaional andd national championships. See the <a href="season-tournaments.html"> tournament schedule</a> for more details.',
         displayIcon: 'icon-sport-004',
@@ -26,6 +28,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
     {
         id: 3,
         title: 'Looking For Coaches',
+        category: 'Coaches',
         summary: '<strong>Pumas Volleyball Club</strong> is always looking for coaches (head or assistant). ',
         detail: '<strong>Pumas Volleyball Club</strong> is always looking for coaches (head or assistant). If you have any volleyball experience, please see our <a href="interested-in-coaching.html">Looking for Coaches</a> page and <a href="#">contact the director</a> for more specific information.',
         displayIcon: 'icon-sport-008',
@@ -37,6 +40,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
     {
         id: 4,
         title: 'Old News Story #1',
+        category: 'Miscellaneous',
         summary: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
         detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information.',
         displayIcon: 'icon-sport-008',
@@ -48,6 +52,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
     {
         id: 5,
         title: 'Old News Story #2',
+        category: 'Miscellaneous',
         summary: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
         detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information.',
         displayIcon: 'icon-sport-008',
@@ -59,6 +64,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
     {
         id: 5,
         title: 'Old News Story #3',
+        category: 'Miscellaneous',
         summary: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
         detail: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys information.',
         displayIcon: 'icon-sport-008',

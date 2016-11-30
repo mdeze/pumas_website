@@ -1,5 +1,6 @@
 export class NewsItem {
     id: number;
+    category: string;
     title: string;
     summary: string;
     detail: string;

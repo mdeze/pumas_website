@@ -5,20 +5,25 @@
 		<div class="col-md-9 md-margin-bottom-50">
 
 			<!-- News Item Block -->
-			<div class="row margin-bottom-50" *ngFor="let news of newsItems">
-				<div class="col-sm-4 sm-margin-bottom-20 text-right">
-					<span aria-hidden="true" class="{{news.displayIcon}} sport-icon-default"></span>
-				</div>
-				<div class="col-sm-8">
-					<div class="blog-grid">
-						<h3 class="pumas_title">{{news.title}}</h3>
-						<ul class="blog-grid-info">
-							<li>{{news.postedBy}}</li>
-							<li>{{news.postedOnDisplay}}</li>
-						</ul>
-						<p [innerHTML]="news.summary" ></p>
-						<a class="r-more" href="/news-items" routerLink="/news-items">Read More</a>
-						
+			<div class="row margin-bottom-150" *ngFor="let news of newsItems">
+				<div class="panel panel-black equal-height-column">
+					<div class="panel-heading">
+						<h6 class="panel-title">{{news.category}}</h6>
+					</div>
+					<div class="panel-body">
+						<div class="col-sm-2 sm-margin-bottom-20 text-center">
+							<span aria-hidden="true" class="{{news.displayIcon}} sport-icon-default"></span>
+						</div>
+						<div class="col-sm-10">
+							<div class="blog-grid">
+								<h3 class="pumas_title">{{news.title}}</h3>
+								<ul class="blog-grid-info">
+									<li>{{news.postedBy}}</li>
+									<li>{{news.postedOnDisplay}}</li>
+								</ul>
+								<p [innerHTML]="news.detail" ></p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
