@@ -8,7 +8,6 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
 
 import { AppComponent } from './app.component';
 import { NewsComponent } from './news/news.component';
-import { NewsItemsComponent } from './news-items/news-items.component';
 import { ProgramsClubComponent } from './programs-club/programs-club.component';
 import { ProgramsOpenComponent } from './programs-open/programs-open.component';
 import { ProgramsJncComponent } from './programs-jnc/programs-jnc.component';
@@ -60,7 +59,6 @@ import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-
   declarations: [
     AppComponent,
     NewsComponent,
-    NewsItemsComponent,
     ProgramsClubComponent,
     ProgramsOpenComponent,
     ProgramsJncComponent,
@@ -119,7 +117,6 @@ import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'home', component: HomeComponent },
       { path: 'news', component: NewsComponent },
-      { path: 'news-items', component: NewsItemsComponent },
       { path: 'programs-club', component: ProgramsClubComponent },
       { path: 'programs-open', component: ProgramsOpenComponent },
       { path: 'programs-jnc', component: ProgramsJncComponent },
