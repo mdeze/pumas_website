@@ -1,5 +1,26 @@
 /* Add here all your css styles (customizations) */
 
+/* hide if phone in portait */
+@media screen and (max-width: 480px)
+{
+	.header-no-mobile {
+		display: none;
+	}
+}
+
+/* remove last 2 images if mobile phone in landscape */
+@media screen and (max-width: 1020px)
+{
+    .logo img:nth-last-child(-n+2)  {display: none; }
+}
+
+/* remove last 3 images if small mobile phone in landscape */
+@media screen and (max-width: 600px)
+{
+    .logo img:nth-last-child(-n+3)  {display: none; }
+}
+
+
 /* body background - #FFFFE0;*/
 
 .sport-icon-default {
