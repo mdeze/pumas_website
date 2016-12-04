@@ -2,7 +2,19 @@ import { NewsItem } from '../../news/NewsItem';
 
 export const NEWS_ITEM_LIST: NewsItem[] = [
     {
-        id: 1,
+        id: 997,
+        title: '12U Tryout Changes',
+        category: 'Tryouts',
+        summary: '<strong>12U Tryout Only:</strong> 12s tryouts, originally scheduled for 11/27 and 12/3, have been moved to <strong>12/4 and 12/11</strong>',
+        detail: '<strong>12U Tryout Only:</strong> 12s tryouts, originally scheduled for 11/27 and 12/3, have been moved to <strong>12/4 and 12/11</strong> at the <a href="/club-directions" routerLink="/club-directions">Lawrence Boys + Girls Club</a> from 8:30-10 am. If interested in playing, you can register online and contact the club director, Stephen Boyle at <a href="mailto:pumasvolleyballclub@gmail.com">pumasvolleyballclub@gmail.com</a>',
+        displayIcon: 'icon-sport-065',
+        displayIconStyle: '',
+        postedOn: new Date(2016, 11, 2),
+        postedOnDisplay: '',
+        postedBy: 'Mike Ezekiel',
+    },
+    {
+        id: 997,
         title: '2017 Season Tryouts',
         category: 'Tryouts',
         summary: 'Tryout registration is now open! Program, cost and tryout information has been updated on the website for the 2017 season.',
@@ -14,7 +26,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedBy: 'Mike Ezekiel',
     },
     {
-        id: 2,
+        id: 998,
         title: '2017 Tournament Dates Announced',
         category: 'Tournaments',
         summary: 'Tournament dates and locations for Club and Open teams for the 2017 season have been set.',
@@ -26,7 +38,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedBy: 'Mike Ezekiel',
     },
     {
-        id: 3,
+        id: 999,
         title: 'Looking For Coaches',
         category: 'Coaches',
         summary: '<strong>Pumas Volleyball Club</strong> is always looking for coaches (head or assistant). ',
