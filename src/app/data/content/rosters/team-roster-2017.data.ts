@@ -3,6 +3,39 @@ import { TeamRoster } from '../../../team-roster/TeamRoster';
 export const TEAM_ROSTER_2017: TeamRoster[] = [
     {
         year: 2017,
+        name: 'Amethyst',
+        division: 'Club',
+        ageGroup: '14U',
+        headCoach: 'Beth Rosa',
+        assistantCoaches: [],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
+        name: 'Aquamarine',
+        division: 'Club',
+        ageGroup: '14U',
+        headCoach: 'Jillian Boyle',
+        assistantCoaches: ['Sunny Foglia'],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
+        name: 'Cobalt',
+        division: 'Club',
+        ageGroup: '15U',
+        headCoach: 'Maura Green',
+        assistantCoaches: [],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
         name: 'Crimson',
         division: 'Open',
         ageGroup: '18U',
@@ -26,10 +59,21 @@ export const TEAM_ROSTER_2017: TeamRoster[] = [
     {
         year: 2017,
         name: 'Emerald',
-        division: 'Open',
-        ageGroup: '16U',
+        division: 'Club',
+        ageGroup: '18U',
         headCoach: 'Bruce Shainwald',
         assistantCoaches: ['Bridget Shainwald'],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
+        name: 'Fire Opal',
+        division: 'Open',
+        ageGroup: '16U',
+        headCoach: 'Tim Xaykosy',
+        assistantCoaches: ['Dee Thoummavong'],
         players: [],
         teamPhoto: '',
         teamPhotoThumbNail: ''
@@ -40,7 +84,7 @@ export const TEAM_ROSTER_2017: TeamRoster[] = [
         division: 'Club',
         ageGroup: '15U',
         headCoach: 'Mikaela MacKinnon',
-        assistantCoaches: [],
+        assistantCoaches: ['Alexandra Raymond'],
         players: [],
         teamPhoto: '',
         teamPhotoThumbNail: ''
@@ -80,11 +124,55 @@ export const TEAM_ROSTER_2017: TeamRoster[] = [
     },
     {
         year: 2017,
+        name: 'Moonstone',
+        division: 'Club',
+        ageGroup: '15U',
+        headCoach: 'Pritesh Mistry',
+        assistantCoaches: [],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
+        name: 'Obsidian',
+        division: 'Club',
+        ageGroup: '16U',
+        headCoach: 'Melissa Young',
+        assistantCoaches: ['Fred Ahlholm'],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
+        name: 'Platinum',
+        division: 'Club',
+        ageGroup: '15U',
+        headCoach: 'Casey Roberts',
+        assistantCoaches: [],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
+        name: 'Quartz',
+        division: 'Club',
+        ageGroup: '16U',
+        headCoach: 'Mike Pelosi',
+        assistantCoaches: [],
+        players: [],
+        teamPhoto: '',
+        teamPhotoThumbNail: ''
+    },
+    {
+        year: 2017,
         name: 'Ruby',
         division: 'Club',
         ageGroup: '18U',
         headCoach: 'Jim Ray',
-        assistantCoaches: [],
+        assistantCoaches: ['Ali Remigio'],
         players: [],
         teamPhoto: '',
         teamPhotoThumbNail: ''
