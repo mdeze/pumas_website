@@ -54,6 +54,7 @@ import { GalleryOnCourtComponent } from './gallery-on-court/gallery-on-court.com
 import { GalleryOffCourtComponent } from './gallery-off-court/gallery-off-court.component';
 import { GalleryOffCourtListComponent } from './gallery-off-court-list/gallery-off-court-list.component';
 import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-court-list.component';
+import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster-side-menu.component';
 
 @NgModule({
   declarations: [
@@ -104,7 +105,8 @@ import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-
     LinksOutdoorTournamentsComponent,
     LinksSummerCampsComponent,
     LinksSideMenuComponent,
-    LinksMiscComponent
+    LinksMiscComponent,
+    TeamRosterSideMenuComponent
   ],
   imports: [
     BrowserModule,
