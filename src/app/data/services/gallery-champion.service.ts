@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { GalleryItem } from '../../gallery-champions/GalleryItem';
+import { GalleryItem } from '../content/gallery/GalleryItem';
 import { GALLERY_CHAMPIONS_2016 } from '../content/gallery/champion/gallery-champion-2016.data';
 import { GALLERY_CHAMPIONS_2015 } from '../content/gallery/champion/gallery-champion-2015.data';
 

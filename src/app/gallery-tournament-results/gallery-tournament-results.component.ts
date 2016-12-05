@@ -3,7 +3,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 declare var OwlCarousel:any;
 
-import { GalleryItem } from '../gallery-champions/GalleryItem';
+import { GalleryItem } from '../data/content/gallery/GalleryItem';
 import { GalleryChampionService } from '../data/services/gallery-champion.service';
 
 @Component({

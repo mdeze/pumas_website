@@ -136,6 +136,7 @@ import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster
       { path: 'gallery-champions/:year', component: GalleryChampionsComponent },
       { path: 'gallery-champions-list', component: GalleryChampionsListComponent },
       { path: 'gallery-off-court-list', component: GalleryOffCourtListComponent },
+      { path: 'gallery-off-court/:year', component: GalleryOffCourtComponent },
       { path: 'gallery-on-court-list', component: GalleryOnCourtListComponent },
       { path: 'links-outdoor-tournaments', component: LinksOutdoorTournamentsComponent },
       { path: 'links-summer-camps', component: LinksSummerCampsComponent },

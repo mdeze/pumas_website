@@ -3,7 +3,7 @@ import { ActivatedRoute, Params }   from '@angular/router';
 
 declare var FancyBox:any;
 
-import { GalleryItem } from './GalleryItem';
+import { GalleryItem } from '../data/content/gallery/GalleryItem';
 import { GalleryChampionService } from '../data/services/gallery-champion.service';
 
 @Component({

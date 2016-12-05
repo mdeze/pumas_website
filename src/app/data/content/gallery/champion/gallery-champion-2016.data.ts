@@ -1,4 +1,4 @@
-import { GalleryItem } from '../../../../gallery-champions/GalleryItem';
+import { GalleryItem } from '../GalleryItem';
 
 export const GALLERY_CHAMPIONS_2016: GalleryItem[] = [
     {
