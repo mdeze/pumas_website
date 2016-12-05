@@ -2,7 +2,19 @@ import { NewsItem } from '../../news/NewsItem';
 
 export const NEWS_ITEM_LIST: NewsItem[] = [
     {
-        id: 997,
+        id: 995,
+        title: 'Sad News',
+        category: 'Players',
+        summary: 'It is with a heavy heart that Pumas lets you know that Maureen Staudt of North Andover, mother of Emma Staudt, passed away Thursday December 1st. Our heartfelt condolences go out to Emma, her father Jim and her brother Joseph.',
+        detail: '<p>Hello Coaches, Parents and Players,<br /><br /> It is with a heavy heart that Pumas let you know that Maureen Staudt of North Andover, mother of Emma Staudt, passed away Thursday December 1st. Our heartfelt condolences go out to Emma, her father Jim and her brother Joseph.</p><p>Thank you,<br />Stephen Boyle<br />Pumas Volleyball Club</p>',
+        displayIcon: 'icon-heart',
+        displayIconStyle: '',
+        postedOn: new Date(2016, 11, 3),
+        postedOnDisplay: '',
+        postedBy: 'Mike Ezekiel',
+    },
+    {
+        id: 996,
         title: '12U Tryout Changes',
         category: 'Tryouts',
         summary: '<strong>12U Tryout Only:</strong> 12s tryouts, originally scheduled for 11/27 and 12/3, have been moved to <strong>12/4 and 12/11</strong>',
