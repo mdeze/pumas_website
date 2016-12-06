@@ -118,6 +118,7 @@ export const TEAM_ROSTER_2017: TeamRoster[] = [
         ageGroup: '16U',
         headCoach: 'Brianna Karpinski',
         assistantCoaches: [],
+        //players: ['Butler, Emily', 'Cheng, Cathy', 'Harrison, Nicole', 'Mitchell, Samantha', 'Mitchell, Sophie', 'Monahan, Katie'],
         players: [],
         teamPhoto: '',
         teamPhotoThumbNail: ''
@@ -184,7 +185,8 @@ export const TEAM_ROSTER_2017: TeamRoster[] = [
         ageGroup: '16U',
         headCoach: 'Mike Ezekiel',
         assistantCoaches: [],
-        players: ['Ezekiel, Elizabeth'],
+        //players: ['Butaro, Amber', 'Ezekiel, Elizabeth', 'Hu, Grace', 'Shea, Kerry'],
+        players: [],
         teamPhoto: '',
         teamPhotoThumbNail: ''
     },
