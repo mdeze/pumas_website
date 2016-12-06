@@ -3,7 +3,7 @@
 
 		<!-- News Item Block -->
 		<div class="row margin-bottom-10">
-			<div class="col-sm-6" *ngFor="let news of newsItems">
+			<div class="col-sm-6" *ngFor="let news of newsItems.slice(0,2)">
 
 			<div class="col-sm-2 sm-margin-bottom-10 ">
 				<span aria-hidden="true" class="{{news.displayIcon}} sport-icon-small"></span>
@@ -24,5 +24,29 @@
 			</div>
 		</div>
 		<!-- End News Item Block -->
+
+		<!-- News Item Block -->
+		<div class="row margin-bottom-10">
+			<div class="col-sm-6" *ngFor="let news of newsItems.slice(2,4)">
+
+			<div class="col-sm-2 sm-margin-bottom-10 ">
+				<span aria-hidden="true" class="{{news.displayIcon}} sport-icon-small"></span>
+			</div>
+
+			<div class="col-sm-10">
+				<div class="blog-grid">
+					<h4 class="pumas_title">{{news.title}}</h4>
+					<ul class="blog-grid-info">
+						<li>{{news.postedBy}}</li>
+						<li>{{news.postedOnDisplay}}</li>
+					</ul>
+					<p [innerHTML]="news.summary" ></p>
+					<p><a class="r-more" href="/news" routerLink="/news">Read More</a></p>					
+				</div>
+			</div>
+
+			</div>
+		</div>
+		<!-- End News Item Block -->		
 
 		<!-- end main body news -->
