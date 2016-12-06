@@ -57,13 +57,13 @@ export const GALLERY_OFF_THE_COURT_2016: GalleryItem[] = [
     },
     {
         year: 2016,
-        description: 'Summer Sapphirians 2016',
+        description: 'Summer Sapphirians 1st Tournament',
         photo: 'assets/img/photo-gallery/off-the-court/2016/Summer Sapphirians.jpg',
         thumbnail: 'assets/img/photo-gallery/off-the-court/2016/thumbnails/Summer Sapphirians.jpg'
     },
     {
         year: 2016,
-        description: 'Summer Sapphirians Doubles Play',
+        description: 'Summer Sapphirians 1st Doubles Play',
         photo: 'assets/img/photo-gallery/off-the-court/2016/SS 1st Doubles Play.jpg',
         thumbnail: 'assets/img/photo-gallery/off-the-court/2016/thumbnails/SS 1st Doubles Play.jpg'
     },
