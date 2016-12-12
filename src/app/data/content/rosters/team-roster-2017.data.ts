@@ -185,8 +185,7 @@ export const TEAM_ROSTER_2017: TeamRoster[] = [
         ageGroup: '16U',
         headCoach: 'Mike Ezekiel',
         assistantCoaches: [],
-        //players: ['Butaro, Amber', 'Ezekiel, Elizabeth', 'Hu, Grace', 'Shea, Kerry'],
-        players: [],
+        players: ['Butaro, Amber', 'Ezekiel, Elizabeth', 'Gibbs, Hannah', 'Gill, Grace', 'Holmberg, Ciara', 'Hu, Grace', 'Kaplanian, Talia', 'Levangie, Colleen', 'Shea, Kerry'],
         teamPhoto: '',
         teamPhotoThumbNail: ''
     },
