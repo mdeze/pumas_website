@@ -31,7 +31,7 @@
                     </thead>
                     <tbody *ngFor="let tournament of tournamentItems">
                         <tr id="vb-tournament-{{tournament.id}}">
-                            <td><a href='{{tournament.url}}'>{{tournament.name}}</a></td>
+                            <td><a href='{{tournament.url}}' target="_blank">{{tournament.name}}</a></td>
                             <td>{{tournament.dateOnDisplay}}</td>
                             <td>{{tournament.location}}</td>
                             <td>{{tournament.info}}</td>
