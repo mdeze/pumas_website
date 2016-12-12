@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { NewsItem } from '../news//NewsItem';
+import { NewsItem } from '../data/content/news/NewsItem';
 import { NewsService } from '../data/services/news.service';
 
 @Component({
@@ -15,7 +15,7 @@ export class NewsAnnouncementsComponent implements OnInit {
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
-    this.newsItems = this.newsService.getNewsItems(4);
+    this.newsItems = this.newsService.getAnnouncementItems();
   }
 
 }

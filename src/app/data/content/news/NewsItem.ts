@@ -9,4 +9,5 @@ export class NewsItem {
     postedOn: Date;
     postedOnDisplay: string;
     postedBy: string;
+    endAnnouncement: Date;
 }

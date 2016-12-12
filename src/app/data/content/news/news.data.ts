@@ -1,17 +1,18 @@
-import { NewsItem } from '../../news/NewsItem';
+import { NewsItem } from './NewsItem';
 
 export const NEWS_ITEM_LIST: NewsItem[] = [
     {
         id: 993,
         title: 'Tryout Results',
         category: 'Tryouts',
-        summary: '<a href="/tryouts-results" routerLink="/tryouts-results">Tryout results</a> for both Club and Open teams have been posted.',
-        detail: '<a href="/tryouts-results" routerLink="/tryouts-results">Tryout results</a> for both Club and Open teams are available.',
+        summary: 'Tryout results for both Club and Open teams have been <a href="/tryouts-results" routerLink="/tryouts-results">posted</a>.',
+        detail: 'Tryout results for both Club and Open teams are <a href="/tryouts-results" routerLink="/tryouts-results">available</a>.',
         displayIcon: 'icon-sport-085',
         displayIconStyle: '',
         postedOn: new Date(2016, 11, 6),
         postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
+        endAnnouncement: new Date(2016, 11, 31)
     },
     {
         id: 994,
@@ -24,6 +25,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedOn: new Date(2016, 11, 3),
         postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
+        endAnnouncement: new Date(2016, 11, 18)
     },
     {
         id: 995,
@@ -36,6 +38,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedOn: new Date(2016, 11, 2),
         postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
+        endAnnouncement: new Date(2016, 11, 31)
     },
     {
         id: 996,
@@ -48,6 +51,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedOn: new Date(2016, 11, 2),
         postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
+        endAnnouncement: new Date(2016, 11, 11)
     },
     {
         id: 997,
@@ -60,6 +64,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedOn: new Date(2016, 9, 31),
         postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
+        endAnnouncement: new Date(2016, 11, 6)
     },
     {
         id: 998,
@@ -72,6 +77,7 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedOn: new Date(2016, 9, 15),
         postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
+        endAnnouncement: new Date(2016, 11, 6)
     },
     {
         id: 999,
@@ -84,5 +90,6 @@ export const NEWS_ITEM_LIST: NewsItem[] = [
         postedOn: new Date(2016, 8, 4),
         postedOnDisplay: '',
         postedBy: 'Mike Ezekiel',
+        endAnnouncement: new Date(2016, 11, 6)
     }
 ];

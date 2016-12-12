@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 declare var moment: any;
 
-import { NewsItem } from '../../news/NewsItem';
-import { NEWS_ITEM_LIST } from '../content/news.data';
+import { NewsItem } from '../content/news/NewsItem';
+import { NEWS_ITEM_LIST } from '../content/news/news.data';
 
 @Injectable()
 export class NewsService {
@@ -17,5 +17,21 @@ export class NewsService {
 
     getNewsItems(count: number): NewsItem[] {
         return this.getNews().slice(0, count);
+    }
+
+    getAnnouncementItems(): NewsItem[] {
+        let newsItems: NewsItem[] = [];
+
+        let newsList = this.getNewsItems(4);
+
+        let annoucement = 0;
+        for (let i = 0; i < newsList.length; i++) {
+            if (moment(newsList[i].endAnnouncement).isAfter(moment())) {
+                newsItems[annoucement] = newsList[i];
+                annoucement++;
+            }
+        }
+
+        return newsItems;
     }
 }
