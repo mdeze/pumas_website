@@ -15,7 +15,7 @@ import { GalleryOffTheCourtService } from '../data/services/gallery-off-the-cour
 export class GalleryOffCourtComponent implements OnInit, AfterViewInit {
 
   galleryYear: number = 2016;
-  galleryList: GalleryItem[][];
+  otcGalleryList: GalleryItem[][];
 
   constructor(
       private galleryService: GalleryOffTheCourtService,
@@ -25,7 +25,7 @@ export class GalleryOffCourtComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     this.route.params.forEach((params: Params) => {
         this.galleryYear = +params['year'];
-        this.galleryList = this.getGalleryOTCByYear(this.galleryYear);
+        this.getGalleryOTCByYear(this.galleryYear).then(gallery => this.otcGalleryList = gallery);
       });
   }
 
@@ -33,36 +33,39 @@ export class GalleryOffCourtComponent implements OnInit, AfterViewInit {
     FancyBox.initFancybox();
   }
 
-  getGalleryOTCByYear(year: number): GalleryItem[][] {
-    let galleryData: GalleryItem[][] = [];
+  getGalleryOTCByYear(year: number): Promise<GalleryItem[][]> {
 
-    let rowItems: number = 4;
-    let startItem: number = 0;
-    let endItem: number = rowItems;
+    return this.galleryService.getGalleryOffTheCourtByYear(year).then(function(data){
+      let rowItems: number = 4;
+      let startItem: number = 0;
+      let endItem: number = rowItems;
 
-    let galleryList = this.galleryService.getGalleryOffTheCourtByYear(year);
-    let itemsRemaining: number = galleryList.length;
+      let galleryList: GalleryItem[] = data;
+      let galleryData: GalleryItem[][] = [];
+      let itemsRemaining: number = galleryList.length;
 
-    for (let i: number = 0; i < galleryList.length; i++) {
+      for (let i: number = 0; i < galleryList.length; i++) {
 
-      if (itemsRemaining < 0) {
-        break;
+        if (itemsRemaining < 0) {
+          break;
+        }
+
+        let row: GalleryItem[];
+        if (itemsRemaining >= rowItems) {
+          row = galleryList.slice(startItem, endItem);
+        } else {
+        row = galleryList.slice(startItem);
+        }
+        galleryData[i] = row;
+
+        startItem = endItem;
+        endItem = endItem + rowItems;
+        itemsRemaining = (galleryList.length - startItem);
       }
 
-      let row: GalleryItem[];
-      if (itemsRemaining >= rowItems) {
-        row = galleryList.slice(startItem, endItem);
-      } else {
-       row = galleryList.slice(startItem);
-      }
-      galleryData[i] = row;
+      return Promise.resolve(galleryData);
+    });
 
-      startItem = endItem;
-      endItem = endItem + rowItems;
-      itemsRemaining = (galleryList.length - startItem);
-    }
-
-    return galleryData;
   }
 
 }
