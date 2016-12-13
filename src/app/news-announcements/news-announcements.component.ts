@@ -10,12 +10,12 @@ import { NewsService } from '../data/services/news.service';
   providers: [NewsService]
 })
 export class NewsAnnouncementsComponent implements OnInit {
-  newsItems: NewsItem[];
+  newsItems: NewsItem[] = [];
 
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
-    this.newsItems = this.newsService.getAnnouncementItems();
+    this.newsService.getAnnouncementItems().then(news => this.newsItems = news);
   }
 
 }
