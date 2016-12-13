@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { TournamentItem } from './TournamentItem';
+import { TournamentItem } from '../data/content/schedule/TournamentItem';
 import { TournamentScheduleService } from '../data/services/schedule-tournament.service';
 
 @Component({
@@ -15,7 +15,7 @@ export class ScheduleTournamentComponent implements OnInit {
   constructor(private tournamentService: TournamentScheduleService) { }
 
   ngOnInit() {
-    this.tournamentItems = this.tournamentService.getTournamentSchedule();
+    this.tournamentService.getTournamentSchedule().then(schedule => this.tournamentItems = schedule);
   }
 
 }
