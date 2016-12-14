@@ -1,28 +1,42 @@
 import { Injectable } from '@angular/core';
+import {Http} from '@angular/http';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/toPromise';
 
-import { TeamRoster } from '../../team-roster/TeamRoster';
-
-import { TEAM_ROSTER_2017 } from '../content/rosters/team-roster-2017.data';
-import { TEAM_ROSTER_2016 } from '../content/rosters/team-roster-2016.data';
-import { TEAM_ROSTER_2015 } from '../content/rosters/team-roster-2015.data';
-import { TEAM_ROSTER_2014 } from '../content/rosters/team-roster-2014.data';
+import { TeamRoster } from '../content/rosters/TeamRoster';
 
 @Injectable()
 export class TeamRosterService {
+    constructor(private http: Http) {}
 
-    getRosterByYear(year: number): TeamRoster[] {
+    getRosterByYear(year: number): Promise<TeamRoster[]> {
+        let rosterURL: string;
+
         switch (year) {
             case 2017:
-                return TEAM_ROSTER_2017;
+                rosterURL = '/assets/content/roster/team-roster-2017.data.json';
+                break;
             case 2016:
-                return TEAM_ROSTER_2016;
+                rosterURL = '/assets/content/roster/team-roster-2016.data.json';
+                break;
             case 2015:
-                return TEAM_ROSTER_2015;
-            case 2014:
-                return TEAM_ROSTER_2014;
+                rosterURL = '/assets/content/roster/team-roster-2015.data.json';
+                break;
             default:
-                let teamList: TeamRoster[] = [];
-                return teamList;
+                rosterURL = '/assets/content/roster/team-roster-2017.data.json';
+                break;
         }
+
+        return this.http.get(rosterURL)
+             .toPromise()
+             .then(function(data){
+                 return data.json().data as TeamRoster[];
+             })
+             .catch(this.handleError);
+
+    }
+
+    private handleError(error: any): Promise<any> {
+        return Promise.reject(error.message || error);
     }
 }
