@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
-import { DirectionItem } from './DirectionItem';
+import { DirectionItem } from '../data//content/directions/DirectionItem';
 import { DirectionService } from '../data/services//direction.service';
 declare var $:any;
 
@@ -14,10 +14,10 @@ export class ClubDirectionsComponent implements OnInit, AfterViewInit {
   directionItems: DirectionItem[];
   disableDefaultUI: false;
 
-  constructor(private directionService: DirectionService) { }
+  constructor(private directionService: DirectionService) {}
 
   ngOnInit() {
-    this.directionItems = this.directionService.getDirections();
+    this.directionService.getDirections().then(directions => this.directionItems = directions);
   }
 
   ngAfterViewInit(){
@@ -27,8 +27,8 @@ export class ClubDirectionsComponent implements OnInit, AfterViewInit {
           if ($(this).hasClass('in')) {
               $(this).collapse('toggle');
           }
-      })
-    }, 1000);
+      });
+    }, 750);
 
     // enable toggle caret on panel expand
     $('.accordion-toggle').on('click', function() {
