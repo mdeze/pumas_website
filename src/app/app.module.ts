@@ -32,6 +32,11 @@ import { TeamRosterComponent } from './team-roster/team-roster.component';
 import { GalleryChampionsComponent } from './gallery-champions/gallery-champions.component';
 import { GalleryChampionsListComponent } from './gallery-champions-list/gallery-champions-list.component';
 import { GallerySideMenuComponent } from './gallery-side-menu/gallery-side-menu.component';
+import { GalleryTournamentResultsComponent } from './gallery-tournament-results/gallery-tournament-results.component';
+import { GalleryOnCourtComponent } from './gallery-on-court/gallery-on-court.component';
+import { GalleryOffCourtComponent } from './gallery-off-court/gallery-off-court.component';
+import { GalleryOffCourtListComponent } from './gallery-off-court-list/gallery-off-court-list.component';
+import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-court-list.component';
 import { ClubSideMenuComponent } from './club-side-menu/club-side-menu.component';
 import { CoachesSideMenuComponent } from './coaches-side-menu/coaches-side-menu.component';
 import { ProgramsSideMenuComponent } from './programs-side-menu/programs-side-menu.component';
@@ -40,7 +45,6 @@ import { TryoutSideMenuComponent } from './tryout-side-menu/tryout-side-menu.com
 import { NewsRecentComponent } from './news-recent/news-recent.component';
 import { ScheduleNextComponent } from './schedule-next/schedule-next.component';
 import { NewsAnnouncementsComponent } from './news-announcements/news-announcements.component';
-import { GalleryTournamentResultsComponent } from './gallery-tournament-results/gallery-tournament-results.component';
 import { ProgramsCostComponent } from './programs-cost/programs-cost.component';
 import { AgegroupTesterComponent } from './agegroup-tester/agegroup-tester.component';
 import { UsavRegistrationComponent } from './usav-registration/usav-registration.component';
@@ -50,10 +54,7 @@ import { LinksSideMenuComponent } from './links-side-menu/links-side-menu.compon
 import { LinksMiscComponent } from './links-misc/links-misc.component';
 import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions.component';
 import { CoachesPageComponent } from './coaches-page/coaches-page.component';
-import { GalleryOnCourtComponent } from './gallery-on-court/gallery-on-court.component';
-import { GalleryOffCourtComponent } from './gallery-off-court/gallery-off-court.component';
-import { GalleryOffCourtListComponent } from './gallery-off-court-list/gallery-off-court-list.component';
-import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-court-list.component';
+
 import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster-side-menu.component';
 
 @NgModule({
@@ -90,6 +91,7 @@ import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster
     GalleryOffCourtComponent,
     GalleryOffCourtListComponent,
     GalleryOnCourtListComponent,
+    GalleryTournamentResultsComponent,
     ClubSideMenuComponent,
     CoachesSideMenuComponent,
     ProgramsSideMenuComponent,
@@ -98,7 +100,6 @@ import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster
     NewsRecentComponent,
     ScheduleNextComponent,
     NewsAnnouncementsComponent,
-    GalleryTournamentResultsComponent,
     ProgramsCostComponent,
     AgegroupTesterComponent,
     UsavRegistrationComponent,

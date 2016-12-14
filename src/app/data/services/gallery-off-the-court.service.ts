@@ -4,7 +4,6 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/toPromise';
 
 import { GalleryItem } from '../content/gallery/GalleryItem';
-//import { GALLERY_OFF_THE_COURT_2016 } from '../content/gallery/off-the-court/gallery-off-the-court-2016.data';
 
 @Injectable()
 export class GalleryOffTheCourtService {

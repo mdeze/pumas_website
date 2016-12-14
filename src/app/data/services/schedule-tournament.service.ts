@@ -21,7 +21,6 @@ export class TournamentScheduleService {
     }
 
     getNextTournaments(count: number): Promise<TournamentItem[]> {
-        console.log('fetching next tournament data: ' + count);
         return this.http.get('/assets/content/schedule/tournament-2017.data.json')
              .toPromise()
              .then(function(data){
@@ -29,10 +28,8 @@ export class TournamentScheduleService {
                 let nextTournaments: TournamentItem[] = [];
                 let nextNumber = 0;
                 for (let i = 0; i < tournaments.length; i++) {
-                    console.log(moment(tournaments[i].date));
                     if (moment(tournaments[i].date).isSameOrAfter(moment())) {
                         nextTournaments[nextNumber] = tournaments[i];
-                        console.log("added " + nextNumber);
                         nextNumber++;
                         count--;
                         if (count === 0) {

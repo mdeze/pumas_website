@@ -1,7 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 
-
-declare var OwlCarousel:any;
+declare var OwlCarousel: any;
 
 import { GalleryItem } from '../data/content/gallery/GalleryItem';
 import { GalleryChampionService } from '../data/services/gallery-champion.service';
@@ -14,16 +13,21 @@ import { GalleryChampionService } from '../data/services/gallery-champion.servic
 })
 export class GalleryTournamentResultsComponent implements OnInit, AfterViewInit {
   galleryYear: number = 2016;
-  galleryList: GalleryItem[];
+  championGalleryList: GalleryItem[] = [];
 
-  constructor(private galleryService: GalleryChampionService) { }
+  constructor(
+      private galleryService: GalleryChampionService
+    ) {}
 
   ngOnInit() {
-    this.galleryList = this.galleryService.getGalleryChampionByYear(this.galleryYear);
+    this.galleryService.getGalleryChampionByYear(this.galleryYear).then(gallery => this.championGalleryList = gallery);
   }
 
-    ngAfterViewInit() {
-    OwlCarousel.initOwlCarousel();
+  ngAfterViewInit() {
+    //OwlCarousel.initOwlCarousel();
+    setTimeout(function() {
+      OwlCarousel.initOwlCarousel();
+    }, 250);
   }
 
 }
