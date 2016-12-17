@@ -57,8 +57,8 @@
     {
         "year":"2017",
         "name":"Emerald",
-        "division":"Club",
-        "ageGroup":"18U",
+        "division":"Open",
+        "ageGroup":"16U",
         "headCoach":"Bruce Shainwald",
         "assistantCoaches": ["Bridget Shainwald"],
         "players": [],
@@ -68,7 +68,7 @@
     {
         "year":"2017",
         "name":"Fire Opal",
-        "division":"Open",
+        "division":"Club",
         "ageGroup":"16U",
         "headCoach":"Tim Xaykosy",
         "assistantCoaches": ["Dee Thoummavong"],
@@ -82,7 +82,7 @@
         "division":"Club",
         "ageGroup":"15U",
         "headCoach":"Mikaela MacKinnon",
-        "assistantCoaches": ["Alexandra Raymond"],
+        "assistantCoaches": ["Alexandra Raymond","Kristen Sgrosso"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -115,7 +115,7 @@
         "division":"Club",
         "ageGroup":"16U",
         "headCoach":"Brianna Karpinski",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Michaela Quimby"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
