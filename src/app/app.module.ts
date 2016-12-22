@@ -151,7 +151,7 @@ import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster
       { path: 'club-contact', component: ClubContactComponent },
       { path: 'club-directions', component: ClubDirectionsComponent },
       { path: 'club-faq', component: ClubFaqComponent },
-      { path: '', component: AppComponent }
+      { path: '**', redirectTo: '/home', pathMatch: 'full' } // handle bad links/404s
     ])
   ],
   providers: [],
