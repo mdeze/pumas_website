@@ -56,6 +56,7 @@ import { GalleryAdditionsComponent } from './gallery-additions/gallery-additions
 import { CoachesPageComponent } from './coaches-page/coaches-page.component';
 
 import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster-side-menu.component';
+import { CoachesBioComponent } from './coaches-bio/coaches-bio.component';
 
 @NgModule({
   declarations: [
@@ -107,7 +108,8 @@ import { TeamRosterSideMenuComponent } from './team-roster-side-menu/team-roster
     LinksSummerCampsComponent,
     LinksSideMenuComponent,
     LinksMiscComponent,
-    TeamRosterSideMenuComponent
+    TeamRosterSideMenuComponent,
+    CoachesBioComponent
   ],
   imports: [
     BrowserModule,
