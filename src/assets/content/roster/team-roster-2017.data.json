@@ -38,7 +38,7 @@
         "division":"Open",
         "ageGroup":"18U",
         "headCoach":"Stephen Boyle",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Jake Balfour","Marla Marcum"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -60,7 +60,7 @@
         "division":"Open",
         "ageGroup":"16U",
         "headCoach":"Bruce Shainwald",
-        "assistantCoaches": ["Bridget Shainwald"],
+        "assistantCoaches": ["Bridget Shainwald", "Cheryl Farnum"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -71,7 +71,7 @@
         "division":"Club",
         "ageGroup":"16U",
         "headCoach":"Tim Xaykosy",
-        "assistantCoaches": ["Dee Thoummavong"],
+        "assistantCoaches": ["Dee Thoummavong", "Katelyn Marr"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -93,7 +93,7 @@
         "division":"Club",
         "ageGroup":"18U",
         "headCoach":"Brian Healey",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Sophia Basuri"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -137,7 +137,7 @@
         "division":"Club",
         "ageGroup":"16U",
         "headCoach":"Melissa Young",
-        "assistantCoaches": ["Fred Ahlholm"],
+        "assistantCoaches": ["Fred Ahlholm","Mick Sawka"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -148,7 +148,7 @@
         "division":"Club",
         "ageGroup":"15U",
         "headCoach":"Casey Roberts",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Sophia Basuri"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -157,7 +157,7 @@
         "year":"2017",
         "name":"Quartz",
         "division":"Club",
-        "ageGroup":"16U",
+        "ageGroup":"17U",
         "headCoach":"Mike Pelosi",
         "assistantCoaches": [],
         "players": [],
@@ -170,7 +170,7 @@
         "division":"Club",
         "ageGroup":"18U",
         "headCoach":"Jim Ray",
-        "assistantCoaches": ["Ali Remigio"],
+        "assistantCoaches": ["Tina Miller","Ali Remigio"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -181,7 +181,7 @@
         "division":"Club",
         "ageGroup":"16U",
         "headCoach":"Mike Ezekiel",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Christina Noyes"],
         "players": ["Butaro, Amber", "Ezekiel, Elizabeth", "Gibbs, Hannah", "Gill, Grace", "Holmberg, Ciara", "Hu, Grace", "Kaplanian, Talia", "Levangie, Colleen", "Shea, Kerry"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -192,7 +192,18 @@
         "division":"Club",
         "ageGroup":"12U",
         "headCoach":"Rosella Latam",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Alexis Mancha"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2017",
+        "name":"Titanium",
+        "division":"Club",
+        "ageGroup":"14U",
+        "headCoach":"Anthony Warren",
+        "assistantCoaches": ["Katelyn Marr"],
         "players": [],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
