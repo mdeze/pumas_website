@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"992",
+        "title":" 2017 Team Rosters",
+        "category":"Teams",
+        "summary":"2017 Rosters for both Club and Open teams have been <a href='/team-roster/2017' routerLink='/team-roster/2017'>posted</a>",
+        "detail":"2017 Club and Open team <a href='/team-roster/2017' routerLink='/team-roster/2017'>rosters</a> are posted.",
+        "displayIcon":"icon-sport-124",
+        "displayIconStyle":"",
+        "postedOn": "2016-12-25",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2017-01-14"
+    },
+    {
         "id":"993",
         "title":"Tryout Results",
         "category":"Tryouts",
@@ -10,7 +23,7 @@
         "postedOn": "2016-12-06",
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2016-12-31"
+        "endAnnouncement": "2016-12-24"
     },
     {
         "id":"994",

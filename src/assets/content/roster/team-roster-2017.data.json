@@ -6,7 +6,7 @@
         "ageGroup":"14U",
         "headCoach":"Beth Rosa",
         "assistantCoaches": [],
-        "players": [],
+        "players": ["Bosco, Emma","Byers, Olivia","Chang, Anica","Dand, Diya","Featherston, Renee","McHugh, Alyjah","Raymond, Eliza","Stevens, Kayla","Trant, Tierney","Xu, Veronica"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -17,7 +17,7 @@
         "ageGroup":"14U",
         "headCoach":"Jillian Boyle",
         "assistantCoaches": ["Sunny Foglia"],
-        "players": [],
+        "players": ["Croteau, Ashley","Gizmunt, Ella","Holland, Kayleigh","Kittler, Kali","Mcdonald, Lindsay","McDonough, Samantha","Morin, Elizabeth","Paulding, Olivia","Savio, Julia","Williams, Taylor"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -28,7 +28,7 @@
         "ageGroup":"15U",
         "headCoach":"Maura Green",
         "assistantCoaches": [],
-        "players": [],
+        "players": ["Alvino, Shannon","Bosco, Deanna","Byers, Jenna","Cioto, Gianna","Coutu, Stella","Fox, Caitlyn","Mathewson, Leah","McDonald, Kayleigh","McDonnell, Kate","Taggart, Elizabeth"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -39,7 +39,7 @@
         "ageGroup":"18U",
         "headCoach":"Stephen Boyle",
         "assistantCoaches": ["Jake Balfour","Marla Marcum"],
-        "players": [],
+        "players": ["Bessette, Hannah","Camelo, Molly","Caruso, Victoria","DaPonta, Emily","Fahey, Christa","Johnston, Julia","Keiver, Abigail","Maher, Allison","McNally, Megan","Meyers, Sophie","Williams, Flannery"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -50,7 +50,7 @@
         "ageGroup":"15U",
         "headCoach":"Steve McRoy",
         "assistantCoaches": ["Bonnie Zeigler"],
-        "players": [],
+        "players": ["Abouhamad, Brooke","Cloutier, Marissa","Cunha, Arianna","Dadiego, Elle","Desai, Diya","Donahue, Emma","MacDonald, Anna","Philippe, Ashley","Sapienza, Ava","Wild, Allison","Wong, Celia"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -61,7 +61,7 @@
         "ageGroup":"16U",
         "headCoach":"Bruce Shainwald",
         "assistantCoaches": ["Bridget Shainwald", "Cheryl Farnum"],
-        "players": [],
+        "players": ["Ahlholm, Lauren","DelRosso, Julia","Farnum, Laura","Farnum, Sarah","Holley, Tatum","Leppanen, Julia","Nason, Emily","Thawnghmung, Dai", "Wu, Julia"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -72,7 +72,7 @@
         "ageGroup":"16U",
         "headCoach":"Tim Xaykosy",
         "assistantCoaches": ["Dee Thoummavong", "Katelyn Marr"],
-        "players": [],
+        "players": ["Flynn, Faith","Fraser, Kayla","Galvan Murillo, Maria","Hillis, Alexis","King, Julianne","Kosakowski, Sarah","McNeal, Isabel","Scudder, Paige","Som, Pichanny"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -83,7 +83,7 @@
         "ageGroup":"15U",
         "headCoach":"Mikaela MacKinnon",
         "assistantCoaches": ["Alexandra Raymond","Kristen Sgrosso"],
-        "players": [],
+        "players": ["Byrne, Caitlin","DeFrancesco, Rebecca","Goldthwaite, Neena","Jones, Emily","Kidder, Chloe","Murphy, Lauren","Ragucci, Gianna","Sgrosso, Allison","Staudt, Emma","Thorpe, Jenna","Wardle, Jessica"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -94,7 +94,7 @@
         "ageGroup":"18U",
         "headCoach":"Brian Healey",
         "assistantCoaches": ["Sophia Basuri"],
-        "players": [],
+        "players": ["Burliss, Ryder","Crovo, Victoria","Crowley, Shawna","Crowley, Ashley","Doyle, Sabrina","Farnum, Kathryn","Gaspar, Olivia","Shattuck, Lynn","Steed, MaryRose","Swartz, Samantha","Wang, Sophia"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -105,7 +105,7 @@
         "ageGroup":"18U",
         "headCoach":"Joseph Seid",
         "assistantCoaches": [],
-        "players": [],
+        "players": ["Bates, Carolne","Cooper, Kelliann","Green, Alicia","Kramer, Lauren","Martin, Fiona","McGrath, Jennifer","Plodzik, Jamie","Riccardi, Lauren","Topel, Sydney","Williams, Sarah"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -116,7 +116,7 @@
         "ageGroup":"16U",
         "headCoach":"Brianna Karpinski",
         "assistantCoaches": ["Michaela Quimby"],
-        "players": [],
+        "players": ["Butler, Emily","Cheng, Cathy","Correale, Michela","Crowley, Megan","Gillman, Olivia","Harrison, Nicole","Mitchell, Samantha","Mitchell, Sophie","Monahan, Katie","Prendergast, Kiera"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -127,7 +127,7 @@
         "ageGroup":"15U",
         "headCoach":"Pritesh Mistry",
         "assistantCoaches": [],
-        "players": [],
+        "players": ["Amouzgar, Patricia","Brickman, Ellie","Demos, Emma","Dulgarian, Araz","Mann, Katelyn","Mondejar, Claire","Morin, Katherine","Pesaturo, Sydney","Sonnenfroh, Emily","Wallace, Colleen"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -138,7 +138,7 @@
         "ageGroup":"16U",
         "headCoach":"Melissa Young",
         "assistantCoaches": ["Fred Ahlholm","Mick Sawka"],
-        "players": [],
+        "players": ["Ahlholm, Samantha","Atwood, Emma","Breton, Meaghan","Fleming, Brooke","Kelly, Brianna","Kennedy, Lauren","Mistry, Anisha","Naroian, Sophia","Nogueira, Brianna","Sawka, Renee","Webster, Julia"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -149,7 +149,7 @@
         "ageGroup":"15U",
         "headCoach":"Casey Roberts",
         "assistantCoaches": ["Sophia Basuri"],
-        "players": [],
+        "players": ["Call, Alexis","Downing, Caroline","Green, Niamh","Harrington, Alexa","Kozloski, Riyah","Ruby, Ella","Sweeney, Gwen","Thimble, Catherine","Vadeboncoeur, Shea","Willoughby, Lillian"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -160,7 +160,7 @@
         "ageGroup":"17U",
         "headCoach":"Mike Pelosi",
         "assistantCoaches": [],
-        "players": [],
+        "players": ["Bobzien, Sophie","Chang, Shina","Costa, Sarah","Farris, Isabella","Gonzalez, Yarimar","Kustka, Erin","Lamothe, Brooke","Peters, Brooklyn","Roberts, Heather","Som, Audrianna","Swope, Fiona"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -171,7 +171,7 @@
         "ageGroup":"18U",
         "headCoach":"Jim Ray",
         "assistantCoaches": ["Tina Miller","Ali Remigio"],
-        "players": [],
+        "players": ["He, Stephanie","Li, Joy","LoConte, Katrina","Martin, Amy","Naatz, Brooke","Orchanian, Rita","Schramm, Katelyn","Svendsen, Michaela","Xu, Isabella"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -193,7 +193,7 @@
         "ageGroup":"12U",
         "headCoach":"Rosella Latam",
         "assistantCoaches": ["Alexis Mancha"],
-        "players": [],
+        "players": ["Carmody, Taylor","Coutu, Eva","Golini, Ainsley","Latam, Vanessa","McDonough, Kylee", "McHugh, Savannah","Miner, Mollie","Story, Macie"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -204,7 +204,7 @@
         "ageGroup":"14U",
         "headCoach":"Anthony Warren",
         "assistantCoaches": ["Katelyn Marr"],
-        "players": [],
+        "players": ["Cueva, Madison","Cueva, Kaitlin","Ouellette, Nicole","Taber, Hayley","Tattan, Madeline","Tayag, Royelle","Warren, Leah","Williams, Madeline"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -215,7 +215,7 @@
         "ageGroup":"18U",
         "headCoach":"Dan O'Connor",
         "assistantCoaches": ["Sarah Shainwald"],
-        "players": [],
+        "players": ["Ada, Ruth","Bresnahan, Morgan","Butler, Catherine","Cooper, Katalinn","Doan, Andra","Doolin, Emily","Kurr, Leah","MacIver, Emily","McDonnell, Hailey","O'Connor, Meghan","O'Connor, Allison"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     }
