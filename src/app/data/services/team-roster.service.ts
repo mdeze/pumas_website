@@ -27,6 +27,8 @@ export class TeamRosterService {
                 break;
         }
 
+        rosterURL = rosterURL + '?nocache=' + (new Date()).getTime();
+
         return this.http.get(rosterURL)
              .toPromise()
              .then(function(data){

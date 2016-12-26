@@ -11,11 +11,12 @@ import { NewsItem } from '../content/news/NewsItem';
 export class NewsService {
     NewsItemList: NewsItem[] = [];
     error: Object;
+    NewsURL: string = '/assets/content/news/news.data.json?nocache=' + (new Date()).getTime();
 
     constructor(private http: Http) {}
 
     getNews(): Promise<NewsItem[]> {
-        return this.http.get('/assets/content/news/news.data.json')
+        return this.http.get(this.NewsURL)
              .toPromise()
              .then(function(data){
                 let NewsItemList: NewsItem[] = data.json().data as NewsItem[];
@@ -28,7 +29,7 @@ export class NewsService {
     }
 
     getNewsItems(count: number): Promise<NewsItem[]> {
-        return this.http.get('/assets/content/news/news.data.json')
+        return this.http.get(this.NewsURL)
             .toPromise()
             .then(function(data){
                 let NewsItemList: NewsItem[] = data.json().data.slice(0, count) as NewsItem[];
@@ -41,7 +42,7 @@ export class NewsService {
     }
 
     getAnnouncementItems(): Promise<NewsItem[]> {
-        return this.http.get('/assets/content/news/news.data.json')
+        return this.http.get(this.NewsURL)
             .toPromise()
             .then(function(data){
                 let newsItems: NewsItem[] = [];

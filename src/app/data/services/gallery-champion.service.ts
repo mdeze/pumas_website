@@ -24,6 +24,8 @@ export class GalleryChampionService {
                 break;
         }
 
+        galleryURL =  galleryURL + '?nocache=' + (new Date()).getTime();
+
         return this.http.get(galleryURL)
              .toPromise()
              .then(function(data){

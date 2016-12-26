@@ -10,7 +10,9 @@ export class DirectionService {
     constructor(private http: Http) {}
 
     getDirections(): Promise<DirectionItem[]> {
-        return this.http.get('/assets/content/directions/direction.data.json')
+        let directionURL: string = '/assets/content/directions/direction.data.json?nocache=' + (new Date()).getTime();
+
+        return this.http.get(directionURL)
              .toPromise()
              .then(function(data){
                 let directionsList: DirectionItem[] = [];

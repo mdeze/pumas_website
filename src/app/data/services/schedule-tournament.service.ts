@@ -9,10 +9,12 @@ import { TournamentItem } from '../content/schedule/TournamentItem';
 
 @Injectable()
 export class TournamentScheduleService {
+    TournamentURL: string = '/assets/content/schedule/tournament-2017.data.json?nocache=' + (new Date()).getTime();
+
     constructor(private http: Http) {}
 
     getTournamentSchedule(): Promise<TournamentItem[]> {
-        return this.http.get('/assets/content/schedule/tournament-2017.data.json')
+        return this.http.get(this.TournamentURL)
              .toPromise()
              .then(function(data){
                 return data.json().data as TournamentItem[];
@@ -21,7 +23,7 @@ export class TournamentScheduleService {
     }
 
     getNextTournaments(count: number): Promise<TournamentItem[]> {
-        return this.http.get('/assets/content/schedule/tournament-2017.data.json')
+        return this.http.get(this.TournamentURL)
              .toPromise()
              .then(function(data){
                 let tournaments: TournamentItem[] = data.json().data as TournamentItem[];

@@ -21,6 +21,8 @@ export class GalleryOffTheCourtService {
                 break;
         }
 
+        galleryURL =  galleryURL + '?nocache=' + (new Date()).getTime();
+
         return this.http.get(galleryURL)
              .toPromise()
              .then(function(data){
