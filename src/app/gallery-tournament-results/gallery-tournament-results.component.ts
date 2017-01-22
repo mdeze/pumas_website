@@ -12,7 +12,7 @@ import { GalleryChampionService } from '../data/services/gallery-champion.servic
   providers: [GalleryChampionService]
 })
 export class GalleryTournamentResultsComponent implements OnInit, AfterViewInit {
-  galleryYear: number = 2016;
+  galleryYear: number = 2017;
   championGalleryList: GalleryItem[] = [];
 
   constructor(
@@ -24,7 +24,6 @@ export class GalleryTournamentResultsComponent implements OnInit, AfterViewInit 
   }
 
   ngAfterViewInit() {
-    //OwlCarousel.initOwlCarousel();
     setTimeout(function() {
       OwlCarousel.initOwlCarousel();
     }, 250);
