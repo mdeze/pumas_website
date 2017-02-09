@@ -183,8 +183,8 @@
         "headCoach":"Mike Ezekiel",
         "assistantCoaches": ["Christina Noyes"],
         "players": ["Butaro, Amber", "Ezekiel, Elizabeth", "Gibbs, Hannah", "Gill, Grace", "Holmberg, Ciara", "Hu, Grace", "Kaplanian, Talia", "Levangie, Colleen", "Shea, Kerry"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2017/Sapphire 16U Team.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2017/thumbnails/Sapphire 16U Team.jpg"
     },
     {
         "year":"2017",
