@@ -29,8 +29,8 @@
         "headCoach":"Maura Green",
         "assistantCoaches": [],
         "players": ["Alvino, Shannon","Bosco, Deanna","Byers, Jenna","Cioto, Gianna","Coutu, Stella","Fox, Caitlyn","Mathewson, Leah","McDonald, Kayleigh","McDonnell, Kate","Taggart, Elizabeth"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2017/Cobalt 15U Team.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2017/thumbnails/Cobalt 15U Team.jpg"
     },
     {
         "year":"2017",
@@ -95,8 +95,8 @@
         "headCoach":"Brian Healey",
         "assistantCoaches": ["Sophia Basuri"],
         "players": ["Burliss, Ryder","Crovo, Victoria","Crowley, Shawna","Crowley, Ashley","Doyle, Sabrina","Farnum, Kathryn","Gaspar, Olivia","Shattuck, Lynn","Steed, MaryRose","Swartz, Samantha","Wang, Sophia"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2017/Jade 18U Team.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2017/thumbnails/Jade 18U Team.jpg"
     },
     {
         "year":"2017",
