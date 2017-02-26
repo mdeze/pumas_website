@@ -1,6 +1,29 @@
 	<div class="col-md-9">
-    <div class="row">
-      <h3 class="text-center"><i class="fa fa-clock-o" aria-hidden="true"></i> Gallery On The Court Coming Soon</h3>
+	
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+        <br />
+				<div class="service-block-v1">
+					<i class="rounded-x icon-trophy"></i>
+					<h2 class="text-center pumas_title"> {{galleryYear}} On The Court</h2>
+				</div>
+			</div>
+		</div>
+		<br />
+
+    <div class="row  margin-bottom-30" *ngFor="let gallery of otcGalleryList">    
+
+        <div class="col-sm-3 sm-margin-bottom-30" *ngFor="let galleryRow of gallery">
+          <div class="gallery-picture text-center">
+            <div class="thumbnails thumbnail-style">
+              <a href="{{galleryRow.photo}}" rel="gallery2" class="fancybox" title="{{galleryRow.description}}">
+                <span><img class="img-responsive" src="{{galleryRow.thumbnail}}" width="160" height="120" alt=""></span>
+              </a>
+            </div>
+            {{galleryRow.description}}
+          </div>
+        </div>
+
     </div>
 	</div>
 

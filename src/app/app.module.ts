@@ -141,6 +141,7 @@ import { CoachesBioComponent } from './coaches-bio/coaches-bio.component';
       { path: 'gallery-off-court-list', component: GalleryOffCourtListComponent },
       { path: 'gallery-off-court/:year', component: GalleryOffCourtComponent },
       { path: 'gallery-on-court-list', component: GalleryOnCourtListComponent },
+      { path: 'gallery-on-court/:year', component: GalleryOnCourtComponent },
       { path: 'links-outdoor-tournaments', component: LinksOutdoorTournamentsComponent },
       { path: 'links-summer-camps', component: LinksSummerCampsComponent },
       { path: 'links-misc', component: LinksMiscComponent },
