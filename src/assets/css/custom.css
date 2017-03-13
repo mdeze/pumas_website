@@ -54,3 +54,11 @@
     padding-top: 5px;
     padding-bottom: 10px;
 }
+
+.gold-medal { 
+    color: gold; 
+} 
+
+.silver-medal { 
+    color: silver; 
+}
