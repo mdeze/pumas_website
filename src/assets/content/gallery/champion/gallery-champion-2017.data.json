@@ -16,7 +16,19 @@
         "description":"Jade 18U NERVA I Silver Open Silver",
         "photo":"/assets/img/photo-gallery/champions/2017/jade-nerva-i-silver-silver.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/jade-nerva-i-silver-silver.jpg"
-    },        
+    },
+    {
+        "year":"2017",
+        "description":"Midnight 16U NERVA I Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/midnight-nerva-i-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/midnight-nerva-i-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Moonstone 15U NERVA I Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/moonstone-nerva-i-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/moonstone-nerva-i-gold.jpg"
+    },
     {
         "year":"2017",
         "description":"Ruby 18U NERVA I Gold",
