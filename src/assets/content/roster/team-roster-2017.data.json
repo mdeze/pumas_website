@@ -150,8 +150,8 @@
         "headCoach":"Casey Roberts",
         "assistantCoaches": ["Sophia Basuri"],
         "players": ["Call, Alexis","Downing, Caroline","Green, Niamh","Harrington, Alexa","Kozloski, Riyah","Ruby, Ella","Sweeney, Gwen","Thimble, Catherine","Vadeboncoeur, Shea","Willoughby, Lillian"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2017/platinum-team-pic.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2017/thumbnails/platinum-team-pic.jpg"
     },
     {
         "year":"2017",
