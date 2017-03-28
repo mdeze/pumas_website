@@ -1,6 +1,30 @@
 {"data":[
     {
         "year":"2017",
+        "description":"Cobalt 15U NERVA II Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/cobalt-nerva-ii-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/cobalt-nerva-ii-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Crimson 18U NERVA II Silver Open Copper",
+        "photo":"/assets/img/photo-gallery/champions/2017/crimson-nerva-ii-silver-copper.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/crimson-nerva-ii-silver-copper.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Ebony 15U NERVA II Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/ebony-nerva-ii-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/ebony-nerva-ii-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Titanium 14U NERVA II Silver",
+        "photo":"/assets/img/photo-gallery/champions/2017/titanium-nerva-ii-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/titanium-nerva-ii-silver.jpg"
+    },
+    {
+        "year":"2017",
         "description":"Crimson 18U NERVA I Silver Open Iron",
         "photo":"/assets/img/photo-gallery/champions/2017/crimson-nerva-i-silver-iron.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/crimson-nerva-i-silver-iron.jpg"
