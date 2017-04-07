@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"121",
+        "title":"Sad News",
+        "category":"Players",
+        "summary":"It is with deep sorrow that we let you know of the passing of Judith Malin, the mother and grandmother of three of our Pumas family. Our heartfelt condolences go out to Holli Roberts, our extraordinary tryout registration wizard, and her daughters Casey, a long time Pumas player and now current coach, and Heather, a current Pumas player.",
+        "detail":"<p>Hello Coaches, Parents and Players,<br /><br /> It is with deep sorrow that we let you know of the passing of Judith Malin, the mother and grandmother of three of our Pumas family. Our heartfelt condolences go out to Holli Roberts, our extraordinary tryout registration wizard, and her daughters Casey, a long time Pumas player and now current coach, and Heather, a current Pumas player.</p><p>In lieu of flowers, donations can be made to:<ul> <li>Veteran's Agent - Town of Canton, 901 Washington Street, Canton, MA 02021</li><li>Temple Beth Abraham - 1301 Washington Street, Canton, MA 02021</li><li>Dana Farber Head & Neck Treatment Center - PO Box 849168, Boston MA 02284-9168</li></ul></p><p>Thank you,<br />Stephen Boyle<br />Pumas Volleyball Club</p>",
+        "displayIcon":"icon-heart",
+        "displayIconStyle":"",
+        "postedOn": "2017-04-06",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement":"2017-04-17"
+    },
+    {
         "id":"120",
         "title":"NERVA III Assignments",
         "category":"Tournaments",
@@ -219,7 +232,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement":"2016-12-18"
-    },    
+    },
     {
         "id":"103",
         "title":"New Website",
