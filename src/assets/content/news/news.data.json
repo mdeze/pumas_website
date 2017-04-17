@@ -1,10 +1,10 @@
 {"data":[
     {
         "id":"123",
-        "title":"2017 Champion Gallery Updates",
+        "title":"2017 Champion and On The Court Gallery Updates",
         "category":"Teams",
-        "summary":"<a href='/gallery-champions/2017' routerLink='/gallery-champions/2017'>2017 Champion Gallery</a> updates from NERVA III.",
-        "detail":"<a href='/gallery-champions/2017' routerLink='/gallery-champions/2017'>2017 Champion Gallery</a> updates from NERVA III. ",
+        "summary":"<a href='/gallery-champions/2017' routerLink='/gallery-champions/2017'>2017 Champion Gallery</a> updates from NERVA III. Also, new pictures from NERVA II & III in the <a href='/gallery-on-court/2017' routerLink='/gallery-on-court/2017'>2017 On The Court</a> gallery.",
+        "detail":"<a href='/gallery-champions/2017' routerLink='/gallery-champions/2017'>2017 Champion Gallery</a> updates from NERVA III. Also, new pictures from NERVA II & III in the <a href='/gallery-on-court/2017' routerLink='/gallery-on-court/2017'>2017 On The Court</a> gallery.",
         "displayIcon":"icon-electronics-103",
         "displayIconStyle":"",
         "postedOn": "2017-04-16",

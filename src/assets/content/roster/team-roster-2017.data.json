@@ -62,8 +62,8 @@
         "headCoach":"Bruce Shainwald",
         "assistantCoaches": ["Bridget Shainwald", "Cheryl Farnum"],
         "players": ["Ahlholm, Lauren","DelRosso, Julia","Farnum, Laura","Farnum, Sarah","Holley, Tatum","Leppanen, Julia","Nason, Emily","Thawnghmung, Dai", "Wu, Julia"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2017/Emerald-NERVA-III-Team.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2017/thumbnails/Emerald-NERVA-III-Team.jpg"
     },
     {
         "year":"2017",
