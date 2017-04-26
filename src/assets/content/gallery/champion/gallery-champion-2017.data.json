@@ -1,6 +1,30 @@
 {"data":[
     {
         "year":"2017",
+        "description":"Amethyst 14U NERVA IV Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/Amethyst-nerva-IV-gold-1.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/Amethyst-nerva-IV-gold-1.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Cobalt 15U NERVA IV Silver",
+        "photo":"/assets/img/photo-gallery/champions/2017/Cobalt-nerva-IV-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/Cobalt-nerva-IV-silver.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Ebony 15U NERVA IV Silver",
+        "photo":"/assets/img/photo-gallery/champions/2017/Ebony-nerva-IV-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/Ebony-nerva-IV-silver.jpg"
+    },    
+    {
+        "year":"2017",
+        "description":"Fire Opal 16U NERVA IV Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/FireOpal-nerva-IV-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/FireOpal-nerva-IV-gold.jpg"
+    },
+    {
+        "year":"2017",
         "description":"Amethyst 14U NERVA III Gold",
         "photo":"/assets/img/photo-gallery/champions/2017/Amethyst-nerva-III-gold-1.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/Amethyst-nerva-III-gold-1.jpg"
@@ -16,6 +40,12 @@
         "description":"Emerald 16U NERVA III Silver Open Bronze",
         "photo":"/assets/img/photo-gallery/champions/2017/emerald-nerva-iii-silver-1.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/emerald-nerva-iii-silver-1.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Fire Opal 16U NERVA III Silver",
+        "photo":"/assets/img/photo-gallery/champions/2017/FireOpal-nerva-III-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/FireOpal-nerva-III-silver.jpg"
     },
     {
         "year":"2017",
@@ -64,6 +94,12 @@
         "description":"Crimson 18U NERVA I Silver Open Iron",
         "photo":"/assets/img/photo-gallery/champions/2017/crimson-nerva-i-silver-iron.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/crimson-nerva-i-silver-iron.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Fire Opal 16U NERVA I Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/FireOpal-nerva-I-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/FireOpal-nerva-I-gold.jpg"
     },
     {
         "year":"2017",
