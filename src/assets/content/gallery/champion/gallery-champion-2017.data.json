@@ -1,6 +1,43 @@
 {"data":[
     {
         "year":"2017",
+        "description":"Cobalt 15U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/cobalt-nerva-v-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/cobalt-nerva-v-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Emerald 16U NERVA V Gold Open Bronze",
+        "photo":"/assets/img/photo-gallery/champions/2017/emerald-nerva-v-bronze-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/emerald-nerva-v-bronze-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Fire Opal 16U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/fire-opal-nerva-v-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/fire-opal-nerva-v-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Moonstone 15U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/moonstone-nerva-v-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/moonstone-nerva-v-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Sapphire 16U NERVA V Silver",
+        "photo":"/assets/img/photo-gallery/champions/2017/sapphire-nerva-v-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/sapphire-nerva-v-silver.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Titanium 14U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/titanium-nerva-v-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/titanium-nerva-v-gold.jpg"
+    },
+
+    {
+        "year":"2017",
         "description":"Amethyst 14U NERVA IV Gold",
         "photo":"/assets/img/photo-gallery/champions/2017/Amethyst-nerva-IV-gold-1.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/Amethyst-nerva-IV-gold-1.jpg"
@@ -22,6 +59,18 @@
         "description":"Fire Opal 16U NERVA IV Gold",
         "photo":"/assets/img/photo-gallery/champions/2017/FireOpal-nerva-IV-gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/FireOpal-nerva-IV-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Platinum 15U NERVA IV Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/platinum-nerva-iv-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/platinum-nerva-iv-gold.jpg"
+    },
+    {
+        "year":"2017",
+        "description":"Tanzanite 12U NERVA IV Gold",
+        "photo":"/assets/img/photo-gallery/champions/2017/tanzanite-nerva-iv-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2017/thumbnails/tanzanite-nerva-iv-gold.jpg"
     },
     {
         "year":"2017",
