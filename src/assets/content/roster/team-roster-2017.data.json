@@ -117,8 +117,8 @@
         "headCoach":"Brianna Karpinski",
         "assistantCoaches": ["Michaela Quimby"],
         "players": ["Butler, Emily","Cheng, Cathy","Correale, Michela","Crowley, Megan","Gillman, Olivia","Harrison, Nicole","Mitchell, Samantha","Mitchell, Sophie","Monahan, Katie","Prendergast, Kiera"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2017/TeamMidnight.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2017/thumbnails/TeamMidnight.jpg"
     },
     {
         "year":"2017",
