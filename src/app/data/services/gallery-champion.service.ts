@@ -16,12 +16,6 @@ export class GalleryChampionService {
             case 2017:
                 galleryURL = '/assets/content/gallery/champion/gallery-champion-2017.data.json';
                 break;
-            case 2016:
-                galleryURL = '/assets/content/gallery/champion/gallery-champion-2016.data.json';
-                break;
-            case 2015:
-                galleryURL = '/assets/content/gallery/champion/gallery-champion-2015.data.json';
-                break;
             default:
                 galleryURL = '/assets/content/gallery/champion/gallery-champion-2016.data.json';
                 break;

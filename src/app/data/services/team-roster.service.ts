@@ -16,12 +16,6 @@ export class TeamRosterService {
             case 2017:
                 rosterURL = '/assets/content/roster/team-roster-2017.data.json';
                 break;
-            case 2016:
-                rosterURL = '/assets/content/roster/team-roster-2016.data.json';
-                break;
-            case 2015:
-                rosterURL = '/assets/content/roster/team-roster-2015.data.json';
-                break;
             default:
                 rosterURL = '/assets/content/roster/team-roster-2017.data.json';
                 break;
