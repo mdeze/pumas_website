@@ -16,6 +16,9 @@ export class GalleryOffTheCourtService {
             case 2016:
                 galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2016.data.json';
                 break;
+                case 2017:
+                galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2017.data.json';
+                break;
             default:
                 galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2016.data.json';
                 break;
