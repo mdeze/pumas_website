@@ -9,7 +9,7 @@ import { TournamentItem } from '../content/schedule/TournamentItem';
 
 @Injectable()
 export class TournamentScheduleService {
-    TournamentURL: string = '/assets/content/schedule/tournament-2017.data.json?nocache=' + (new Date()).getTime();
+    TournamentURL: string = '/assets/content/schedule/tournament-2018.data.json?nocache=' + (new Date()).getTime();
 
     constructor(private http: Http) {}
 
