@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit  } from '@angular/core';
 
 import { DirectionItem } from '../data//content/directions/DirectionItem';
 import { DirectionService } from '../data/services//direction.service';
@@ -32,7 +32,7 @@ export class ClubDirectionsComponent implements OnInit, AfterViewInit {
 
     // enable toggle caret on panel expand
     $('.accordion-toggle').on('click', function() {
-      let $icon = $(this).find('i');
+      const $icon = $(this).find('i');
       if ($icon.hasClass('fa-caret-right')) {
         $icon.removeClass('fa-caret-right').addClass('fa-caret-down');
       } else {

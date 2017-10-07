@@ -1,14 +1,14 @@
-import { PumasWebsitePage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('pumas-website App', function() {
-  let page: PumasWebsitePage;
+describe('pumas-web-site App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new PumasWebsitePage();
+    page = new AppPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });

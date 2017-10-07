@@ -11,8 +11,9 @@ import { GalleryChampionService } from '../data/services/gallery-champion.servic
   styleUrls: ['./gallery-tournament-results.component.css'],
   providers: [GalleryChampionService]
 })
-export class GalleryTournamentResultsComponent implements OnInit, AfterViewInit {
-  galleryYear: number = 2017;
+
+export class GalleryTournamentResultsComponent implements OnInit , AfterViewInit {
+  galleryYear = 2017;
   championGalleryList: GalleryItem[] = [];
 
   constructor(

@@ -1,70 +1,70 @@
-	<div class="col-md-9">
-				<div class="panel panel-black equal-height-column">
-					<div class="panel-heading">
-						<h3 class="panel-title"><i class="fa fa-map-signs" aria-hidden="true"></i> Directions Pumas Practice &amp; Tournament Sites</h3>
-					</div>
+<div class="col-md-9">
+	<div class="panel panel-black equal-height-column">
+		<div class="panel-heading">
+			<h3 class="panel-title"><i class="fa fa-map-signs" aria-hidden="true"></i> Directions Pumas Practice &amp; Tournament Sites</h3>
+		</div>
+		<div class="panel-body">
+
+		<!-- Accordion v1 -->
+		<div class="panel-group acc-v1" id="accordion-1">
+			
+			<div class="panel panel-default" *ngFor="let direction of directionItems">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-{{direction.id}}">
+							<i class="fa fa-caret-right" aria-hidden="true"></i> {{direction.locationName}}
+						</a>
+					</h4>
+				</div>
+				<div id="collapse-{{direction.id}}" class="panel-collapse collapse in">
 					<div class="panel-body">
-
-					<!-- Accordion v1 -->
-					<div class="panel-group acc-v1" id="accordion-1">
-						
-						<div class="panel panel-default" *ngFor="let direction of directionItems">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse-{{direction.id}}">
-										<i class="fa fa-caret-right" aria-hidden="true"></i> {{direction.locationName}}
-									</a>
-								</h4>
-							</div>
-							<div id="collapse-{{direction.id}}" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<div class="row">
-										<div class="col-md-12">
-											<div class="row">
-												<div class="col-md-12">
-													<h4 class="color-green"><strong>{{direction.locationName}}</strong></h4>
-													<h5><i class="fa fa-road" aria-hidden="true"></i> {{direction.address}}</h5>
-												</div>
-											</div>
-                      <div class="row" *ngIf="direction.notes">
-												<div class="contex-bg col-md-12" >
-													<p class="bg-info rounded-2x" ><i class="fa fa-info-circle" aria-hidden="true"></i> {{direction.notes}}</p>
-												</div>
-                      </div>
-                      <!-- gym directions -->
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="tag-box tag-box-v2 margin-bottom-40">
-                            <h2>From the North</h2>
-                            <p>{{direction.directionsFromNorth}}</p>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="tag-box tag-box-v2 margin-bottom-40">
-                            <h4>From the South</h4>
-                            <p>{{direction.directionsFromSouth}}</p>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- end gym directions -->
-
-                      <!-- google map -->
-											<div class="text-center"><a href="{{direction.googleMapUrl}}" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Google Maps Link</a></div>
-                      <sebm-google-map [latitude]="direction.lat" [longitude]="direction.lng" [zoom]="direction.zoom" [disableDefaultUI]="disableDefaultUI">
-                        <sebm-google-map-marker [latitude]="direction.lat" [longitude]="direction.lng"></sebm-google-map-marker>
-                      </sebm-google-map>
-                      <!-- end google map -->
-											
+						<div class="row">
+							<div class="col-md-12">
+								<div class="row">
+									<div class="col-md-12">
+										<h4 class="color-green"><strong>{{direction.locationName}}</strong></h4>
+										<h5><i class="fa fa-road" aria-hidden="true"></i> {{direction.address}}</h5>
+									</div>
+								</div>
+								<div class="row" *ngIf="direction.notes">
+									<div class="contex-bg col-md-12" >
+										<p class="bg-info rounded-2x" ><i class="fa fa-info-circle" aria-hidden="true"></i> {{direction.notes}}</p>
+									</div>
+								</div>
+								<!-- gym directions -->
+								<div class="row">
+									<div class="col-md-6">
+										<div class="tag-box tag-box-v2 margin-bottom-40">
+											<h2>From the North</h2>
+											<p>{{direction.directionsFromNorth}}</p>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="tag-box tag-box-v2 margin-bottom-40">
+											<h4>From the South</h4>
+											<p>{{direction.directionsFromSouth}}</p>
 										</div>
 									</div>
 								</div>
+								<!-- end gym directions -->
+
+								<!-- google map -->
+								<!-- <div class="text-center"><a href="{{direction.googleMapUrl}}" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i> Google Maps Link</a></div>
+								<sebm-google-map [latitude]="direction.lat" [longitude]="direction.lng" [zoom]="direction.zoom" [disableDefaultUI]="disableDefaultUI">
+									<sebm-google-map-marker [latitude]="direction.lat" [longitude]="direction.lng"></sebm-google-map-marker>
+								</sebm-google-map> -->
+								<!-- end google map -->
+								
 							</div>
 						</div>
-
-					</div>
-					<!-- End Accordion v1 -->
 					</div>
 				</div>
+			</div>
+
+		</div>
+		<!-- End Accordion v1 -->
+		</div>
 	</div>
-	
-	<app-club-side-menu></app-club-side-menu>
+</div>
+
+<app-club-side-menu></app-club-side-menu>

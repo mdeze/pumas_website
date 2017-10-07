@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { ActivatedRoute, Params }   from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 
 declare var FancyBox:any;
 
@@ -12,9 +12,9 @@ import { TeamRosterService } from '../data/services/team-roster.service';
   styleUrls: ['./team-roster.component.css'],
   providers: [TeamRosterService]
 })
-export class TeamRosterComponent implements OnInit, AfterViewInit {
+export class TeamRosterComponent implements OnInit, AfterViewInit  {
 
-  year: number = 2016;
+  year = 2017;
   teamList: TeamRoster[];
 
   constructor(
@@ -29,7 +29,7 @@ export class TeamRosterComponent implements OnInit, AfterViewInit {
       });
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     FancyBox.initFancybox();
   }
 

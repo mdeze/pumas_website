@@ -10,7 +10,7 @@ import { TournamentScheduleService } from '../data/services/schedule-tournament.
   providers: [TournamentScheduleService]
 })
 export class ScheduleTournamentComponent implements OnInit {
-  tournamentItems: TournamentItem[]
+  tournamentItems: TournamentItem[];
 
   constructor(private tournamentService: TournamentScheduleService) { }
 
