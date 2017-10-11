@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"136",
+        "title":"Sad News",
+        "category":"Players",
+        "summary":"It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle.",
+        "detail":"<p>Hello Coaches, Parents and Players,<br /><br />It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle. Louis's obituary and service information can be found <a href='http://www.legacy.com/obituaries/bostonglobe/obituary.aspx?n=louis-m-remigio&pid=186905361&fhid=6431' target='_blank'>here</a>.</p><p>Thank you,<br />Stephen Boyle<br />Pumas Volleyball Club</p>",
+        "displayIcon":"icon-heart",
+        "displayIconStyle":"",
+        "postedOn": "2017-10-11",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement":"2017-10-25"
+    },
+    {
         "id":"135",
         "title":"Tryout Registration Open!",
         "category":"Tryouts",
