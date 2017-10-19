@@ -1,19 +1,19 @@
 {"data":[
     {
-        "id":"136",
-        "title":"Sad News",
-        "category":"Players",
-        "summary":"It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle.",
-        "detail":"<p>Hello Coaches, Parents and Players,<br /><br />It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle. Louis's obituary and service information can be found <a href='http://www.legacy.com/obituaries/bostonglobe/obituary.aspx?n=louis-m-remigio&pid=186905361&fhid=6431' target='_blank'>here</a>.</p><p>Thank you,<br />Stephen Boyle<br />Pumas Volleyball Club</p>",
-        "displayIcon":"icon-heart",
+        "id":"137",
+        "title":"Pre-Tryout Tune Up Clinics",
+        "category":"Tryouts",
+        "summary":"Volleyball MD is hosting two tune up clinics to prepare players for club tryouts. The clinics will run the same drills used at Pumas club tryouts. It is a great opportunity to become familiar with the tryout drills before tryouts.",
+        "detail":"Pumas VBC is sponsoring Volleyball MD to host two tune up clinics to prepare players for club volleyball tryouts. The clinics will be held on the following dates: <ul><li>Sunday November 5th - UML Rec Center</li><li>Sunday, November 12th - Lawrence Boys & Girls Club</li></ul> The clinics will run the same drills used at Pumas club tryouts. It is a great opportunity to learn the tryout drill mechanics before the day of tryouts as well as a chance for some extra touches if you haven’t been on the court since your high school season ended. Please see the <a href='/assets/files/flyers/VolleyballMDTuneUp2018Flyer.pdf' target='_blank'>Tune Up Clinics flyer</a> for registration details. ",
+        "displayIcon":"icon-sport-008",
         "displayIconStyle":"",
-        "postedOn": "2017-10-11",
+        "postedOn": "2017-10-19",
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
-        "endAnnouncement":"2017-10-25"
+        "endAnnouncement": "2017-11-12"
     },
     {
-        "id":"135",
+        "id":"136",
         "title":"Tryout Registration Open!",
         "category":"Tryouts",
         "summary":"Tryout registration for the 2018 season is open! Read below for important updates to Club and Open programs, registration process and the in-house skills programs.",
@@ -24,6 +24,19 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2017-11-27"
+    },
+    {
+        "id":"135",
+        "title":"Sad News",
+        "category":"Players",
+        "summary":"It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle.",
+        "detail":"<p>Hello Coaches, Parents and Players,<br /><br />It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle. Louis's obituary and service information can be found <a href='http://www.legacy.com/obituaries/bostonglobe/obituary.aspx?n=louis-m-remigio&pid=186905361&fhid=6431' target='_blank'>here</a>.</p><p>Thank you,<br />Stephen Boyle<br />Pumas Volleyball Club</p>",
+        "displayIcon":"icon-heart",
+        "displayIconStyle":"",
+        "postedOn": "2017-10-11",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement":"2017-10-25"
     },
     {
         "id":"134",
@@ -49,7 +62,7 @@
         "postedOn": "2017-09-14",
         "postedOnDisplay":"",
         "postedBy":"Mike Ezekiel",
-        "endAnnouncement": "2017-12-06"
+        "endAnnouncement": "2017-10-18"
     },
     {
         "id":"132",
