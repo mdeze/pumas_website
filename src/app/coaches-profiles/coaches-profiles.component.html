@@ -1,51 +1,19 @@
 	<div class="col-md-9">
 
-    <div class="row  margin-bottom-30">    
-        <div class="col-sm-3 sm-margin-bottom-30" >
+    <div class="row  margin-bottom-30">
+			<h3 class="text-center">Profile Page Under Construction</h3>
+        <div class="col-sm-3 sm-margin-bottom-30" *ngFor="let profile of profileList">
           <div class="gallery-picture text-center">
-            <div class="thumbnails thumbnail-style">
-              <a data-toggle="modal" data-target=".bs-example-modal-lg" >
-                <img class="img-responsive md-margin-bottom-10" src="/assets/img/coach.png" alt="">
-                Karch Kiraly
-              </a>
+            <div class="thumbnails thumbnail-style" >
+              <a data-toggle="modal" data-target=".bs-example-modal-lg" (click)="showModal(profile.id)">
+                <img class="img-responsive md-margin-bottom-10" src="{{profile.thumbnail}}" width="600" height="720" alt="">
+                {{profile.firstName}} {{profile.lastName}}
+              </a> <br /> {{profile.title}}
             </div>
           </div>
-        </div>
+        </div> 
 
-        <div class="col-sm-3 sm-margin-bottom-30" >
-          <div class="gallery-picture text-center">
-            <div class="thumbnails thumbnail-style">
-              <a data-toggle="modal" data-target=".bs-example-modal-lg" >
-                <img class="img-responsive md-margin-bottom-10" src="/assets/img/coach.png" alt="">
-                Randy Stoklos
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 sm-margin-bottom-30" >
-          <div class="gallery-picture text-center">
-            <div class="thumbnails thumbnail-style">
-              <a data-toggle="modal" data-target=".bs-example-modal-lg" >
-                <img class="img-responsive md-margin-bottom-10" src="/assets/img/coach.png" alt="">
-                Sinjin Smith
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-3 sm-margin-bottom-30" >
-          <div class="gallery-picture text-center">
-            <div class="thumbnails thumbnail-style">
-              <a data-toggle="modal" data-target=".bs-example-modal-lg" >
-                <img class="img-responsive md-margin-bottom-10" src="/assets/img/coach.png" alt="">
-                Mike Dodd
-              </a>
-            </div>
-          </div>
-        </div>
-
-    </div>
+  </div>
 
 
 	<!-- coach bio modal -->
@@ -54,10 +22,10 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-					<h4 id="myLargeModalLabel2" class="modal-title"><span aria-hidden="true" class="icon-sport-008"></span> Coach Profile</h4>
+					<h4 id="myLargeModalLabel2" class="modal-title"><span aria-hidden="true" class="icon-sport-008"></span> Coach Profile: {{profile.firstName}} {{profile.lastName}}</h4>
 				</div>
 				<div id="coach-profile-content" class="modal-body">
-					<app-coaches-bio></app-coaches-bio>
+					<app-coaches-bio [profile]="profile"></app-coaches-bio>
 				</div>
 			</div>
 		</div>

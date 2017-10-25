@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+import { ProfileItem } from '../data/content/profile/ProfileItem';
 
 @Component({
   selector: 'app-coaches-bio',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./coaches-bio.component.css']
 })
 export class CoachesBioComponent implements OnInit {
+
+  @Input() profile: ProfileItem;
 
   constructor() { }
 
