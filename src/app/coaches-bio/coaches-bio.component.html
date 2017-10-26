@@ -3,21 +3,32 @@
 	
 	<div class="profile-bio">
 		<div class="row">
-			<div class="col-md-5">
-				<img class="img-responsive md-margin-bottom-10" src="{{profile.thumbnail}}" alt="">
+			<!-- <div class="col-md-5">
+				<img class="img-responsive md-margin-bottom-10" src="{{profile.picture}}" alt="">
 			</div>
 			<div class="col-md-7">
 				<h2>{{profile.firstName}} {{profile.lastName}}</h2>
-				<span><strong>Job:</strong> Coach</span>
-				<span><strong>Position:</strong> {{profile.title}}</span>
+				<span><strong>Position:</strong> {{profile.title}} <span aria-hidden="true" class="icon-sport-008" *ngIf="profile.isHeadCoach"></span> <span aria-hidden="true" class="icon-sport-085" *ngIf="!profile.isHeadCoach"></span></span><br />
+				<span><strong>Coaching Experience:</strong> <span *ngIf="profile.years > 0">{{profile.years}} Years</span> <span *ngIf="profile.years == 0">1st Year</span></span><br />
+				<span><strong>Team:</strong> {{profile.team}}</span><br />
+				<span><strong>Division:</strong> {{profile.division}}</span><br />
 				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget massa nec turpis congue bibendum. Integer nulla felis, porta suscipit nulla et, dignissim commodo nunc. Morbi a semper nulla.</p>
-				<p>Proin mauris odio, pharetra quis ligula non, vulputate vehicula quam. Nunc in libero vitae nunc ultricies tincidunt ut sed leo. Sed luctus dui ut congue consequat. Cras consequat nisl ante, nec malesuada velit pellentesque ac. Pellentesque nec arcu in ipsum iaculis convallis.</p>
+				<p [innerHTML]="profile.summary" ></p>
+			</div> -->
+			<div class="col-md-12">
+				<img class="pull-left img-responsive margin-bottom-10 margin-right-10" src="{{profile.picture}}" alt="">
+				<h4>{{profile.firstName}} {{profile.lastName}}</h4>
+				<span><strong>Position:</strong> {{profile.title}} <span aria-hidden="true" class="icon-sport-008" *ngIf="profile.isHeadCoach"></span> <span aria-hidden="true" class="icon-sport-085" *ngIf="!profile.isHeadCoach"></span></span><br />
+				<span><strong>Coaching Experience:</strong> <span *ngIf="profile.years > 0">{{profile.years}} Years</span> <span *ngIf="profile.years == 0">1st Year</span></span><br />
+				<span><strong>Team:</strong> {{profile.team}}</span><br />
+				<span><strong>Division:</strong> {{profile.division}}</span>
+				<hr class="hr-xs">
+				<p [innerHTML]="profile.summary" ></p>
 			</div>
 		</div>
 	</div>
 
-	<hr>
+	<hr class="hr-xs">
 
 	<!-- experience timeline -->
 	<div class="panel panel-profile">
