@@ -3,18 +3,6 @@
 	
 	<div class="profile-bio">
 		<div class="row">
-			<!-- <div class="col-md-5">
-				<img class="img-responsive md-margin-bottom-10" src="{{profile.picture}}" alt="">
-			</div>
-			<div class="col-md-7">
-				<h2>{{profile.firstName}} {{profile.lastName}}</h2>
-				<span><strong>Position:</strong> {{profile.title}} <span aria-hidden="true" class="icon-sport-008" *ngIf="profile.isHeadCoach"></span> <span aria-hidden="true" class="icon-sport-085" *ngIf="!profile.isHeadCoach"></span></span><br />
-				<span><strong>Coaching Experience:</strong> <span *ngIf="profile.years > 0">{{profile.years}} Years</span> <span *ngIf="profile.years == 0">1st Year</span></span><br />
-				<span><strong>Team:</strong> {{profile.team}}</span><br />
-				<span><strong>Division:</strong> {{profile.division}}</span><br />
-				<hr>
-				<p [innerHTML]="profile.summary" ></p>
-			</div> -->
 			<div class="col-md-12">
 				<img class="pull-left img-responsive margin-bottom-10 margin-right-10" src="{{profile.picture}}" alt="">
 				<h4>{{profile.firstName}} {{profile.lastName}}</h4>
@@ -33,40 +21,16 @@
 	<!-- experience timeline -->
 	<div class="panel panel-profile">
 		<div class="panel-heading overflow-h">
-			<h2 class="panel-title heading-sm pull-left" style="color: #666;"><i class="fa fa-briefcase"></i> Coaching Experience</h2>
+			<h2 class="panel-title heading-sm pull-left" style="color: #666;"><i class="fa fa-briefcase"></i> <span *ngIf="profile.years > 0">Coaching</span> <span *ngIf="profile.years == 0">Volleyball</span> Experience</h2>
 		</div>
 		<div class="panel-body">
 			<ul class="timeline-v2 timeline-me">
-				<li>
-					<time datetime="" class="cbp_tmtime"><span>2017</span></time>
+				<li *ngFor="let exp of profile.experience">
+					<time datetime="" class="cbp_tmtime"><span>{{exp.year}}</span></time>
 					<i class="cbp_tmicon rounded-x hidden-xs"></i>
 					<div class="cbp_tmlabel">
-						<h2>Sapphire 16U</h2>
-						<span class="position-label">Head Coach</span> 
-					</div>
-				</li>
-				<li>
-					<time datetime="" class="cbp_tmtime"><span>2016</span></time>
-					<i class="cbp_tmicon rounded-x hidden-xs"></i>
-					<div class="cbp_tmlabel">
-						<h2>Pumas VBC</h2>
-						<span class="position-label">Head Coach Sapphire 15U</span> 
-					</div>
-				</li>
-				<li>
-					<time datetime="" class="cbp_tmtime"><span>2015</span></time>
-					<i class="cbp_tmicon rounded-x hidden-xs"></i>
-					<div class="cbp_tmlabel">
-						<h2>Pumas VBC: Sapphire 14U</h2>
-						<span class="position-label">Head Coach</span> 
-					</div>
-				</li>
-				<li>
-					<time datetime="" class="cbp_tmtime"><span>2014</span></time>
-					<i class="cbp_tmicon rounded-x hidden-xs"></i>
-					<div class="cbp_tmlabel">
-						<h2>Pumas VBC Onyx 18U</h2>
-						<span class="position-label">Assistant Coach</span> 
+						<h4>{{exp.organizationName}}</h4>
+						<p><strong>{{exp.position}}:</strong> {{exp.teamName}}</p> 
 					</div>
 				</li>
 			</ul>

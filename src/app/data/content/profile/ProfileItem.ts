@@ -1,26 +1,19 @@
-export class ProfileItem {
-    public picture: string;
-    public thumbnail: string;
-    public title: string;
-    public division: string;
-    public team: string;
-    public years: number;
+import { ExperienceItem } from './ExperienceItem';
 
-    public summary: string;
+export class ProfileItem {
+    public picture = '/assets/img/coach.png';
+    public thumbnail = '/assets/img/coach.png';
+    public title: string;
+    public division = 'TBD';
+    public team = 'TBD';
+    public years = 0;
+    public experience: ExperienceItem[];
+    public summary = 'Profile summary not avilable';
 
     constructor(
         public id: number,
         public firstName: string,
         public lastName: string,
         public isHeadCoach: boolean
-    ) {
-        // defaults
-        this.thumbnail = '/assets/img/coach.png';
-        this.picture = '/assets/img/coach.png';
-        this.title = (isHeadCoach) ? 'Head Coach' : 'Asst Coach';
-        this.division = 'TBD';
-        this.team = 'TBD';
-        this.years = 0;
-        this.summary = 'Profile summary not avilable';
-    }
+    ) {}
 }

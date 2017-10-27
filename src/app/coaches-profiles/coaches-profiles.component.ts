@@ -10,18 +10,26 @@ import { CoachesBioService } from '../data/services/coaches-bio.service';
   providers: [CoachesBioService]
 })
 export class CoachesProfilesComponent implements OnInit, AfterViewInit  {
-  profileList: ProfileItem[] = [];
+  profileList: ProfileItem[];
   profile: ProfileItem;
 
   constructor(private bioService: CoachesBioService) { }
 
   ngOnInit() {
-    this.profileList = this.bioService.getAllProfiles();
+    this.getCoachProfileData().then(profiles => this.profileList = profiles);
   }
 
   ngAfterViewInit() {
 
   }
+
+  getCoachProfileData(): Promise<ProfileItem[]>  {
+    return this.bioService.getAllProfiles().then(function(data){
+      return Promise.resolve(data);
+    });
+  }
+
+
 
   showModal(profileNumber) {
     for (const profile of this.profileList){

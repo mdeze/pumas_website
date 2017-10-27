@@ -29,7 +29,6 @@ export class GalleryChampionService {
                  return data.json().data as GalleryItem[];
              })
              .catch(this.handleError);
-
     }
 
     private handleError(error: any): Promise<any> {
