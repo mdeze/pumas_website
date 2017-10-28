@@ -5,6 +5,7 @@ export class ProfileItem {
     public thumbnail = '/assets/img/coach.png';
     public title: string;
     public division = 'TBD';
+    public age = 'TBD';
     public team = 'TBD';
     public years = 0;
     public experience: ExperienceItem[];
