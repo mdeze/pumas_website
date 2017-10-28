@@ -8,6 +8,7 @@
         "picture" : "/assets/img/coaches/StephenBoyle.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/StephenBoyle.jpg",
         "division" : "TBD",
+        "age" : "TBD",
         "team" : "TBD",
         "years" : "34",
         "experience" : [
@@ -19,30 +20,94 @@
             },
             {
                 "year" : "2016",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
                 "teamName" : "Crimson 18U Open",
                 "position" : "Head Coach"
             },
             {
                 "year" : "2015",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
                 "teamName" : "Crimson 18U Open",
                 "position" : "Head Coach"
             },
             {
                 "year" : "2014",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
                 "teamName" : "Crimson 18U Open",
                 "position" : "Head Coach"
             },
             {
                 "year" : "2013",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
                 "teamName" : "Crimson 18U Open",
                 "position" : "Head Coach"
             }
         ],
         "summary" : "<p>I am the current President and Club Director for the Pumas Volleyball Club. I have been coaching virtually nonstop since 1983 and have coached Volleyball, Cross Country, Track + Field, Triathlons and Decathlons at the Junior High, High School, Collegiate and Adult level. As a coach I strive to help the athlete discover and develop their complete athletic ability. The success of the athlete, especially in the school age years, is in more than the wins and losses they compile. This includes teaching the athlete about nutrition, balancing life’s demands with the sports demands, integration of body and mind, visualization, goal setting, goal attainment, time management, strength of character, increasing self-esteem, leadership development and many other skills that can serve the athlete in their sport as well as their non-athletic life</p><p>Coaching has been one of my passions, and a second career, since 1983. I am constantly striving to improve my coaching and administrative skills to make the team experience more enjoyable and beneficial. I want to instill a love of the game, a desire to give your best effort for every point and the knowledge on how to pass that on to the next group of young athletes.</p>"
+    },
+    {
+        "id" : "3",
+        "firstName" : "Brian",
+        "lastName" : "Healy",
+        "isHeadCoach" : true,
+        "title" : "Head Coach",
+        "picture" : "/assets/img/coaches/BrianHealey.jpg",
+        "thumbnail" : "/assets/img/coaches/thumbnails/BrianHealey.jpg",
+        "division" : "Club",
+        "age" : "18U",
+        "team" : "Jade",
+        "years" : "12",
+        "experience" : [
+            {
+                "year" : "2017",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Indoor Program",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Beach Program",
+                "position" : "Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Pumas VBC",
+                "teamName" : "Jade 18U",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "Pumas",
+                "teamName" : "Jade 18U",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "Endicott College",
+                "teamName" : "Gulls",
+                "position" : "Asst Varsity Coach"
+            },
+            {
+                "year" : "2015",
+                "organizationName" : "Pumas",
+                "teamName" : "Jade 18U",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2015",
+                "organizationName" : "Pingree School",
+                "teamName" : "Highlanders",
+                "position" : "Asst Varsity Coach"
+            },
+            {
+                "year" : "2014",
+                "organizationName" : "Pumas",
+                "teamName" : "Jade 18U",
+                "position" : "Head Coach"
+            }
+        ],
+        "summary" : "<p>I have been with Pumas for over a decade.  I have coached all ages from 12U to 18U.  One of the highlights was winning the 14U Open Championship and lately I have been coaching the top 18U club team for the past 4 years. Other coaching experience includes:  Coach North Andover Booster Club,  Asst. Coach Pingree School, Asst. Coach Endicott College (won ECAC Championship).  Played high school, College and in the adult Yankee League for 10 years.</p><p>I have a serious passion/addiction for volleyball and I try to instill this into my players.  I want my players to learn, have fun and experience success for their efforts.  As a coach I have a responsibility to behave in professional manner……that being positive, open minded and consistent will create an environment that will allow my players to thrive.   As a founder of several startup businesses, I use the same approach with my employees.  As a coach or a business leader, you must lead by example and create a culture that enjoins everybody to truly enjoy the experience of playing or working together.</p>"
     },
     {
         "id" : "16",
@@ -52,7 +117,8 @@
         "title" : "Asst Coach",
         "picture" : "/assets/img/coaches/lizzy-ezekiel.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/lizzy-ezekiel.jpg",
-        "division" : "14U",
+        "age" : "14U",
+        "division" : "Club",
         "team" : "Sapphire",
         "years" : "0",
         "experience" : [
@@ -61,6 +127,18 @@
                 "organizationName" : "Tewksbury High School",
                 "teamName" : "Redmen",
                 "position" : "Varsity"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Indoor Program",
+                "position" : "Middle School Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Beach Program",
+                "position" : "Player"
             },
             {
                 "year" : "2017",
@@ -76,7 +154,13 @@
             },
             {
                 "year" : "2016",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
+                "teamName" : "Summer Beach Sapphirians",
+                "position" : "Player"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "Pumas",
                 "teamName" : "Sapphire 15U",
                 "position" : "Team Captain"
             },
@@ -88,7 +172,7 @@
             },
             {
                 "year" : "2015",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
                 "teamName" : "Sapphire 14U",
                 "position" : "Team Captain"
             }
@@ -103,10 +187,23 @@
         "title" : "Head Coach",
         "picture" : "/assets/img/coaches/mike-ezekiel.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/mike-ezekiel.jpg",
-        "division" : "14U",
+        "age" : "14U",
+        "division" : "Club",
         "team" : "Sapphire",
         "years" : "5",
         "experience" : [
+            {
+                "year" : "2017",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Beach Program",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Indoor Program",
+                "position" : "Head Coach"
+            },
             {
                 "year" : "2017",
                 "organizationName" : "Pumas VBC",
@@ -115,19 +212,25 @@
             },
             {
                 "year" : "2016",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
+                "teamName" : "Summer Beach Sapphirians",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "Pumas",
                 "teamName" : "Sapphire 15U",
                 "position" : "Head Coach"
             },
             {
                 "year" : "2015",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
                 "teamName" : "Sapphire 14U",
                 "position" : "Head Coach"
             },
             {
                 "year" : "2014",
-                "organizationName" : "Andover Pumas",
+                "organizationName" : "Pumas",
                 "teamName" : "Onyx 18U",
                 "position" : "Assistant Coach"
             }
@@ -142,7 +245,8 @@
         "title" : "Head Coach",
         "picture" : "/assets/img/coach.png",
         "thumbnail" : "/assets/img/coach.png",
-        "division" : "16U Open",
+        "age" : "16U",
+        "division" : "Open",
         "team" : "Emerald",
         "years" : "0"
     }
