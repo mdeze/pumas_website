@@ -1,7 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-import { ActivatedRoute, Params }   from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 
-declare var FancyBox:any;
+declare var FancyBox: any;
 
 import { GalleryItem } from '../data/content/gallery/GalleryItem';
 import { GalleryOffTheCourtService } from '../data/services/gallery-off-the-court.service';
@@ -14,7 +14,7 @@ import { GalleryOffTheCourtService } from '../data/services/gallery-off-the-cour
 })
 export class GalleryOffCourtComponent implements OnInit, AfterViewInit {
 
-  galleryYear: number = 2016;
+  galleryYear = 2016;
   otcGalleryList: GalleryItem[][];
 
   constructor(
@@ -36,15 +36,15 @@ export class GalleryOffCourtComponent implements OnInit, AfterViewInit {
   getGalleryOTCByYear(year: number): Promise<GalleryItem[][]> {
 
     return this.galleryService.getGalleryOffTheCourtByYear(year).then(function(data){
-      let rowItems: number = 4;
-      let startItem: number = 0;
+      const rowItems = 4;
+      let startItem = 0;
       let endItem: number = rowItems;
 
-      let galleryList: GalleryItem[] = data;
-      let galleryData: GalleryItem[][] = [];
+      const galleryList: GalleryItem[] = data;
+      const galleryData: GalleryItem[][] = [];
       let itemsRemaining: number = galleryList.length;
 
-      for (let i: number = 0; i < galleryList.length; i++) {
+      for (let i = 0; i < galleryList.length; i++) {
 
         if (itemsRemaining < 0) {
           break;
