@@ -6,7 +6,7 @@
           <div class="gallery-picture text-center">
             <div class="thumbnails thumbnail-style" >
               <a data-toggle="modal" data-target=".bs-example-modal-lg" (click)="showModal(profile.id)">
-                <img class="img-responsive md-margin-bottom-10" src="{{profile.thumbnail}}" alt="">
+                <img class="img-responsive md-margin-bottom-10 center-block" src="{{profile.thumbnail}}" alt="">
                 {{profile.firstName}} {{profile.lastName}}
               </a> <br /> {{profile.title}} <span aria-hidden="true" class="icon-sport-008" *ngIf="profile.isHeadCoach"></span> <span aria-hidden="true" class="icon-sport-085" *ngIf="!profile.isHeadCoach"></span> 
             </div>

@@ -46,6 +46,7 @@ import { CoachesProfilesComponent } from './coaches-profiles/coaches-profiles.co
 import { CoachesPageComponent } from './coaches-page/coaches-page.component';
 import { CoachesInterestedComponent } from './coaches-interested/coaches-interested.component';
 import { CoachesBioComponent } from './coaches-bio/coaches-bio.component';
+import { CoachesProfileFullComponent } from './coaches-profile-full/coaches-profile-full.component';
 import { HomeComponent } from './home/home.component';
 import { GalleryTournamentResultsComponent } from './gallery-tournament-results/gallery-tournament-results.component';
 import { GallerySideMenuComponent } from './gallery-side-menu/gallery-side-menu.component';
@@ -96,6 +97,7 @@ import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-
     CoachesSideMenuComponent,
     CoachesRegistrationComponent,
     CoachesProfilesComponent,
+    CoachesProfileFullComponent,
     CoachesPageComponent,
     CoachesInterestedComponent,
     CoachesBioComponent,
@@ -144,6 +146,7 @@ import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-
       { path: 'team-roster/:year', component: TeamRosterComponent },
       { path: 'usav-registration', component: UsavRegistrationComponent },
       { path: 'coaches-profiles', component: CoachesProfilesComponent },
+      { path: 'coaches-profile-full/:id', component: CoachesProfileFullComponent },
       { path: 'coaches-interested', component: CoachesInterestedComponent },
       { path: 'coaches-registration', component: CoachesRegistrationComponent },
       { path: 'coaches-page', component: CoachesPageComponent },

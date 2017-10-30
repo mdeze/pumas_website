@@ -4,7 +4,7 @@
 	<div class="profile-bio">
 		<div class="row">
 			<div class="col-md-7">
-				<img class="pull-left img-responsive margin-bottom-10 margin-right-10" src="{{profile.picture}}" alt="">
+				<img class="img-responsive margin-bottom-10 center-block" src="{{profile.picture}}" alt="">
 			</div>
 			<div class="col-md-5">
 				<div class="well well-sm">
@@ -21,6 +21,7 @@
 			<div class="col-md-12">
 				<hr class="hr-xs">
 				<p [innerHTML]="profile.summary" ></p>
+				<p class="text-center" *ngIf="profile.hasFullBio"><a href="/coaches-profile-full/{{profile.id}}" routerLink="/coaches-profile-full/{{profile.id}}"> {{profile.firstName}} {{profile.lastName}}'s Complete Coach Profile</a></p>
 			</div>
 		</div>
 

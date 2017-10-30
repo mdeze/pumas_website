@@ -29,8 +29,6 @@ export class CoachesProfilesComponent implements OnInit, AfterViewInit  {
     });
   }
 
-
-
   showModal(profileNumber) {
     for (const profile of this.profileList){
       if (profile.id === profileNumber) {

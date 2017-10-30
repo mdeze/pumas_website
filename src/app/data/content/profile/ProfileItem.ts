@@ -4,6 +4,7 @@ export class ProfileItem {
     public picture = '/assets/img/coach.png';
     public thumbnail = '/assets/img/coach.png';
     public title: string;
+    public hasFullBio: boolean;
     public division = 'TBD';
     public age = 'TBD';
     public team = 'TBD';

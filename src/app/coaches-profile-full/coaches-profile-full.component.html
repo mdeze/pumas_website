@@ -1,0 +1,64 @@
+<div class="col-md-9">    
+
+  <!-- coaching profile -->
+  <div class="profile-body">
+    
+    <div class="profile-bio">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-1">
+          <img class="img-responsive margin-bottom-10 " src="{{profile.picture}}" alt="">
+        </div>
+        <div class="col-md-5">
+            <div class="well well-sm">
+              <h4 class="coach-title-name text-center">{{profile.firstName}} {{profile.lastName}}</h4>
+              <span><strong>Position:</strong> {{profile.title}} </span><br />
+              <span><strong>Coaching Experience:</strong> <span *ngIf="profile.years > 0">{{profile.years}} Years</span> <span *ngIf="profile.years == 0">1st Year</span></span><br />
+              <span><strong>Team:</strong> {{profile.team}}</span><br />
+              <span><strong>Division:</strong> {{profile.division}}</span><br />
+              <span><strong>Age:</strong> {{profile.age}}</span><br />
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class="hr-xs">
+          <p [innerHTML]="profile.summary" ></p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="hr-xs">
+    
+    <!-- experience timeline -->
+    <div class="panel panel-profile">
+      <div class="panel-heading overflow-h">
+        <h2 class="panel-title heading-sm text-center experience-title">
+          <span aria-hidden="true" class="icon-sport-085" *ngIf="profile.years > 0"></span> 
+          <span aria-hidden="true" class="icon-sport-065" *ngIf="profile.years == 0"> </span>
+          <span *ngIf="profile.years > 0">Coaching</span> 
+          <span *ngIf="profile.years == 0">Volleyball</span> Experience 
+          <span aria-hidden="true" class="icon-sport-008" *ngIf="profile.years > 0"></span>
+        </h2>
+      </div>
+      <div class="panel-body">
+        <ul class="timeline-v2 timeline-me">
+          <li *ngFor="let exp of profile.experience">
+            <time datetime="" class="cbp_tmtime"><span>{{exp.year}}</span></time>
+            <i class="cbp_tmicon rounded-x hidden-xs"></i>
+            <div class="cbp_tmlabel">
+              <h4>{{exp.organizationName}}</h4>
+              <p><strong>{{exp.position}}:</strong> {{exp.teamName}}</p> 
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- /experience timeline -->
+
+  </div>
+  <!-- /coaching profile -->
+
+</div>
+
+<app-coaches-side-menu></app-coaches-side-menu>

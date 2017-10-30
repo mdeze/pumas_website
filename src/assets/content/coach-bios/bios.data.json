@@ -4,6 +4,7 @@
         "firstName" : "Stephen",
         "lastName" : "Boyle",
         "isHeadCoach" : false,
+        "hasFullBio" : true,
         "title" : "Club Director",
         "picture" : "/assets/img/coaches/StephenBoyle.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/StephenBoyle.jpg",
@@ -49,6 +50,7 @@
         "id" : "3",
         "firstName" : "Brian",
         "lastName" : "Healy",
+        "hasFullBio" : true,
         "isHeadCoach" : true,
         "title" : "Head Coach",
         "picture" : "/assets/img/coaches/BrianHealey.jpg",
@@ -113,6 +115,7 @@
         "id" : "16",
         "firstName" : "Lizzy",
         "lastName" : "Ezekiel",
+        "hasFullBio" : false,
         "isHeadCoach" : true,
         "title" : "Asst Coach",
         "picture" : "/assets/img/coaches/lizzy-ezekiel.jpg",
@@ -177,12 +180,13 @@
                 "position" : "Team Captain"
             }
         ],
-        "summary" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget massa nec turpis congue bibendum. Integer nulla felis, porta suscipit nulla et, dignissim commodo nunc. Morbi a semper nulla.</p><p>Proin mauris odio, pharetra quis ligula non, vulputate vehicula quam. Nunc in libero vitae nunc ultricies tincidunt ut sed leo. Sed luctus dui ut congue consequat. Cras consequat nisl ante, nec malesuada velit pellentesque ac. Pellentesque nec arcu in ipsum iaculis convallis.</p>"
+        "summary" : "<p>I was first introduced to volleyball by backyard peppering in the sixth grade with my dad and older sister. Since then I have played three years of club, and three year of high school volleyball (two of which on varsity). Currently, I am a junior in high school at TMHS, and along with volleyball I partake in Class Council, Mock Trial, and am a captain of the Varsity Tennis Team. My future plans include attending college with a major in Secondary Education, and potentially minoring in Spanish. </p><p>This past Summer was my first introduction to coaching; I got to work with 6-8 graders every week, along with a good friend of mine. Together we helped these girls learn the basic skills of the game, but most importantly kept it fun, because after all, it is a game.</p><p>I am so so excited for this first of hopefully many years of coaching, and am looking forward to meeting a great group of girls! See you on the court!</p>"
     },
     {
         "id" : "49",
         "firstName" : "Mike",
         "lastName" : "Ezekiel",
+        "hasFullBio" : true,
         "isHeadCoach" : true,
         "title" : "Head Coach",
         "picture" : "/assets/img/coaches/mike-ezekiel.jpg",
@@ -241,6 +245,7 @@
         "id" : "2",
         "firstName" : "Bruce",
         "lastName" : "Shainwald",
+        "hasFullBio" : false,
         "isHeadCoach" : true,
         "title" : "Head Coach",
         "picture" : "/assets/img/coach.png",
