@@ -21,7 +21,9 @@
 			<div class="col-md-12">
 				<hr class="hr-xs">
 				<p [innerHTML]="profile.summary" ></p>
-				<p class="text-center" *ngIf="profile.hasFullBio"><a href="/coaches-profile-full/{{profile.id}}" routerLink="/coaches-profile-full/{{profile.id}}"> {{profile.firstName}} {{profile.lastName}}'s Complete Coach Profile</a></p>
+				<p class="text-center" *ngIf="profile.hasFullBio"> <button (click)="redirectProfile(16)"> {{profile.firstName}} {{profile.lastName}}'s Complete Coach Profile</button></p>
+
+				<!-- <a href="/coaches-profile-full/{{profile.id}}" routerLink="/coaches-profile-full/{{profile.id}}" ></a> -->
 			</div>
 		</div>
 

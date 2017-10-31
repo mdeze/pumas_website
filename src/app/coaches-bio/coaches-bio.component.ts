@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
 
 import { ProfileItem } from '../data/content/profile/ProfileItem';
 
@@ -11,9 +12,13 @@ export class CoachesBioComponent implements OnInit {
 
   @Input() profile: ProfileItem;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  redirectProfile(id: number) {
+    // this.router.navigate(['./coaches-profile-full/' + id]);
+    alert('foobaz!');
+  }
 }
