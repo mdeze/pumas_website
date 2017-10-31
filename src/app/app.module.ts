@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AgmCoreModule } from '@agm/core';
 
@@ -57,6 +57,46 @@ import { GalleryOffCourtComponent } from './gallery-off-court/gallery-off-court.
 import { GalleryOffCourtListComponent } from './gallery-off-court-list/gallery-off-court-list.component';
 import { GalleryOnCourtComponent } from './gallery-on-court/gallery-on-court.component';
 import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-court-list.component';
+
+const appRoutes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full'},
+  { path: 'home', component: HomeComponent },
+  { path: 'news', component: NewsComponent },
+  { path: 'club-contact', component: ClubContactComponent },
+  { path: 'club-faq', component: ClubFaqComponent },
+  { path: 'club-about', component: ClubAboutComponent },
+  { path: 'club-bod', component: ClubBodComponent },
+  { path: 'club-directions', component: ClubDirectionsComponent },
+  { path: 'links-outdoor-tournaments', component: LinksOutdoorTournamentsComponent },
+  { path: 'links-summer-camps', component: LinksSummerCampsComponent },
+  { path: 'links-misc', component: LinksMiscComponent },
+  { path: 'programs-club', component: ProgramsClubComponent },
+  { path: 'programs-open', component: ProgramsOpenComponent },
+  { path: 'programs-jnc', component: ProgramsJncComponent },
+  { path: 'programs-inhouse', component: ProgramsInhouseComponent },
+  { path: 'programs-cost', component: ProgramsCostComponent },
+  { path: 'programs-philosophy', component: ProgramsPhilosophyComponent },
+  { path: 'tryouts-expect', component: TryoutsExpectComponent },
+  { path: 'tryouts-guidelines', component: TryoutsGuidelinesComponent },
+  { path: 'tryouts-registration', component: TryoutsRegistrationComponent },
+  { path: 'tryouts-results', component: TryoutsResultsComponent },
+  { path: 'schedule-tournament', component: ScheduleTournamentComponent },
+  { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
+  { path: 'team-roster/:year', component: TeamRosterComponent },
+  { path: 'usav-registration', component: UsavRegistrationComponent },
+  { path: 'coaches-profiles', component: CoachesProfilesComponent },
+  { path: 'coaches-profile-full/:id', component: CoachesProfileFullComponent },
+  { path: 'coaches-interested', component: CoachesInterestedComponent },
+  { path: 'coaches-registration', component: CoachesRegistrationComponent },
+  { path: 'coaches-page', component: CoachesPageComponent },
+  { path: 'gallery-champions/:year', component: GalleryChampionsComponent },
+  { path: 'gallery-champions-list', component: GalleryChampionsListComponent },
+  { path: 'gallery-off-court-list', component: GalleryOffCourtListComponent },
+  { path: 'gallery-off-court/:year', component: GalleryOffCourtComponent },
+  { path: 'gallery-on-court-list', component: GalleryOnCourtListComponent },
+  { path: 'gallery-on-court/:year', component: GalleryOnCourtComponent },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' } // handle bad links/404s
+];
 
 @NgModule({
   declarations: [
@@ -119,45 +159,7 @@ import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyA6HhJcsPCxP7jnO5_C2_DSpmO7kltiuzI'
     }),
-    RouterModule.forRoot([
-      { path: '', redirectTo: '/home', pathMatch: 'full'},
-      { path: 'home', component: HomeComponent },
-      { path: 'news', component: NewsComponent },
-      { path: 'club-contact', component: ClubContactComponent },
-      { path: 'club-faq', component: ClubFaqComponent },
-      { path: 'club-about', component: ClubAboutComponent },
-      { path: 'club-bod', component: ClubBodComponent },
-      { path: 'club-directions', component: ClubDirectionsComponent },
-      { path: 'links-outdoor-tournaments', component: LinksOutdoorTournamentsComponent },
-      { path: 'links-summer-camps', component: LinksSummerCampsComponent },
-      { path: 'links-misc', component: LinksMiscComponent },
-      { path: 'programs-club', component: ProgramsClubComponent },
-      { path: 'programs-open', component: ProgramsOpenComponent },
-      { path: 'programs-jnc', component: ProgramsJncComponent },
-      { path: 'programs-inhouse', component: ProgramsInhouseComponent },
-      { path: 'programs-cost', component: ProgramsCostComponent },
-      { path: 'programs-philosophy', component: ProgramsPhilosophyComponent },
-      { path: 'tryouts-expect', component: TryoutsExpectComponent },
-      { path: 'tryouts-guidelines', component: TryoutsGuidelinesComponent },
-      { path: 'tryouts-registration', component: TryoutsRegistrationComponent },
-      { path: 'tryouts-results', component: TryoutsResultsComponent },
-      { path: 'schedule-tournament', component: ScheduleTournamentComponent },
-      { path: 'schedule-tryouts', component: ScheduleTryoutsComponent },
-      { path: 'team-roster/:year', component: TeamRosterComponent },
-      { path: 'usav-registration', component: UsavRegistrationComponent },
-      { path: 'coaches-profiles', component: CoachesProfilesComponent },
-      { path: 'coaches-profile-full/:id', component: CoachesProfileFullComponent },
-      { path: 'coaches-interested', component: CoachesInterestedComponent },
-      { path: 'coaches-registration', component: CoachesRegistrationComponent },
-      { path: 'coaches-page', component: CoachesPageComponent },
-      { path: 'gallery-champions/:year', component: GalleryChampionsComponent },
-      { path: 'gallery-champions-list', component: GalleryChampionsListComponent },
-      { path: 'gallery-off-court-list', component: GalleryOffCourtListComponent },
-      { path: 'gallery-off-court/:year', component: GalleryOffCourtComponent },
-      { path: 'gallery-on-court-list', component: GalleryOnCourtListComponent },
-      { path: 'gallery-on-court/:year', component: GalleryOnCourtComponent },
-      { path: '**', redirectTo: '/home', pathMatch: 'full' } // handle bad links/404s
-    ])
+    RouterModule.forRoot(appRoutes)
     ],
   providers: [],
   bootstrap: [AppComponent]
