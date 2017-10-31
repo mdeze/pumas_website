@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"138",
+        "title":"Troubles with Links on the Web Site?",
+        "category":"Pumas",
+        "summary":"<p> There are known issues with older verions of Internet Explorer. Trying a different browser such as Google Chrome or FireFox has proven to work without problems.</p>",
+        "detail":"<p>If you are experiencing problems with the various URL links on the web site, try holding the SHIFT key down while you click the Refresh button on your web browser. If this does not correct the problem, try clearing the web browser cache (see Google for the instructions for your specific web browser).</p><p> There are known issues with older verions of Internet Explorer. Trying a different browser such as Google Chrome or FireFox has proven to work without problems.</p>",
+        "displayIcon":"icon-screen-desktop",
+        "displayIconStyle":"",
+        "postedOn": "2017-10-31",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2017-11-12"
+    },
+    {
         "id":"137",
         "title":"Pre-Tryout Tune Up Clinics",
         "category":"Tryouts",
@@ -27,19 +40,6 @@
     },
     {
         "id":"135",
-        "title":"Sad News",
-        "category":"Players",
-        "summary":"It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle.",
-        "detail":"<p>Hello Coaches, Parents and Players,<br /><br />It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle. Louis's obituary and service information can be found <a href='http://www.legacy.com/obituaries/bostonglobe/obituary.aspx?n=louis-m-remigio&pid=186905361&fhid=6431' target='_blank'>here</a>.</p><p>Thank you,<br />Stephen Boyle<br />Pumas Volleyball Club</p>",
-        "displayIcon":"icon-heart",
-        "displayIconStyle":"",
-        "postedOn": "2017-10-11",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement":"2017-10-25"
-    },
-    {
-        "id":"134",
         "title":"2017 Off The Court Gallery Updates",
         "category":"Teams",
         "summary":"Pumas in action at Volleyball MD Summer Beach, Indoor & Beach Tournament Programs in the <a href='/gallery-off-court/2017' routerLink='/gallery-off-court/2017'>2017 Off The Court</a> gallery.",
@@ -50,6 +50,19 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2017-11-25"
+    },
+    {
+        "id":"134",
+        "title":"Sad News",
+        "category":"Players",
+        "summary":"It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle.",
+        "detail":"<p>Hello Coaches, Parents and Players,<br /><br />It is with deep sorrow that we let you know of the passing of Louis Remigio of Tewksbury, the father of Pumas Ruby coach Ali Remigio. Our heartfelt condolences go out to Ali and her sister Danielle. Louis's obituary and service information can be found <a href='http://www.legacy.com/obituaries/bostonglobe/obituary.aspx?n=louis-m-remigio&pid=186905361&fhid=6431' target='_blank'>here</a>.</p><p>Thank you,<br />Stephen Boyle<br />Pumas Volleyball Club</p>",
+        "displayIcon":"icon-heart",
+        "displayIconStyle":"",
+        "postedOn": "2017-10-11",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement":"2017-10-25"
     },
     {
         "id":"133",
