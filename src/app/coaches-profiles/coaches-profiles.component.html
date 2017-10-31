@@ -1,11 +1,11 @@
 	<div class="col-md-9">
 
     <div class="row  margin-bottom-30">
-			<h3 class="text-center">Profile Page Under Construction</h3>
+			<h3 class="text-center"><span aria-hidden="true" class="icon-notebook"></span> Pumas Coach Profiles <br /><small>*Click coach for summary bio</small></h3>
         <div class="col-sm-3 sm-margin-bottom-30" *ngFor="let profile of profileList">
           <div class="gallery-picture text-center">
             <div class="thumbnails thumbnail-style" >
-              <a data-toggle="modal" data-target=".bs-example-modal-lg" (click)="showModal(profile.id)">
+              <a (click)="showModal(profile.id)">
                 <img class="img-responsive md-margin-bottom-10 center-block" src="{{profile.thumbnail}}" alt="">
                 {{profile.firstName}} {{profile.lastName}}
               </a> <br /> {{profile.title}} <span aria-hidden="true" class="icon-sport-008" *ngIf="profile.isHeadCoach"></span> <span aria-hidden="true" class="icon-sport-085" *ngIf="!profile.isHeadCoach"></span> 
@@ -17,12 +17,12 @@
 
 
 	<!-- coach bio modal -->
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div id="bioModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-					<h4 id="myLargeModalLabel2" class="modal-title"><span aria-hidden="true" class="icon-notebook"></span> Coach Profile</h4>
+					<h4 id="myLargeModalLabel2" class="modal-title"><span aria-hidden="true" class="icon-notebook"></span> Coach Profile Summary</h4>
 				</div>
 				<div id="coach-profile-content" class="modal-body">
 					<app-coaches-bio [profile]="profile"></app-coaches-bio>

@@ -3,30 +3,37 @@
   <!-- coaching profile -->
   <div class="profile-body">
     
-    <div class="profile-bio">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-1">
-          <img class="img-responsive margin-bottom-10 " src="{{profile.picture}}" alt="">
+      <div class="panel panel-black equal-height-column">
+        <div class="panel-heading">
+          <h3 class="panel-title"><span aria-hidden="true" class="icon-notebook"></span> Coach Profile</h3>
         </div>
-        <div class="col-md-5">
-            <div class="well well-sm">
-              <h4 class="coach-title-name text-center">{{profile.firstName}} {{profile.lastName}}</h4>
-              <span><strong>Position:</strong> {{profile.title}} </span><br />
-              <span><strong>Coaching Experience:</strong> <span *ngIf="profile.years > 0">{{profile.years}} Years</span> <span *ngIf="profile.years == 0">1st Year</span></span><br />
-              <span><strong>Team:</strong> {{profile.team}}</span><br />
-              <span><strong>Division:</strong> {{profile.division}}</span><br />
-              <span><strong>Age:</strong> {{profile.age}}</span><br />
-            </div>
-          </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <hr class="hr-xs">
-          <p [innerHTML]="profile.summary" ></p>
+        <div class="panel-body">
+            <div class="profile-bio">
+                <div class="row">
+                  <div class="col-md-6 col-md-offset-1">
+                    <img class="img-responsive margin-bottom-10 " src="{{profile.picture}}" alt="">
+                  </div>
+                  <div class="col-md-5">
+                      <div class="well well-sm">
+                        <h4 class="coach-title-name text-center">{{profile.firstName}} {{profile.lastName}}</h4>
+                        <span><strong>Position:</strong> {{profile.title}} </span><br />
+                        <span><strong>Coaching Experience:</strong> <span *ngIf="profile.years > 0">{{profile.years}} Years</span> <span *ngIf="profile.years == 0">1st Year</span></span><br />
+                        <span><strong>Team:</strong> {{profile.team}}</span><br />
+                        <span><strong>Division:</strong> {{profile.division}}</span><br />
+                        <span><strong>Age:</strong> {{profile.age}}</span><br />
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <hr class="hr-xs">
+                    <p [innerHTML]="profile.bio" ></p>
+                  </div>
+                </div>
+          
+              </div>
         </div>
       </div>
-
-    </div>
 
     <hr class="hr-xs">
     

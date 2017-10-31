@@ -10,7 +10,9 @@ export class ProfileItem {
     public team = 'TBD';
     public years = 0;
     public experience: ExperienceItem[];
+    public experienceSummary: ExperienceItem[];
     public summary = 'Profile summary not avilable';
+    public bio = 'Profile bio not avilable';
 
     constructor(
         public id: number,

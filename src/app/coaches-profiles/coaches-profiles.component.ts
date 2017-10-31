@@ -3,6 +3,9 @@ import { Component, OnInit, AfterViewInit  } from '@angular/core';
 import { ProfileItem } from '../data/content/profile/ProfileItem';
 import { CoachesBioService } from '../data/services/coaches-bio.service';
 
+declare var jquery: any;
+declare var $: any;
+
 @Component({
   selector: 'app-coaches-profiles',
   templateUrl: './coaches-profiles.component.html',
@@ -33,8 +36,20 @@ export class CoachesProfilesComponent implements OnInit, AfterViewInit  {
     for (const profile of this.profileList){
       if (profile.id === profileNumber) {
         this.profile = profile;
+
+        const minYear = (new Date()).getFullYear() - 5;
+        const experienceLastFiveYears = [];
+
+        profile.experience.forEach((exp, index) => {
+          if (exp.year >= minYear) {
+            experienceLastFiveYears.push(exp);
+          }
+        });
+        profile.experienceSummary = experienceLastFiveYears;
       }
     }
+
+    $('#bioModal').modal('show');
   }
 
 }

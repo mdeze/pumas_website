@@ -15,15 +15,14 @@
 					<span><strong>Division:</strong> {{profile.division}}</span><br />
 					<span><strong>Age:</strong> {{profile.age}}</span><br />
 				</div>
+				<p class="text-center" *ngIf="profile.hasFullBio"> <a (click)='redirectProfile()'><span aria-hidden="true" class="icon-notebook"></span> {{profile.firstName}} {{profile.lastName}}'s Complete Coaching Profile</a></p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
 				<hr class="hr-xs">
 				<p [innerHTML]="profile.summary" ></p>
-				<p class="text-center" *ngIf="profile.hasFullBio"> <button (click)="redirectProfile(16)"> {{profile.firstName}} {{profile.lastName}}'s Complete Coach Profile</button></p>
-
-				<!-- <a href="/coaches-profile-full/{{profile.id}}" routerLink="/coaches-profile-full/{{profile.id}}" ></a> -->
+				<p *ngIf="profile.hasFullBio"><a (click)='redirectProfile()'> Continue reading...</a></p> 
 			</div>
 		</div>
 
@@ -40,11 +39,12 @@
 				<span *ngIf="profile.years > 0">Coaching</span> 
 				<span *ngIf="profile.years == 0">Volleyball</span> Experience 
 				<span aria-hidden="true" class="icon-sport-008" *ngIf="profile.years > 0"></span>
+				<br /><small *ngIf="profile.years > 5">*Last 5 Years*</small>
 			</h2>
 		</div>
 		<div class="panel-body">
 			<ul class="timeline-v2 timeline-me">
-				<li *ngFor="let exp of profile.experience">
+				<li *ngFor="let exp of profile.experienceSummary">
 					<time datetime="" class="cbp_tmtime"><span>{{exp.year}}</span></time>
 					<i class="cbp_tmicon rounded-x hidden-xs"></i>
 					<div class="cbp_tmlabel">
