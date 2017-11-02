@@ -13,7 +13,7 @@ declare var $: any;
   providers: [CoachesBioService]
 })
 export class CoachesProfilesComponent implements OnInit, AfterViewInit  {
-  profileList: ProfileItem[];
+  profileList: ProfileItem[][];
   profile: ProfileItem;
 
   constructor(private bioService: CoachesBioService) { }
@@ -26,26 +26,61 @@ export class CoachesProfilesComponent implements OnInit, AfterViewInit  {
 
   }
 
-  getCoachProfileData(): Promise<ProfileItem[]>  {
+  OLDgetCoachProfileData(): Promise<ProfileItem[]>  {
     return this.bioService.getAllProfiles().then(function(data){
       return Promise.resolve(data);
     });
   }
 
+  getCoachProfileData(): Promise<ProfileItem[][]>  {
+    return this.bioService.getAllProfiles().then(function(data){
+      const rowItems = 4;
+      let startItem = 0;
+      let endItem: number = rowItems;
+
+      const profileList: ProfileItem[] = data;
+      const profileData: ProfileItem[][] = [];
+      let itemsRemaining: number = profileList.length;
+
+      for (let i = 0; i < profileList.length; i++) {
+
+        if (itemsRemaining < 0) {
+          break;
+        }
+
+        let row: ProfileItem[];
+        if (itemsRemaining >= rowItems) {
+          row = profileList.slice(startItem, endItem);
+        } else {
+          row = profileList.slice(startItem);
+        }
+        profileData[i] = row;
+
+        startItem = endItem;
+        endItem = endItem + rowItems;
+        itemsRemaining = (profileList.length - startItem);
+      }
+
+      return Promise.resolve(profileData);
+    });
+  }
+
   showModal(profileNumber) {
-    for (const profile of this.profileList){
-      if (profile.id === profileNumber) {
-        this.profile = profile;
+    for (const profileGroup of this.profileList){
+      for (const profile of profileGroup){
+        if (profile.id === profileNumber) {
+          this.profile = profile;
 
-        const minYear = (new Date()).getFullYear() - 5;
-        const experienceLastFiveYears = [];
+          const minYear = (new Date()).getFullYear() - 5;
+          const experienceLastFiveYears = [];
 
-        profile.experience.forEach((exp, index) => {
-          if (exp.year >= minYear) {
-            experienceLastFiveYears.push(exp);
-          }
-        });
-        profile.experienceSummary = experienceLastFiveYears;
+          profile.experience.forEach((exp, index) => {
+            if (exp.year >= minYear) {
+              experienceLastFiveYears.push(exp);
+            }
+          });
+          profile.experienceSummary = experienceLastFiveYears;
+        }
       }
     }
 

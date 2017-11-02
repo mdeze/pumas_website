@@ -1,8 +1,11 @@
 	<div class="col-md-9">
 
-    <div class="row  margin-bottom-30">
+    <div class="row  margin-bottom-10">
 			<h3 class="text-center"><span aria-hidden="true" class="icon-notebook"></span> Pumas Coach Profiles <br /><small>*Click coach for summary bio</small></h3>
-        <div class="col-sm-3 sm-margin-bottom-30" *ngFor="let profile of profileList">
+			</div>
+			<div class="row  margin-bottom-30" *ngFor="let profileGroup of profileList">
+				
+				<div class="col-sm-3 sm-margin-bottom-30" *ngFor="let profile of profileGroup">
           <div class="gallery-picture text-center">
             <div class="thumbnails thumbnail-style" >
               <a (click)="showModal(profile.id)">
@@ -13,7 +16,7 @@
           </div>
         </div> 
 
-  </div>
+   </div>
 
 
 	<!-- coach bio modal -->
