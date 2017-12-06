@@ -1,0 +1,168 @@
+{"data":[
+    {
+        "year":"2018",
+        "name":"Amethyst",
+        "division":"Club",
+        "ageGroup":"14U",
+        "headCoach":"Beth Rosa",
+        "assistantCoaches": ["Nikki Shea"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+
+    {
+        "year":"2018",
+        "name":"Bloodstone",
+        "division":"Club",
+        "ageGroup":"18U",
+        "headCoach":"Kylie Desrosiers",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Cobalt",
+        "division":"Club",
+        "ageGroup":"16U",
+        "headCoach":"Maura Green",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Ebony",
+        "division":"Club",
+        "ageGroup":"15U",
+        "headCoach":"Steve McRoy",
+        "assistantCoaches": ["Bonnie Zeigler", "Sophia Wang"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Emerald",
+        "division":"Open",
+        "ageGroup":"16U",
+        "headCoach":"Bruce Shainwald",
+        "assistantCoaches": ["Bridget Shainwald", "Shannon McMahon"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Flashfire",
+        "division":"Club",
+        "ageGroup":"18U",
+        "headCoach":"Tina Miller",
+        "assistantCoaches": ["Ali Remagio", "Katrina LoConte"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Jade",
+        "division":"Club",
+        "ageGroup":"18U",
+        "headCoach":"Brian Healey",
+        "assistantCoaches": ["Cheryl Farnum"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Jasper",
+        "division":"Club",
+        "ageGroup":"18U",
+        "headCoach":"Michele Naughton",
+        "assistantCoaches": ["Marla Marcum"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Peridot",
+        "division":"Club",
+        "ageGroup":"15U",
+        "headCoach":"Susan Rafferty",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Platinum",
+        "division":"Club",
+        "ageGroup":"16U",
+        "headCoach":"Casey Roberts",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Quartz",
+        "division":"Club",
+        "ageGroup":"16U",
+        "headCoach":"Mike Pelosi",
+        "assistantCoaches": ["Kristen Sgrosso"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Sapphire",
+        "division":"Club",
+        "ageGroup":"15U",
+        "headCoach":"Mike Ezekiel",
+        "assistantCoaches": ["Lizzy Ezekiel"],
+        "players": ["Jamie-Lynn Bordonaro", "Kathleen Macy", "Pat Musto", "Anna Nolden", "Arielle Nysten", "Molly Pritchard", "Katherine Sarra", "Madeleine Tutwiler", "Alexandra Papazian", "Adriana Pass", "Emily Spina"],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Scarlet",
+        "division":"Club",
+        "ageGroup":"14U",
+        "headCoach":"Sarah Shainwald",
+        "assistantCoaches": ["Katie Monahan"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Tanzanite",
+        "division":"Club",
+        "ageGroup":"14U",
+        "headCoach":"Rosella Latam",
+        "assistantCoaches": ["Anthony Warren"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2018",
+        "name":"Vermillion",
+        "division":"Club",
+        "ageGroup":"16U",
+        "headCoach":"Michaela Babineau",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    }
+]}

@@ -13,11 +13,14 @@ export class TeamRosterService {
         let rosterURL: string;
 
         switch (year) {
+            case 2018:
+                rosterURL = '/assets/content/roster/team-roster-2018.data.json';
+                break;
             case 2017:
                 rosterURL = '/assets/content/roster/team-roster-2017.data.json';
                 break;
             default:
-                rosterURL = '/assets/content/roster/team-roster-2017.data.json';
+                rosterURL = '/assets/content/roster/team-roster-2018.data.json';
                 break;
         }
 
