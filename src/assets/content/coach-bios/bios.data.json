@@ -302,8 +302,8 @@
                 "position" : "Assistant Coach"
             }
         ],
-        "summary" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget massa nec turpis congue bibendum. Integer nulla felis, porta suscipit nulla et, dignissim commodo nunc. Morbi a semper nulla.</p><p>Proin mauris odio, pharetra quis ligula non, vulputate vehicula quam. Nunc in libero vitae nunc ultricies tincidunt ut sed leo. Sed luctus dui ut congue consequat. Cras consequat nisl ante, nec malesuada velit pellentesque ac. Pellentesque nec arcu in ipsum iaculis convallis.</p>",
-        "bio" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget massa nec turpis congue bibendum. Integer nulla felis, porta suscipit nulla et, dignissim commodo nunc. Morbi a semper nulla.</p><p>Proin mauris odio, pharetra quis ligula non, vulputate vehicula quam. Nunc in libero vitae nunc ultricies tincidunt ut sed leo. Sed luctus dui ut congue consequat. Cras consequat nisl ante, nec malesuada velit pellentesque ac. Pellentesque nec arcu in ipsum iaculis convallis.</p><h3 class='text-center'>My Passion - Teaching the Beach Game</h3><p><img class='img-responsive center-block' src='/assets/img/photo-gallery/off-the-court/2016/Summer Sapphirians.jpg' width='400' height='300' alt=''></p><p><img class='img-responsive center-block' src='/assets/img/photo-gallery/off-the-court/2017/VBMD-BT-3-7.jpg' width='400' height='300' alt=''></p><p><img class='img-responsive center-block' src='/assets/img/photo-gallery/off-the-court/2017/VBMD-BeachProgram.jpg' width='400' height='300' alt=''></p>"
+        "summary" : "<p>The 2018 season will be my 5th year coaching indoor volleyball with Pumas VBC. In those season, I've coached teams in the 14U through 18U divisions. In addition to Pumas, I have been coaching beach volleyball with Volleyball MD for the past 2 years.</p><p>I was first introduced to competitive volleyball in a gym class at the University of New Hampshire my freshman year. I quickly fell in love with the game! I made the UNH Men's team my sophmore year and ended up being a 3 time NECVL All Star as a setter. After college, I started playing beach volleyball and found my new love. In the early 90's, I could be found all over the New England seacoast from Maine to Rhode Island playing in beach tournaments. I have also played in the Boston Ski & Sports Club advanced volleyball leagues on and off for 10 years. </p><p>As a coach, I try to build a fun, supportive environment to practice the individual skills, build confidence and teach team oriented game play. Volleyball is a unique sport in that the team's ability is greater than the sum of its parts. I focus on our team's performance instead of the outcome. If we do our job and compete as best we can as a team, the results will be in our favor more often than not.</p>",
+        "bio" : "<p>The 2018 season will be my 5th year coaching indoor volleyball with Pumas VBC. I've coached teams in the 14U through 18U divisions. In addition, I have been coaching beach volleyball with Volleyball MD for the past 2 years.</p><p>I was first introduced to competitive volleyball in a gym class at the University of New Hampshire my freshman year and quickly fell in love with the game. I made the UNH Men's team my sophmore year and ended up being a 3 time NECVL All Star as a setter. After college, I started playing beach volleyball and found my new love. In the early 90's, I could be found all over the New England seacoast from Maine to Rhode Island playing in beach tournaments. I also played in the Boston Ski & Sports Club advanced volleyball leagues for 10 years. </p><p>As a coach, I try to build a fun, supportive environment to practice the individual skills, build confidence and teach team focused game play. Volleyball is a unique sport in that the team's ability is greater than the sum of its parts. I focus on our team's performance instead of the outcome. If we do our job and compete as best we can as a team, the results will be in our favor more often than not.</p><h3 class='text-center'>Teaching the Beach Game</h3><p>For the past 2 years, I have been coaching beach doubles (2 on 2) volleyball. There is no better way (I believe) to improve your overall volleyball game than to play beach doubles!</p><p><img class='img-responsive center-block' src='/assets/img/photo-gallery/off-the-court/2016/Summer Sapphirians.jpg' width='400' height='300' alt=''></p><p><img class='img-responsive center-block' src='/assets/img/photo-gallery/off-the-court/2017/VBMD-BT-3-7.jpg' width='400' height='300' alt=''></p><p><img class='img-responsive center-block' src='/assets/img/photo-gallery/off-the-court/2017/VBMD-BeachProgram.jpg' width='400' height='300' alt=''></p><h4>Volleyball Education & Certification</h4><ul><li>Beach & Indoor IMPACT Certified</li><li>Safesport Certified</li><li>Gold Medal Squared Coaching Clinic - 3x</li></ul><h4>In Addition to Coaching, I am ...</h4><ul><li>Member of the Pumas Board of Directors</li><li>Pumas Web Site Manager</li><li>Part Owner of Volleyball MD which offers a variety of volleyball programs outside of club season</li></ul><h4>My Interests</h4><ul><li>Beach Volleyball</li><li>Indoor Volleyball</li><li>Skiing</li><li>Mountain Biking</li><li>Hiking</li><li>Live Music</li><li>Theater</li></ul>"
     },
     {
         "id" : "55",
@@ -925,7 +925,7 @@
         "id" : "26",
         "firstName" : "Sarah",
         "lastName" : "Shainwald",
-        "hasFullBio" : false,
+        "hasFullBio" : true,
         "isHeadCoach" : true,
         "picture" : "/assets/img/coach.png",
         "thumbnail" : "/assets/img/coach.png",
@@ -933,10 +933,113 @@
         "age" : "14U",
         "division" : "Club",
         "team" : "Scarlet",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
+        "years" : "5",
+        "experience" : [
+            {
+                "year" : "2017",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Indoor Program",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Pumas",
+                "teamName" : "Viridian 18U",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Pumas",
+                "teamName" : "In-House Program",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "North Andover Booster Club",
+                "teamName" : "7th & 8th Grade",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "North Andover Booster Club",
+                "teamName" : "5th & 6th Grade",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Club Warmup and Tune-up",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "Pumas",
+                "teamName" : "Viridian 17U Open",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "Pumas",
+                "teamName" : "In-House Program",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2016",
+                "organizationName" : "North Andover Booster Club",
+                "teamName" : "7th & 8th Grade",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2015",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Club Warmup and Tune-up",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2015",
+                "organizationName" : "Pumas",
+                "teamName" : "Viridian 16U",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2015",
+                "organizationName" : "Pumas",
+                "teamName" : "In-House Program",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2015",
+                "organizationName" : "North Andover Booster Club",
+                "teamName" : "7th & 8th Grade",
+                "position" : "Head Coach"
+            },
+            {
+                "year" : "2014",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Club Warmup and Tune-up",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2014",
+                "organizationName" : "Pumas",
+                "teamName" : "Titanium 15U",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2013",
+                "organizationName" : "Volleyball MD",
+                "teamName" : "Summer Club Warmup and Tune-up",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2013",
+                "organizationName" : "Pumas",
+                "teamName" : "Magenta 15U Open",
+                "position" : "Assistant Coach"
+            }
+        ],
+        "summary" : "<p>I believe in developing players’ character and ability through focusing on their attitude, effort, and performance. A positive attitude and growth mindset will lead to a better teammate and better outcomes in life as well as on the court. At the end of the day, volleyball is just a game. If you are not having fun, then there is something wrong and if you aren’t making mistakes, then you aren’t learning.</p><p>Volleyball is in my blood and stole my heart. I never played on an organized team in Middle or High School. I learned the game through playing pickup with my parents the summer after High School graduation. They had met on the court and didn’t want to push their passion on my sisters or me. I quickly joined SED’s intramural team in college and that (as they say) was that. I was hooked.</p>",
+        "bio" : "<p>I believe in developing players’ character and ability through focusing on their attitude, effort, and performance. A positive attitude and growth mindset will lead to a better teammate and better outcomes in life as well as on the court. At the end of the day, volleyball is just a game. If you are not having fun, then there is something wrong and if you aren’t making mistakes, then you aren’t learning.</p><p>Volleyball is in my blood and stole my heart. I never played on an organized team in Middle or High School. I learned the game through playing pickup with my parents the summer after High School graduation. They had met on the court and didn’t want to push their passion on my sisters or me. I quickly joined SED’s intramural team in college and that (as they say) was that. I was hooked.</p><p>After college graduation, I met Coach McRoy and Coach Boyle while playing pickup volleyball. My dad was already coaching with Pumas and made the introductions. That year I became an assistant coach on the 15s Open team, Magenta. I’ve been with Pumas ever since and have since gotten involved with VolleyballMD and their offseason clinics. I started coaching for the North Andover Boosters Program my second year with Pumas as if I didn’t spend enough time on the court.</p><p>I graduated North Andover High School and graduated with my Bachelors of Science in Elementary Education from Boston University (Go Terriers!). When I am not on the court, I work as an Intellectual Property Project Manager at an online textbook company in Boston. I’ve been keeping 3rd party permissions cleared on budget and on time since 2013. As a project manager, I have learned time management, clear communication, and organization. Coaching and project management complement each other splendidly. I feel like I wouldn’t be where I am in one job without having the experience of the other.</p><p>See you on the court!</p>"
     },
     {
         "id" : "66",
