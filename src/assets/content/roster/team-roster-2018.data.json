@@ -59,9 +59,9 @@
         "year":"2018",
         "name":"Flashfire",
         "division":"Club",
-        "ageGroup":"18U",
-        "headCoach":"Tina Miller",
-        "assistantCoaches": ["Ali Remagio", "Katrina LoConte"],
+        "ageGroup":"17U",
+        "headCoach":"Tina Miller, Ali Remagio",
+        "assistantCoaches": ["Katrina LoConte"],
         "players": ["Emma Atwood", "Cathy Cheng", "Megan Crowley", "Kayla Fraser", "Olivia Gillman", "Lauren Kennedy", "Sophie Mitchell", "Emily Nason", "Kiera Prendergast", "Natalia Villanueva"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
@@ -84,7 +84,7 @@
         "ageGroup":"18U",
         "headCoach":"Michele Naughton",
         "assistantCoaches": ["Marla Marcum"],
-        "players": ["Samantha Ahlholm", "Sydney Bergan", "Michela Correale", "Emily Doolin", "Anisha Mistry", "Kathryn Monahan", "Brianna Nogueira", "Caitie Rooney", "Kerry Shea", "Flannery Williams", "Sarah Williams"],
+        "players": ["Samantha Ahlholm", "Sydney Bergan", "Michela Correale", "Emily Doolin", "Anisha Mistry", "Katie Monahan", "Brianna Nogueira", "Caitie Rooney", "Kerry Shea", "Flannery Williams", "Sarah Williams"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
     },
@@ -94,7 +94,7 @@
         "division":"Club",
         "ageGroup":"15U",
         "headCoach":"Susan Rafferty",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Steve DOrto"],
         "players": ["Adianna Barrett", "Maria Dagher", "Isabelle DelMonaco", "Gabriella DOrto", "Maude Focke", "Naomi Layon", "Samantha McDonough", "Alex McDonough", "Nicole Ouellette", "Mackenzie Thomas", "Madeline Williams", "Ava Zohn"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
