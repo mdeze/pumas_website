@@ -1,32 +1,19 @@
 {"data":[
     {
+        "id":"143",
+        "title":"2018 Team Rosters Posted",
+        "category":"Teams",
+        "summary":"The 2018 team rosters have been posted. See the <a href='/team-roster/2018' routerLink='//team-roster/2018'>2018 Rosters</a> page for more details",
+        "detail":"The 2018 team rosters have been posted. See the <a href='/team-roster/2018' routerLink='//team-roster/2018'>2018 Rosters</a> page for more details",
+        "displayIcon":"icon-sport-124",
+        "displayIconStyle":"",
+        "postedOn": "2017-12-12",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2017-12-31"
+    },
+    {
         "id":"142",
-        "title":"Tryout Results",
-        "category":"Tryouts",
-        "summary":"Tryout results for 14U & 15U Club teams have been <a href='/tryouts-results' routerLink='/tryouts-results'>posted</a>.",
-        "detail":"Tryout results for 14U & 15U teams are <a href='/tryouts-results' routerLink='/tryouts-results'>available</a>.",
-        "displayIcon":"icon-sport-085",
-        "displayIconStyle":"",
-        "postedOn": "2017-11-30",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2017-12-17"
-    },
-    {
-        "id":"141",
-        "title":"Tryout Results",
-        "category":"Tryouts",
-        "summary":"Tryout results for 16U & 18U Club teams have been <a href='/tryouts-results' routerLink='/tryouts-results'>posted</a>.",
-        "detail":"Tryout results for 16U & 18U teams are <a href='/tryouts-results' routerLink='/tryouts-results'>available</a>.",
-        "displayIcon":"icon-sport-085",
-        "displayIconStyle":"",
-        "postedOn": "2017-11-29",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2017-12-17"
-    },
-    {
-        "id":"140",
         "title":"In-House Skills Program Registration Live",
         "category":"Tryouts",
         "summary":"Registration for the in-house skills programs is open.",
@@ -36,7 +23,33 @@
         "postedOn": "2017-11-04",
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2017-12-15"
+        "endAnnouncement": "2017-12-17"
+    },
+    {
+        "id":"141",
+        "title":"Tryout Results",
+        "category":"Tryouts",
+        "summary":"Tryout results for 14U & 15U Club teams have been <a href='/tryouts-results' routerLink='/tryouts-results'>posted</a>.",
+        "detail":"Tryout results for 14U & 15U teams are <a href='/tryouts-results' routerLink='/tryouts-results'>available</a>.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2017-11-30",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2017-12-13"
+    },
+    {
+        "id":"140",
+        "title":"Tryout Results",
+        "category":"Tryouts",
+        "summary":"Tryout results for 16U & 18U Club teams have been <a href='/tryouts-results' routerLink='/tryouts-results'>posted</a>.",
+        "detail":"Tryout results for 16U & 18U teams are <a href='/tryouts-results' routerLink='/tryouts-results'>available</a>.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2017-11-29",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2017-12-13"
     },
     {
         "id":"139",
