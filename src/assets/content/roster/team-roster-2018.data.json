@@ -96,8 +96,8 @@
         "headCoach":"Susan Rafferty",
         "assistantCoaches": ["Steve DOrto"],
         "players": ["Adianna Barrett", "Maria Dagher", "Isabelle DelMonaco", "Gabriella DOrto", "Maude Focke", "Naomi Layon", "Samantha McDonough", "Alex McDonough", "Nicole Ouellette", "Mackenzie Thomas", "Madeline Williams", "Ava Zohn"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2018/Peridot.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2018/thumbnails/Peridot.jpg"
     },
     {
         "year":"2018",
