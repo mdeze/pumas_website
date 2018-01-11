@@ -1,6 +1,6 @@
 {"data":[
     {
-        "id":"146",
+        "id":"148",
         "title":"Valentines Day Friendship Tournament",
         "category":"Tournament",
         "summary":"The 11th annual Valentines Day Friendship Tournament will be held Sunday February 11th. See the <a href='/assets/files/flyers/Pumas_11th_Annual_VDFT-1.pdf' target='_blank'>Friendship Tournament Flyer</a> for more details.",
@@ -11,6 +11,32 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2018-02-11"
+    },
+    {
+        "id":"147",
+        "title":"Masspike February Vacation Clinic 19-22",
+        "category":"Clinics",
+        "summary":"Masspike is running their 2018 Feb 19-22 Vacation Clinic in Chelmsford for boys and girls, Mon-Thur. See the <a href='http://www.masspikevolleyball.com/images/2018_Feb_Vacation_clinic_flyer_with_Masspike_leaderhead_J_use_to_change_to_html_for_web.pdf' target='_blank'>February Vacation Clinic Flyer</a> for more details.",
+        "detail":"Masspike is running their 2018 Feb 19-22 Vacation Clinic in Chelmsford for boys and girls, Mon-Thur. See the <a href='http://www.masspikevolleyball.com/images/2018_Feb_Vacation_clinic_flyer_with_Masspike_leaderhead_J_use_to_change_to_html_for_web.pdf' target='_blank'>February Vacation Clinic Flyer</a> for more details. Registration information can be found on <a href='http://www.masspikevolleyball.com' target='_blank'>masspikevolleyball.com</a>",
+        "displayIcon":"icon-sport-008",
+        "displayIconStyle":"",
+        "postedOn": "2018-01-11",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2018-02-11"
+    },
+    {
+        "id":"146",
+        "title":"Winterfest #2 Schedule",
+        "category":"Teams",
+        "summary":"Follow Pumas teams competing at Winterfest #2. See the <a href='https://events.sportwrench.com/#/events/1d9fdc73e/clubs/4633' target='_blank'>SportWrench WF#2</a> page for more details",
+        "detail":"Follow Pumas teams competing at Winterfest #2. See the <a href='https://events.sportwrench.com/#/events/1d9fdc73e/clubs/4633' target='_blank'>SportWrench WF#2</a> page for more details",
+        "displayIcon":"icon-sport-004",
+        "displayIconStyle":"",
+        "postedOn": "2018-01-08",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2018-01-16"
     },
     {
         "id":"145",
@@ -25,19 +51,7 @@
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2018-01-25"
     },
-    {
-        "id":"144",
-        "title":"Winterfest #2 Schedule",
-        "category":"Teams",
-        "summary":"Follow Pumas teams competing at Winterfest #2. See the <a href='https://events.sportwrench.com/#/events/1d9fdc73e/clubs/4633' target='_blank'>SportWrench WF#2</a> page for more details",
-        "detail":"Follow Pumas teams competing at Winterfest #2. See the <a href='https://events.sportwrench.com/#/events/1d9fdc73e/clubs/4633' target='_blank'>SportWrench WF#2</a> page for more details",
-        "displayIcon":"icon-sport-004",
-        "displayIconStyle":"",
-        "postedOn": "2018-01-08",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2018-01-16"
-    },
+
     {
         "id":"144",
         "title":"Winterfest #1 Schedule",
