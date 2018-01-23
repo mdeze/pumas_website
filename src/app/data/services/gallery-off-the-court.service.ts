@@ -13,11 +13,14 @@ export class GalleryOffTheCourtService {
         let galleryURL: string;
 
         switch (year) {
+            case 2018:
+                galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2018.data.json';
+                break;
+            case 2017:
+                galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2017.data.json';
+                break;
             case 2016:
                 galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2016.data.json';
-                break;
-                case 2017:
-                galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2017.data.json';
                 break;
             default:
                 galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2016.data.json';
