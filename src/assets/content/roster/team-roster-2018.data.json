@@ -63,8 +63,8 @@
         "headCoach":"Tina Miller, Ali Remagio",
         "assistantCoaches": ["Katrina LoConte"],
         "players": ["Emma Atwood", "Cathy Cheng", "Megan Crowley", "Kayla Fraser", "Olivia Gillman", "Lauren Kennedy", "Sophie Mitchell", "Emily Nason", "Kiera Prendergast", "Natalia Villanueva"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2018/Flashfire.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2018/thumbnails/Flashfire.jpg"
     },
     {
         "year":"2018",
@@ -74,8 +74,8 @@
         "headCoach":"Brian Healey",
         "assistantCoaches": ["Cheryl Farnum"],
         "players": ["Lauren Ahlholm", "Morgan Bresnahan", "Ryder Burliss", "Ashley Crowley", "Shawna Crowley", "Laura Farnum", "Sarah Farnum", "Olivia Gaspar", "Brianna Kelly", "Sarah Shattuck", "Samantha Swartz"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2018/Jade.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2018/thumbnails/Jade.jpg"
     },
     {
         "year":"2018",
@@ -107,8 +107,8 @@
         "headCoach":"Casey Roberts",
         "assistantCoaches": [],
         "players": ["Gianna  Cioto", "Emma  Demos", "Pauline Fuchs", "Neena Goldthwaite", "Eileen Kou", "Brianna Martini", "Olivia Peyev", "Zoe Umeorah", "Shea Vadeboncoeur"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2018/Platinum.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2018/thumbnails/Platinum.jpg"
     },
     {
         "year":"2018",
@@ -129,8 +129,8 @@
         "headCoach":"Mike Ezekiel",
         "assistantCoaches": ["Lizzy Ezekiel"],
         "players": ["Jamie-Lynn Bordonaro", "Kathleen Macy", "Lianna Musto", "Anna Nolden", "Arielle Nysten", "Alexandra Papazian", "Adriana Pass", "Molly Pritchard", "Katherine Sarra", "Emily Spina", "Madeleine Tutwiler"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2018/Sapphire.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2018/thumbnails/Sapphire.jpg"
     },
     {
         "year":"2018",
@@ -151,8 +151,8 @@
         "headCoach":"Rosella Latam",
         "assistantCoaches": ["Anthony Warren"],
         "players": ["Lindsey Byman", "Ashley  Croteau", "Julia Foster", "Ainsley Golini", "Kayleigh Holland", "Vanessa Latam", "Lindsay McDonald", "Macie Story", "Leah Warren", "Anna Wong"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2018/Titanium.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2018/thumbnails/Titanium.jpg"
     },
     {
         "year":"2018",
