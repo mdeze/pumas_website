@@ -19,8 +19,8 @@
         "headCoach":"Kylie Desrosiers",
         "assistantCoaches": [],
         "players": ["Hannah Bessette", "Carolyn Biggart", "Amber Buttaro", "Shayla Callahan", "Alana Connelly", "Nicole Harrison", "Grace Hu", "Chloe Jackson", "Colleen Levangie", "Heather Roberts"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2018/Bloodstone.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2018/thumbnails/Bloodstone.jpg"
     },
     {
         "year":"2018",
