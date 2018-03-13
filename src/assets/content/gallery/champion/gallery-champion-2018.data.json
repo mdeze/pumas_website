@@ -1,6 +1,24 @@
 {"data":[
     {
         "year":"2018",
+        "description":"Bloodstone 18U NERVA I Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/bloodstone-nerva-i-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/bloodstone-nerva-i-gold.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Quartz 16U NERVA I Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/quartz-nerva-i-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/quartz-nerva-i-gold.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Ebony 15U Boston VB Festival Gold Bronze Bracket",
+        "photo":"/assets/img/photo-gallery/champions/2018/ebony-boston-bronze-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/ebony-boston-bronze-gold.jpg"
+    },
+    {
+        "year":"2018",
         "description":"Bloodstone 18U Boston VB Festival Gold Bronze Bracket",
         "photo":"/assets/img/photo-gallery/champions/2018/bloodstone-boston-bronze-gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/bloodstone-boston-bronze-gold.jpg"
