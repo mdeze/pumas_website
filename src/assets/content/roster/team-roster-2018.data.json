@@ -28,7 +28,7 @@
         "division":"Club",
         "ageGroup":"16U",
         "headCoach":"Maura Green",
-        "assistantCoaches": [],
+        "assistantCoaches": ["Melissa Young"],
         "players": ["Ellie Brickman", "Jenna Byers", "Alexa Harrington", "Emily Jones", "Anna MacDonald", "Katherine Morin", "Isabelle Soeun", "Emily Sonnenfroh", "Lillian  Willoughby"],
         "teamPhoto":"",
         "teamPhotoThumbNail":""
