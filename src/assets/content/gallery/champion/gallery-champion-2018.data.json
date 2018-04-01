@@ -1,6 +1,24 @@
 {"data":[
     {
         "year":"2018",
+        "description":"Bloodstone 18U NERVA II Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/bloodstone-nerva-ii-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/bloodstone-nerva-ii-gold.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Cobalt 16U NERVA II Silver",
+        "photo":"/assets/img/photo-gallery/champions/2018/cobalt-nerva-ii-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/cobalt-nerva-ii-silver.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Emerald 16U NERVA II Gold Open Bronze",
+        "photo":"/assets/img/photo-gallery/champions/2018/emerald-nerva-ii-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/emerald-nerva-ii-gold.jpg"
+    },
+    {
+        "year":"2018",
         "description":"Bloodstone 18U NERVA I Gold",
         "photo":"/assets/img/photo-gallery/champions/2018/bloodstone-nerva-i-gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/bloodstone-nerva-i-gold.jpg"
