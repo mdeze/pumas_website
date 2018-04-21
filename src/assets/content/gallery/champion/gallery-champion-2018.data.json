@@ -1,6 +1,24 @@
 {"data":[
     {
         "year":"2018",
+        "description":"Bloodstone 18U NERVA III Silver",
+        "photo":"/assets/img/photo-gallery/champions/2018/bloodstone-nerva-iii-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/bloodstone-nerva-iii-silver.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Ebony 15U & Platinum 16U NERVA III Silver & Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/platinum-ebony-nerva-iii-gold-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/platinum-ebony-nerva-iii-gold-silver.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Platinum 16U NERVA III Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/platinum-nerva-iii-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/platinum-nerva-iii-gold.jpg"
+    },
+    {
+        "year":"2018",
         "description":"Bloodstone 18U NERVA II Gold",
         "photo":"/assets/img/photo-gallery/champions/2018/bloodstone-nerva-ii-gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/bloodstone-nerva-ii-gold.jpg"
