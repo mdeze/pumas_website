@@ -1,6 +1,24 @@
 {"data":[
     {
         "year":"2018",
+        "description":"Cobalt 16U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/cobalt-nerva-v-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/cobalt-nerva-v-gold.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Platinum 16U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/platinum-nerva-v-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/platinum-nerva-v-gold.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Sapphire 15U NERVA V Silver",
+        "photo":"/assets/img/photo-gallery/champions/2018/sapphire-nerva-v-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/sapphire-nerva-v-silver.jpg"
+    },
+    {
+        "year":"2018",
         "description":"Amethyst 14U NERVA IV Gold",
         "photo":"/assets/img/photo-gallery/champions/2018/amethyst_nerva-iv_gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/amethyst_nerva-iv_gold.jpg"
@@ -10,6 +28,12 @@
         "description":"Bloodstone 18U NERVA IV Silver",
         "photo":"/assets/img/photo-gallery/champions/2018/bloodstone-nerva-iv-silver.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/bloodstone-nerva-iv-silver.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Peridot 15U NERVA IV Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/peridot-nerva-iv-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/peridot-nerva-iv-gold.jpg"
     },
     {
         "year":"2018",

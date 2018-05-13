@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"168",
+        "title":"2018 Champion Gallery Updates",
+        "category":"Teams",
+        "summary":"Pumas in action at NERVA IV & V in the <a href='/gallery-champions/2018' routerLink='/gallery-champions/2018'>2018 Champion Gallery</a>",
+        "detail":"Pumas in action at NERVA IV & V in the <a href='/gallery-champions/2018' routerLink='/gallery-champions/2018'>2018 Champion Gallery</a>",
+        "displayIcon":"icon-electronics-103",
+        "displayIconStyle":"",
+        "postedOn": "2018-05-12",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2018-05-30"
+    },
+    {
         "id":"167",
         "title":"NERVA V Highlights",
         "category":"Tournaments",
@@ -13,17 +26,30 @@
         "endAnnouncement": "2018-05-20"
     },
     {
-        "id":"165",
-        "title":"Annual Pumas Picnic: Save The Date",
+        "id":"166",
+        "title":"Annual Pumas Picnic Details",
         "category":"Teams",
-        "summary":"The annual Pumas Picnic will be held Sunday June 3rd from 1-5pm. Details are being finalized and will be posted on the web site when available.",
-        "detail":"The annual Pumas Picnic will be held Sunday June 3rd from 1-5pm. Details are being finalized and will be posted on the web site when available",
+        "summary":"The annual Pumas Picnic will be held Sunday June 3rd from 1-5pm at the Plaistow YMCA in Plaistow, NH. This is a great way to end the season with some great food and playing volleyball. Read on for more details...",
+        "detail":"<p>You are invited to our 15th annual Pumas Picnic which will be held Sunday June 3rd from 1-5pm at the Plaistow YMCA in Plaistow, NH. This is a great way to end the season with some great food and playing volleyball.</p><p>This is a catered event, with great food, volleyball, and door prizes!  We will be at a new venue this year - Plaistow YMCA in Plaistow, NH. You may be familiar with the inside of the facility but they have several sand courts out back. We will have sand and grass courts set up to play on.</p><p>The picnic begins at 1 PM with lunch being served shortly after, continuously, until around 3:30PM.  This is followed by our door prize raffle. The raffle is free for all players and coaches present. The picnic winds down around 5 PM. If you want to come early and help set up nets we start that at 12pm.</p><p>Coaches, TD’s and Players eat for free; family members who want to join us in lunch pay $15, or $10 for 12 and under. The menu is is still being worked on and will be announced at a later date. You do not need to purchase tickets to attend (only to eat). You are welcome to bring your own food and eat with us if you wish. No prepaying for tickets, you pay at the door. To help with ordering an accurate estimate of food please fill out a <a href='https://www.surveymonkey.com/r/Z333YFN' target='_blank'>short survey</a>. Please fill this out by May 20th.</p><p>Rain date: Wednesday June 6th 5:30-7:30, location TBD</p>",
         "displayIcon":" icon-food-035",
         "displayIconStyle":"",
-        "postedOn": "2018-04-25",
+        "postedOn": "2018-05-12",
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2018-05-25"
+        "endAnnouncement": "2018-06-04"
+    },
+    {
+        "id":"165",
+        "title":"2018 Summer Camp Listings",
+        "category":"Camps",
+        "summary":"<a href='/links-summer-camps' routerLink='/links-summer-camps'>2018 Summer Camp</a>  Listings updated",
+        "detail":"<a href='/links-summer-camps' routerLink='/links-summer-camps'>2018 Summer Camp</a>  Listings updated",
+        "displayIcon":"icon-sport-008",
+        "displayIconStyle":"",
+        "postedOn": "2018-04-10",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2018-07-10"
     },
     {
         "id":"164",
@@ -40,19 +66,6 @@
     },
     {
         "id":"163",
-        "title":"2018 Summer Camp Listings",
-        "category":"Camps",
-        "summary":"<a href='/links-summer-camps' routerLink='/links-summer-camps'>2018 Summer Camp</a>  Listings updated",
-        "detail":"<a href='/links-summer-camps' routerLink='/links-summer-camps'>2018 Summer Camp</a>  Listings updated",
-        "displayIcon":"icon-sport-008",
-        "displayIconStyle":"",
-        "postedOn": "2018-04-10",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2018-07-10"
-    },
-    {
-        "id":"166",
         "title":"NERVA V Assignments",
         "category":"Tournaments",
         "summary":"NERVA V (May 6) Tournament <a href='http://nevolleyball.org/wp-content/uploads/NERVA-Championships-May-6-2018-Official-Schedule-.pdf' target='_blank'> Schedule</a> See the <a href='http://nevolleyball.org/junior-girls-info-schedule/' target='_blank'>NERVA Juniors Schedule</a> for more details.",
