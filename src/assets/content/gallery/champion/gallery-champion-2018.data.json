@@ -7,6 +7,12 @@
     },
     {
         "year":"2018",
+        "description":"Flashfire 17U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/flashfire-nerva-v-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/flashfire-nerva-v-gold.jpg"
+    },
+    {
+        "year":"2018",
         "description":"Platinum 16U NERVA V Gold",
         "photo":"/assets/img/photo-gallery/champions/2018/platinum-nerva-v-gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/platinum-nerva-v-gold.jpg"
@@ -37,6 +43,18 @@
     },
     {
         "year":"2018",
+        "description":"Scarlet 14U NERVA IV Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/scarlet-nerva-iv-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/scarlet-nerva-iv-gold.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Titanium 14U NERVA IV Gold",
+        "photo":"/assets/img/photo-gallery/champions/2018/titanium-nerva-iv-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/titanium-nerva-iv-gold.jpg"
+    },
+    {
+        "year":"2018",
         "description":"Amethyst Rhode Island Rumble Bronze Gold Bracket",
         "photo":"/assets/img/photo-gallery/champions/2018/Amethyst_ri_rumble_bronze_gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/Amethyst_ri_rumble_bronze_gold.jpg"
@@ -52,6 +70,12 @@
         "description":"Ebony 15U & Platinum 16U NERVA III Silver & Gold",
         "photo":"/assets/img/photo-gallery/champions/2018/platinum-ebony-nerva-iii-gold-silver.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/platinum-ebony-nerva-iii-gold-silver.jpg"
+    },
+    {
+        "year":"2018",
+        "description":"Flashfire 17U NERVA III Silver",
+        "photo":"/assets/img/photo-gallery/champions/2018/flashfire-nerva-iii-silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2018/thumbnails/flashfire-nerva-iii-silver.jpg"
     },
     {
         "year":"2018",
