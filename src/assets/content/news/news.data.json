@@ -1,5 +1,31 @@
 {"data":[
     {
+        "id":"170",
+        "title":"2019 Season Information On The Way",
+        "category":"Information",
+        "summary":"We are already getting many inquiries about next season. Please be patient as we expect to have the web site updated with all programs, costs and dates by the beginning of October. The <a href='/schedule-tournament' routerLink='/schedule-tournament'> tournament schedule</a> has been updated with dates for the 2019 season. A reminder that not every team will go to every tournament. All teams will go to Boston Sports festival and all NERVA tournaments. In addition, there is a possibility that everyone will be at Winterfest and Rhode Island Rumble as well.",
+        "detail":"We are already getting many inquiries about next season. Please be patient as we expect to have the web site updated with all programs, costs and dates by the beginning of October. The <a href='/schedule-tournament' routerLink='/schedule-tournament'> tournament schedule</a> has been updated with dates for the 2019 season. A reminder that not every team will go to every tournament. All teams will go to Boston Sports festival and all NERVA tournaments. In addition, there is a possibility that everyone will be at Winterfest and Rhode Island Rumble as well.",
+        "displayIcon":"icon-info",
+        "displayIconStyle":"",
+        "postedOn": "2018-09-16",
+        "postedOnDisplay":"",
+        "postedBy":"Mike Ezekiel",
+        "endAnnouncement": "2018-10-01"
+    },
+    {
+        "id":"169",
+        "title":"2019 Tournament Dates Announced",
+        "category":"Tournaments",
+        "summary":"Tournament dates and locations for Club and Open teams for the 2019 season have been set.",
+        "detail":"Tournament dates and locations for Club and Open teams for the 2019 season have been set. These include NERVA, optional regaional andd national championships. See the <a href='/schedule-tournament' routerLink='/schedule-tournament'> tournament schedule</a> for more details.",
+        "displayIcon":"icon-calendar",
+        "displayIconStyle":"",
+        "postedOn": "2018-09-16",
+        "postedOnDisplay":"",
+        "postedBy":"Mike Ezekiel",
+        "endAnnouncement": "2018-10-28"
+    },
+    {
         "id":"168",
         "title":"2018 On The Court Gallery Updates",
         "category":"Teams",
