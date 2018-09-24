@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"171",
+        "title":"Looking For Coaches",
+        "category":"Coaches",
+        "summary":"Pumas Volleyball Club is always looking for coaches (head or assistant). If you have any volleyball experience, please see our <a href='/coaches-interested' routerLink='/coaches-interested'>Looking for Coaches</a> page.",
+        "detail":"<strong>Pumas Volleyball Club</strong> is always looking for coaches (head or assistant). If you have any volleyball experience, please see our <a href='/coaches-interested' routerLink='/coaches-interested'>Looking for Coaches</a> page and <a href='/club-contact' routerLink='/club-contact'>contact the director</a> for more specific information.",
+        "displayIcon":"icon-sport-008",
+        "displayIconStyle":"",
+        "postedOn": "2018-09-24",
+        "postedOnDisplay":"",
+        "postedBy":"Mike Ezekiel",
+        "endAnnouncement": "2018-11-26"
+    },
+    {
         "id":"170",
         "title":"2019 Season Information On The Way",
         "category":"Information",
