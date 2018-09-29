@@ -1,6 +1,6 @@
 {"data":[
     {
-        "id":"171",
+        "id":"172",
         "title":"Looking For Coaches",
         "category":"Coaches",
         "summary":"Pumas Volleyball Club is always looking for coaches (head or assistant). If you have any volleyball experience, please see our <a href='/coaches-interested' routerLink='/coaches-interested'>Looking for Coaches</a> page.",
@@ -13,7 +13,7 @@
         "endAnnouncement": "2018-11-26"
     },
     {
-        "id":"170",
+        "id":"171",
         "title":"2019 Season Information On The Way",
         "category":"Information",
         "summary":"We are already getting many inquiries about next season. Please be patient as we expect to have the web site updated with all programs, costs and dates by the beginning of October. The <a href='/schedule-tournament' routerLink='/schedule-tournament'> tournament schedule</a> has been updated with dates for the 2019 season. A reminder that not every team will go to every tournament. All teams will go to Boston Sports festival and all NERVA tournaments. In addition, there is a possibility that everyone will be at Winterfest and Rhode Island Rumble as well.",
@@ -23,7 +23,20 @@
         "postedOn": "2018-09-16",
         "postedOnDisplay":"",
         "postedBy":"Mike Ezekiel",
-        "endAnnouncement": "2018-10-01"
+        "endAnnouncement": "2018-10-28"
+    },
+    {
+        "id":"170",
+        "title":"2018 Off The Court Gallery Updates",
+        "category":"Teams",
+        "summary":"Pumas in action at Volleyball MD Summer Beach & Beach Tournament Programs in the <a href='/gallery-off-court/2018' routerLink='/gallery-off-court/2018'>2018 Off The Court</a> gallery.",
+        "detail":"Pumas in action at Volleyball MD Summer Beach & Beach Tournament Programs in the <a href='/gallery-off-court/2018' routerLink='/gallery-off-court/2018'>2018 Off The Court</a> gallery.",
+        "displayIcon":"icon-electronics-103",
+        "displayIconStyle":"",
+        "postedOn": "2018-09-29",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2018-10-28"
     },
     {
         "id":"169",
