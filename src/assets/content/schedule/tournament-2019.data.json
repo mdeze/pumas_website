@@ -74,18 +74,6 @@
     {
         "id":"7",
         "season":"2019",
-        "name":"Great Nor'Easter #1",
-        "url":"http://lakesidevbcgne.weebly.com",
-        "date":"2019-03-01",
-        "dateOnDisplay":"Mar TBD",
-        "location":"Albany, NY",
-        "info":"14U, 15U, 18U - 2 days",
-        "displayIcon":" ",
-        "displayIconStyle":""
-    },
-    {
-        "id":"8",
-        "season":"2019",
         "name":"NERVA I",
         "url":"http://nevolleyball.org/junior-girls-info-schedule/",
         "date":"2019-03-3",
@@ -96,12 +84,24 @@
         "displayIconStyle":""
     },
     {
+        "id":"8",
+        "season":"2019",
+        "name":"Great Nor'Easter #1",
+        "url":"http://lakesidevbcgne.weebly.com",
+        "date":"2019-03-09",
+        "dateOnDisplay":"Mar 9-10",
+        "location":"Albany, NY",
+        "info":"14U, 15U, 18U - 2 days",
+        "displayIcon":" ",
+        "displayIconStyle":""
+    },
+    {
         "id":"9",
         "season":"2019",
         "name":"Great Nor'Easter #2",
         "url":"http://lakesidevbcgne.weebly.com",
-        "date":"2019-03-05",
-        "dateOnDisplay":"Mar TBD",
+        "date":"2019-03-16",
+        "dateOnDisplay":"Mar 16-17",
         "location":"Albany, NY",
         "info":"12U, 16U, 17U - 2 days",
         "displayIcon":" ",
