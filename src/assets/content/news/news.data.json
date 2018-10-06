@@ -1,10 +1,10 @@
 {"data":[
     {
-        "id":"172",
+        "id":"173",
         "title":"Tryout & Program Information",
         "category":"Tryouts",
         "summary":"Program & Tryout information for the 2019 season has been updated on the web site. Read below for important updates to Club and Open programs, registration process and the in-house skills programs.",
-        "detail":"<h4>Tryout Dates</h4><p><ul><li>Sunday November 18th</li><li>Sunday, November 25th</li></ul>If you have to miss a tryout date please see the <a href='/club-faq' routerLink='/club-faq'>Frequently Asked Questions</a> page which will let you know what happens.</p><h4>Program and Tryout Costs</h4><p>Updated program cost and important date information can be found on the <a href='/programs-cost' routerLink='/programs-cost'>Programs Cost</a> page.</p><h4>Program Updates</h4><p>Club teams will have practice on Tuesday and Saturday. All teams will participate in Winterfest, Boston and Rhode Island Rumble multi-day tournaments in additional to the regional NERVA tournaments. Season fees paid in two or three  payment installments. See the <a href='/programs-club' routerLink='/programs-club'>Open Program</a> , <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-cost' routerLink='/programs-cost'>Programs Cost</a> pages for more details.<p><h4>Registration Updates</h4><p>We have added your tournament availability for all tournament dates onto registration. This is to help during team building and especially for the first tournament (Winterfest) which comes the first two weekends of January. Print the tournament availabiity worksheet and fill out to have all the information ready when you register.</p> <p>This is important as teams will be registered for the Winterfest tournament according to your responses on the registration. Make sure Parents and players go over this together - If you respond you can attend you will held financially responsible for that tournament (multi day tournaments only for club teams). </p><p>See the <a href='/tryouts-registration' routerLink='/tryouts-registration'>Tryout Registration</a> page for more details</p>",
+        "detail":"<h4>Tryout Dates</h4><p><ul><li>Sunday November 18th</li><li>Sunday, November 25th</li></ul>See the <a href='/schedule-tryouts' routerLink='/schedule-tryouts'>Tryout Schedule</a> for more details. If you have to miss a tryout date please see the <a href='/club-faq' routerLink='/club-faq'>Frequently Asked Questions</a> page which will let you know what happens.</p><h4>Program and Tryout Costs</h4><p>Updated program cost and important date information can be found on the <a href='/programs-cost' routerLink='/programs-cost'>Programs Cost</a> page.</p><h4>Program Updates</h4><p>Club teams will have practice on Tuesday and Saturday. All teams will participate in Winterfest, Boston and Rhode Island Rumble multi-day tournaments in additional to the regional NERVA tournaments. Season fees paid in two or three  payment installments. See the <a href='/programs-club' routerLink='/programs-club'>Open Program</a> , <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-cost' routerLink='/programs-cost'>Programs Cost</a> pages for more details.<p><h4>Registration Updates</h4><p>We have added your tournament availability for all tournament dates onto registration. This is to help during team building and especially for the first tournament (Winterfest) which comes the first two weekends of January. Print the tournament availabiity worksheet and fill out to have all the information ready when you register.</p> <p>This is important as teams will be registered for the Winterfest tournament according to your responses on the registration. Make sure Parents and players go over this together - If you respond you can attend you will held financially responsible for that tournament (multi day tournaments only for club teams). </p><p>See the <a href='/tryouts-registration' routerLink='/tryouts-registration'>Tryout Registration</a> page for more details</p>",
         "displayIcon":"icon-sport-085",
         "displayIconStyle":"",
         "postedOn": "2018-10-04",
@@ -12,6 +12,19 @@
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2018-11-26"
     },    
+    {
+        "id":"172",
+        "title":"Pre-Tryout Tune Up Clinics",
+        "category":"Tryouts",
+        "summary":"Volleyball MD is hosting two tune up clinics to prepare players for club tryouts. The clinics will run the same drills used at Pumas club tryouts. It is a great opportunity to become familiar with the tryout drills before tryouts.",
+        "detail":"Pumas VBC is sponsoring Volleyball MD to host two tune up clinics to prepare players for club volleyball tryouts. The clinics will be held on the following dates: <ul><li>Sunday November 4th - Lawrence Boys & Girls Club</li><li>Sunday, November 11th - Lawrence Boys & Girls Club</li></ul> The clinics will run the same drills used at Pumas club tryouts. It is a great opportunity to learn the tryout drill mechanics before the day of tryouts as well as a chance for some extra touches if you haven’t been on the court since your high school season ended. Please see the <a href='/assets/files/flyers/VolleyballMD2019WarmupTuneup.pdf' target='_blank'>Tune Up Clinics flyer</a> for more details. Online registration at the VolleyballMD web site coming soon.",
+        "displayIcon":"icon-sport-008",
+        "displayIconStyle":"",
+        "postedOn": "2018-10-06",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2018-11-12"
+    },
     {
         "id":"171",
         "title":"Looking For Coaches",
