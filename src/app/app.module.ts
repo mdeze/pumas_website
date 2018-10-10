@@ -26,6 +26,7 @@ import { ProgramsInhouseComponent } from './programs-inhouse/programs-inhouse.co
 import { ProgramsJncComponent } from './programs-jnc/programs-jnc.component';
 import { ProgramsOpenComponent } from './programs-open/programs-open.component';
 import { ProgramsPhilosophyComponent } from './programs-philosophy/programs-philosophy.component';
+import { ProgramsParentsGuideComponent } from './programs-parents-guide/programs-parents-guide.component';
 import { ProgramsSideMenuComponent } from './programs-side-menu/programs-side-menu.component';
 import { TryoutSideMenuComponent } from './tryout-side-menu/tryout-side-menu.component';
 import { TryoutsExpectComponent } from './tryouts-expect/tryouts-expect.component';
@@ -75,6 +76,7 @@ const appRoutes: Routes = [
   { path: 'programs-jnc', component: ProgramsJncComponent },
   { path: 'programs-inhouse', component: ProgramsInhouseComponent },
   { path: 'programs-cost', component: ProgramsCostComponent },
+  { path: 'programs-parents-guide', component: ProgramsParentsGuideComponent },
   { path: 'programs-philosophy', component: ProgramsPhilosophyComponent },
   { path: 'tryouts-expect', component: TryoutsExpectComponent },
   { path: 'tryouts-guidelines', component: TryoutsGuidelinesComponent },
@@ -150,7 +152,8 @@ const appRoutes: Routes = [
     GalleryOffCourtComponent,
     GalleryOffCourtListComponent,
     GalleryOnCourtComponent,
-    GalleryOnCourtListComponent
+    GalleryOnCourtListComponent,
+    ProgramsParentsGuideComponent
   ],
   imports: [
     BrowserModule,
