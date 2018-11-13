@@ -1,10 +1,23 @@
 {"data":[
     {
+        "id":"175",
+        "title":"12U COED Program Information and Registration",
+        "category":"Tryouts",
+        "summary":"Pumas has redesigned our 12U program. See below for detailed program description and registration information.",
+        "detail":"Pumas has redesigned our 12U program, it is now COED, and more development based than tournament based. See the <a href='/programs-12u-coed' routerLink='/programs-12u-coed'>12U COED </a> page for full program description and details. <a href='/tryouts-registration' routerLink='/tryouts-registration'>Registration</a> for the 12U COED program is now open.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2018-11-13",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2018-12-30"
+    },
+    {
         "id":"174",
         "title":"In-House Skills Program Registration Live",
         "category":"Tryouts",
-        "summary":"Registration for the in-house skills programs is open.",
-        "detail":"Registration for the in-house skills programs is open. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'>Tryout Registration</a> page for more details",
+        "summary":"Registration for the in-house skills program is open.",
+        "detail":"Registration for the in-house skills program is open. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'>Tryout Registration</a> page for more details",
         "displayIcon":"icon-sport-085",
         "displayIconStyle":"",
         "postedOn": "2018-11-08",

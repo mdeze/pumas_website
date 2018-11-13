@@ -58,6 +58,7 @@ import { GalleryOffCourtComponent } from './gallery-off-court/gallery-off-court.
 import { GalleryOffCourtListComponent } from './gallery-off-court-list/gallery-off-court-list.component';
 import { GalleryOnCourtComponent } from './gallery-on-court/gallery-on-court.component';
 import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-court-list.component';
+import { Programs12uCoedComponent } from './programs-12u-coed/programs-12u-coed.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -74,6 +75,7 @@ const appRoutes: Routes = [
   { path: 'programs-club', component: ProgramsClubComponent },
   { path: 'programs-open', component: ProgramsOpenComponent },
   { path: 'programs-jnc', component: ProgramsJncComponent },
+  { path: 'programs-12u-coed', component: Programs12uCoedComponent },
   { path: 'programs-inhouse', component: ProgramsInhouseComponent },
   { path: 'programs-cost', component: ProgramsCostComponent },
   { path: 'programs-parents-guide', component: ProgramsParentsGuideComponent },
@@ -153,7 +155,8 @@ const appRoutes: Routes = [
     GalleryOffCourtListComponent,
     GalleryOnCourtComponent,
     GalleryOnCourtListComponent,
-    ProgramsParentsGuideComponent
+    ProgramsParentsGuideComponent,
+    Programs12uCoedComponent
   ],
   imports: [
     BrowserModule,
