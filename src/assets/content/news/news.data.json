@@ -17,7 +17,7 @@
         "title":"In-House Skills Program Registration Live",
         "category":"Tryouts",
         "summary":"Registration for the in-house skills program is open.",
-        "detail":"Registration for the in-house skills program is open. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'>Tryout Registration</a> page for more details",
+        "detail":"Registration for the <a href='/programs-inhouse' routerLink='/programs-inhouse'>in-house skills</a> program is open. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'>Tryout Registration</a> page for more details",
         "displayIcon":"icon-sport-085",
         "displayIconStyle":"",
         "postedOn": "2018-11-08",
