@@ -8,7 +8,7 @@
 				<div class="col-sm-3 sm-margin-bottom-30" *ngFor="let profile of profileGroup">
           <div class="gallery-picture text-center">
             <div class="thumbnails thumbnail-style" >
-              <a (click)="showModal(profile.id)">
+              <a class="show-profile-modal" (click)="showModal(profile.id)">
                 <img class="img-responsive md-margin-bottom-10 center-block" src="{{profile.thumbnail}}" alt="">
                 {{profile.firstName}} {{profile.lastName}}
               </a> <br /> {{profile.title}} <span aria-hidden="true" class="icon-sport-008" *ngIf="profile.isHeadCoach"></span> <span aria-hidden="true" class="icon-sport-085" *ngIf="!profile.isHeadCoach"></span> 

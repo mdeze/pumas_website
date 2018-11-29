@@ -603,26 +603,26 @@
         "experience" : [
             {
                 "year" : "2018",
-                "organizationName" : "Pumas VBC",
-                "teamName" : "Flashfire 17U",
-                "position" : "Head Coach"
-            },
-            {
-                "year" : "2018",
                 "organizationName" : "Cambridge School of Weston",
                 "teamName" : "Varsity",
                 "position" : "Head Coach"
             },
             {
-                "year" : "2017",
+                "year" : "2018",
                 "organizationName" : "Pumas VBC",
-                "teamName" : "Ruby 18U",
-                "position" : "Assistant Coach"
+                "teamName" : "Flashfire 17U",
+                "position" : "Head Coach"
             },
             {
                 "year" : "2017",
                 "organizationName" : "Lesley University",
                 "teamName" : "DIII",
+                "position" : "Assistant Coach"
+            },
+            {
+                "year" : "2017",
+                "organizationName" : "Pumas VBC",
+                "teamName" : "Ruby 18U",
                 "position" : "Assistant Coach"
             }
         ],
