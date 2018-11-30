@@ -110,7 +110,7 @@
         "id" : "11",
         "firstName" : "Kylie",
         "lastName" : "Desrosiers",
-        "hasFullBio" : false,
+        "hasFullBio" : true,
         "isHeadCoach" : true,
         "picture" : "/assets/img/coaches/kylie-desrosiers.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/kylie-desrosiers.jpg",
@@ -133,8 +133,8 @@
                 "position" : "Assistant Coach"
             }  
         ],
-        "summary" : "<h4>Certifications</h4><ul><li>SafeSport</li><li>IMPACT</li></ul><h4>Playing</h4><ul><li>Newbury College: 2009 – 2011 Setter & Right side Hitter </li><li>Dracut High School: 2005 – 2008 Setter</li></ul>",
-        "bio" : ""
+        "summary" : "<p>Hello! My name is Kylie Desrosiers and this will be my second year coaching at Pumas Volleyball Club.  Before I started head coaching at Pumas, I was an assistant coach for Dig Deep Volleyball in Nashua, NH. I am originally from Dracut, MA and I currently live in Manchester, NH. I have been playing volleyball for a little over 16 years now. My playing journey started with a rec volleyball league as a young kid to then playing for Dracut High, Pumas Volleyball, and Newbury College as a setter/right side hitter.</p><p>Having played volleyball for the majority of my life, I have played for and worked with many coaches, who all have a different style. Throughout the years I have found what I appreciate (and what I don’t) in a coach, which has helped shape me into who I am as a coach today. During my seasons I want to make sure my team and I have a very open communication style, working with each other and becoming a well-oiled machine. I want my players to leave the season feeling that they have learned something, become a better player (mentally or physically), and had fun during their time on my team.</p><p>My first season with Pumas was an amazing journey with a lot of things learned and I am very excited to continue my volleyball career with Pumas. I look forward to seeing all of you on the court!!</p>",
+        "bio" : "<p>Hello! My name is Kylie Desrosiers and this will be my second year coaching at Pumas Volleyball Club.  Before I started head coaching at Pumas, I was an assistant coach for Dig Deep Volleyball in Nashua, NH. I am originally from Dracut, MA and I currently live in Manchester, NH. I have been playing volleyball for a little over 16 years now. My playing journey started with a rec volleyball league as a young kid to then playing for Dracut High, Pumas Volleyball, and Newbury College as a setter/right side hitter.</p><p>Having played volleyball for the majority of my life, I have played for and worked with many coaches, who all have a different style. Throughout the years I have found what I appreciate (and what I don’t) in a coach, which has helped shape me into who I am as a coach today. During my seasons I want to make sure my team and I have a very open communication style, working with each other and becoming a well-oiled machine. I want my players to leave the season feeling that they have learned something, become a better player (mentally or physically), and had fun during their time on my team.</p><p>My first season with Pumas was an amazing journey with a lot of things learned and I am very excited to continue my volleyball career with Pumas. I look forward to seeing all of you on the court!!</p><h4>Certifications</h4><ul><li>SafeSport</li><li>IMPACT</li></ul><h4>Playing</h4><ul><li>Newbury College: 2009 – 2011 Setter & Right side Hitter </li><li>Dracut High School: 2005 – 2008 Setter</li></ul><h4>Education</h4><ul><li>B.S. Hotel, Restaurant, Service Management – Newbury College</li><li>MBA – Southern NH University</li></ul><h4>Career</h4><ul><li>Higher Education and Event Planning</li></ul><h4>Other Interests</h4><ul><li>Reading</li><li>Music (Taylor Swift)</li><li>Musical Theatre</li><li>Hiking</li><li>Travelling</li></ul>"
     },
     {
         "id" : "12",
