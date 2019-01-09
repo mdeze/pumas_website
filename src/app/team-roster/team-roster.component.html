@@ -47,7 +47,9 @@
                     </tr>
                     <tr>
                       <td align='right'><span class="label label-primary rounded-2x">Head Coach</span></td>
-                      <td>{{team.headCoach}}</td>
+                      <td><a  *ngIf="team.coachBioUrl" href='/{{team.coachBioUrl}}' routerLink='/{{team.coachBioUrl}}'>{{team.headCoach}}</a>
+                        <span [class.hidden]="team.coachBioUrl">{{team.headCoach}}</span>
+                      </td>
                     </tr>
                     <tr>
                       <td align='right'><span class="label label-primary rounded-2x">Asst. Coach</span></td>
