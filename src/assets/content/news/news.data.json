@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"178",
+        "title":"2019 Team Rosters Posted",
+        "category":"Teams",
+        "summary":"The 2019 team rosters have been posted. See the <a href='/team-roster/2019' routerLink='/team-roster/2019'>2019 Rosters</a> page for more details",
+        "detail":"The 2019 team rosters have been posted. See the <a href='/team-roster/2019' routerLink='/team-roster/2019'>2019 Rosters</a> page for more details",
+        "displayIcon":"icon-sport-124",
+        "displayIconStyle":"",
+        "postedOn": "2019-01-09",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-01-31"
+    },
+    {
         "id":"177",
         "title":"Updated Practice Schedule",
         "category":"Schedule",

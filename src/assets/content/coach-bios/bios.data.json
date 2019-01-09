@@ -174,7 +174,7 @@
         "id" : "17",
         "firstName" : "Lizzy",
         "lastName" : "Ezekiel",
-        "hasFullBio" : false,
+        "hasFullBio" : true,
         "isHeadCoach" : true,
         "title" : "Asst Coach",
         "picture" : "/assets/img/coaches/lizzy-ezekiel.jpg",
@@ -263,7 +263,8 @@
                 "position" : "Team Captain"
             }
         ],
-        "summary" : "<p>Hello! My name is Elizabeth and I’m so excited to continue my job as an assistant coach. I began coaching in 2017 in a summer program working with middle school kids, and also started working with Pumas at the 15U level in 2017. I love working with kids, which is why in 2019, I will be attending college to study secondary education with concentrations in English and Spanish! </p><p>Outside of Pumas, I am always busy with a variety of activities. With my high school, I am an active member of our class council, mock trial team, tutoring program, yearbook, and in the National Honor Society. For athletics, I have played and been a captain of both our girls’ varsity volleyball and tennis teams - I will be continuing my tennis career at the D3 level in college. </p><p>While I love the competitive side of athletics, I believe that personal growth and the ability to work with others are the most important parts to being a successful athlete and overall good person. I am so excited for the upcoming season - see you on the court!</p>"
+        "summary" : "<p>Hello! My name is Elizabeth and I’m so excited to continue my job as an assistant coach. I began coaching in 2017 in a summer program working with middle school kids, and also started working with Pumas at the 15U level in 2017. I love working with kids, which is why in 2019, I will be attending college to study secondary education with concentrations in English and Spanish! </p><p>Outside of Pumas, I am always busy with a variety of activities. With my high school, I am an active member of our class council, mock trial team, tutoring program, yearbook, and in the National Honor Society. For athletics, I have played and been a captain of both our girls’ varsity volleyball and tennis teams - I will be continuing my tennis career at the D3 level in college. </p><p>While I love the competitive side of athletics, I believe that personal growth and the ability to work with others are the most important parts to being a successful athlete and overall good person. I am so excited for the upcoming season - see you on the court!</p>",
+        "bio" : "<p>Hello! My name is Elizabeth and I’m so excited to continue my job as an assistant coach. I began coaching in 2017 in a summer program working with middle school kids, and also started working with Pumas at the 15U level in 2017. I love working with kids, which is why in 2019, I will be attending college to study secondary education with concentrations in English and Spanish! </p><p>Outside of Pumas, I am always busy with a variety of activities. With my high school, I am an active member of our class council, mock trial team, tutoring program, yearbook, and in the National Honor Society. For athletics, I have played and been a captain of both our girls’ varsity volleyball and tennis teams - I will be continuing my tennis career at the D3 level in college. </p><p>While I love the competitive side of athletics, I believe that personal growth and the ability to work with others are the most important parts to being a successful athlete and overall good person. I am so excited for the upcoming season - see you on the court!</p>"
     },
     {
         "id" : "3",
@@ -1137,9 +1138,9 @@
         "picture" : "/assets/img/coach.png",
         "thumbnail" : "/assets/img/coach.png",
         "title" : "Asst Coach",
-        "age" : "15U",
-        "division" : "Club",
-        "team" : "Titanium",
+        "age" : "16U",
+        "division" : "Open",
+        "team" : "Emerald",
         "years" : "0",
         "experience" : [],
         "summary" : "",
