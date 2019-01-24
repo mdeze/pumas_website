@@ -13,7 +13,7 @@ import { GalleryChampionService } from '../data/services/gallery-champion.servic
 })
 
 export class GalleryTournamentResultsComponent implements OnInit , AfterViewInit {
-  galleryYear = 2018;
+  galleryYear = 2019;
   championGalleryList: GalleryItem[] = [];
 
   constructor(

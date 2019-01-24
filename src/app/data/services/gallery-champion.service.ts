@@ -13,6 +13,9 @@ export class GalleryChampionService {
         let galleryURL: string;
 
         switch (year) {
+            case 2019:
+                galleryURL = '/assets/content/gallery/champion/gallery-champion-2019.data.json';
+                break;
             case 2018:
                 galleryURL = '/assets/content/gallery/champion/gallery-champion-2018.data.json';
                 break;
@@ -20,7 +23,7 @@ export class GalleryChampionService {
                 galleryURL = '/assets/content/gallery/champion/gallery-champion-2017.data.json';
                 break;
             default:
-                galleryURL = '/assets/content/gallery/champion/gallery-champion-2016.data.json';
+                galleryURL = '/assets/content/gallery/champion/gallery-champion-2019.data.json';
                 break;
         }
 
