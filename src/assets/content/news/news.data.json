@@ -1,6 +1,19 @@
 {"data":[
     {
         "id":"182",
+        "title":"Updated Practice Schedule",
+        "category":"Schedule",
+        "summary":"An updated season practice schedule has been <a href='/assets/files/practice/PracticeSchedule2018-19.pdf' target='_blank'>posted</a>.",
+        "detail":"An updated season practice schedule has been <a href='/assets/files/practice/PracticeSchedule2018-19.pdf' target='_blank'>posted</a>.",
+        "displayIcon":"icon-calendar",
+        "displayIconStyle":"",
+        "postedOn": "2019-01-25",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-02-07"
+    },
+    {
+        "id":"182",
         "title":"2019 Champion and On The Court Gallery Updates",
         "category":"Teams",
         "summary":"<a href='/gallery-champions/2019' routerLink='/gallery-champions/2019'>2019 Champion Gallery</a> and <a href='/gallery-on-court/2019' routerLink='/gallery-on-court/2019'>2019 On The Court Gallery</a> updates from Winterfest.",
