@@ -4,5 +4,11 @@
         "description":"Cobalt Winterfest #1 Gold Silver Bracket",
         "photo":"/assets/img/photo-gallery/champions/2019/cobalt_wf_gold_silver.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/cobalt_wf_gold_silver.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Ruby Winterfest #2 Gold Bronze Bracket",
+        "photo":"/assets/img/photo-gallery/champions/2019/ruby_wf_gold_bronze.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/ruby_wf_gold_bronze.jpg"
     }
 ]}
