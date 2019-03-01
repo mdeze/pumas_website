@@ -111,8 +111,8 @@
         "coachBioUrl":"coaches-profile-full/3",
         "assistantCoaches": ["Lizzy Ezekiel"],
         "players": ["Savannah Andersen","Jordan Boudrot","Kierston Burtman","Jenna Byers","Anya Carver","Gianna Cioto","Elizabeth Cullen","Niamh Green","Rachael Hornsby","Meredith  LaPointe","Brianna Martini"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"/assets/img/photo-gallery/on-the-court/2019/sapphire-wf-team.jpg",
+        "teamPhotoThumbNail":"/assets/img/photo-gallery/on-the-court/2019/thumbnails/sapphire-wf-team.jpg"
     },
     {
         "year":"2019",
