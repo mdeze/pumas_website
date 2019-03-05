@@ -1,6 +1,24 @@
 {"data":[
     {
         "year":"2019",
+        "description":"Cobalt 15U NERVA I Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/cobalt_n1_15U_gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/cobalt_n1_15U_gold.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Rose Quartz 18U NERVA I Silver",
+        "photo":"/assets/img/photo-gallery/champions/2019/rosequartz_n1_silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/rosequartz_n1_silver.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Titanium 15U NERVA I Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/titanium_n1_15U_gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/titanium_n1_15U_gold.jpg"
+    },        
+    {
+        "year":"2019",
         "description":"Cobalt Winterfest #1 Gold Silver Bracket",
         "photo":"/assets/img/photo-gallery/champions/2019/cobalt_wf_gold_silver.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/cobalt_wf_gold_silver.jpg"
