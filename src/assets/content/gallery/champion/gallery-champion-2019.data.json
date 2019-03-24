@@ -1,6 +1,30 @@
 {"data":[
     {
         "year":"2019",
+        "description":"Cobalt 15U NERVA II Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/cobalt_n2_15U_gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/cobalt_n2_15U_gold.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Enerald 16U NERVA II Silver",
+        "photo":"/assets/img/photo-gallery/champions/2019/emerald_n2_16U_bronze_silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/emerald_n2_16U_bronze_silver.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Quartz 17U NERVA II Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/quartz_n2_17U_gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/quartz_n2_17U_gold.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Sapphire 17U NERVA II Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/sapphire_n2_17U_gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/sapphire_n2_17U_gold.jpg"
+    },
+    {
+        "year":"2019",
         "description":"Cobalt 15U NERVA I Gold",
         "photo":"/assets/img/photo-gallery/champions/2019/cobalt_n1_15U_gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/cobalt_n1_15U_gold.jpg"
@@ -16,7 +40,7 @@
         "description":"Titanium 15U NERVA I Gold",
         "photo":"/assets/img/photo-gallery/champions/2019/titanium_n1_15U_gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/titanium_n1_15U_gold.jpg"
-    },        
+    },
     {
         "year":"2019",
         "description":"Cobalt Winterfest #1 Gold Silver Bracket",
