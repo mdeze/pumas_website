@@ -19,8 +19,8 @@
         "headCoach":"Maura Green",
         "assistantCoaches": ["Melissa Young"],
         "players": ["Lindsey Byman","Isabella DaSilva","Ainsley Golini","Brianna Hughes","Chloe Marconi","Lindsay McDonald","Gabriela Roldan-Rodriguez","Riley Strano","Madeline White"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"/assets/img/photo-gallery/champions/2019/cobalt_n2_15U_gold.jpg",
+        "teamPhotoThumbNail":"/assets/img/photo-gallery/champions/2019/thumbnails/cobalt_n2_15U_gold.jpg"
     },
     {
         "year":"2019",
@@ -43,8 +43,8 @@
         "coachBioUrl":"coaches-profile-full/22",
         "assistantCoaches": ["Katie Monahan"],
         "players": ["Julia Ahern","Victoria Giampa","Riya Gunnamreddy","Melissa Hilton","Eunchai Kang","Naomi Layon","Lianna Musto","Nicole Ouellette","Kaithlene Perez-Flores","Gabriella Raimundo"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"/assets/img/photo-gallery/champions/2019/flashfire_n3_16u_gold.jpg",
+        "teamPhotoThumbNail":"/assets/img/photo-gallery/champions/2019/thumbnails/flashfire_n3_16u_gold.jpg"
     },
     {
         "year":"2019",
@@ -66,8 +66,8 @@
         "headCoach":"Casey Roberts",
         "assistantCoaches": ["Emma Donahue"],
         "players": ["Gaia Donohoo","Lindsay Gasdia","Ashley Green","Julia Leland","Samantha Nelson","Emma Norska","Meghan O'Mahony","Ashlyn Seymour","Amanda Steely","Macie Story","Samaya Thapa"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"/assets/img/photo-gallery/champions/2019/platinum_n3_15u_silver.jpg",
+        "teamPhotoThumbNail":"/assets/img/photo-gallery/champions/2019/thumbnails/platinum_n3_15u_silver.jpg"
     },
     {
         "year":"2019",
@@ -77,8 +77,8 @@
         "headCoach":"Mike Pelosi",
         "assistantCoaches": ["Amanda Forgetta"],
         "players": ["Caitlin Byrne","Kristen Carney","Marissa Cloutier","Julia DelRosso","Alexa Harrington","Meghan Levesque","Sophia  Rzepala","Ava Sapienza","Shea Vadeboncoeur","Jessica Wardle","Lillian  Willoughby"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"/assets/img/photo-gallery/champions/2019/quartz_n2_17U_gold.jpg",
+        "teamPhotoThumbNail":"/assets/img/photo-gallery/champions/2019/thumbnails/quartz_n2_17U_gold.jpg"
     },
     {
         "year":"2019",
@@ -88,8 +88,8 @@
         "headCoach":"Johnny Rodgers",
         "assistantCoaches": ["Jessica Maucieri"],
         "players": ["Deanna Bosco","Vanessa Brown","Amber Buttaro","Alana Connelly","Lilly Dunn","Nicole Harrison","Chloe Jackson","Colleen Levangie","Ruby Trvalik","Natalia Villanueva"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"assets/img/teams/2019/rose_quartz_team.jpg",
+        "teamPhotoThumbNail":"assets/img/teams/2019/thumbnails/rose_quartz_team.jpg"
     },
     {
         "year":"2019",
@@ -99,8 +99,8 @@
         "headCoach":"Jim Ray",
         "assistantCoaches": [],
         "players": ["Whitney Bohne","Emma Bosco","Olivia Byers","Hannah Connolly","Hannah Goff","Natalie Guterman","Lily Mahoney","Jalyn Pearl","Emma Williams","Veronica Xu"],
-        "teamPhoto":"",
-        "teamPhotoThumbNail":""
+        "teamPhoto":"/assets/img/photo-gallery/champions/2019/ruby_n3_16u_gold.jpg",
+        "teamPhotoThumbNail":"/assets/img/photo-gallery/champions/2019/thumbnails/ruby_n3_16u_gold.jpg"
     },
     {
         "year":"2019",
