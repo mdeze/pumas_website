@@ -1,6 +1,12 @@
 {"data":[
     {
         "year":"2019",
+        "description":"Rose Quartz 18U NERVA IV Silver",
+        "photo":"/assets/img/photo-gallery/champions/2019/rose_quartz_n4_18u_silver.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/rose_quartz_n4_18u_silver.jpg"
+    },
+    {
+        "year":"2019",
         "description":"Flashfire 16U NERVA III Gold",
         "photo":"/assets/img/photo-gallery/champions/2019/flashfire_n3_16u_gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/flashfire_n3_16u_gold.jpg"
