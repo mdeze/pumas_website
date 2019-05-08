@@ -1,6 +1,24 @@
 {"data":[
     {
         "year":"2019",
+        "description":"Rose Quartz 18U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/RoseQuartz-18u-n5-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/RoseQuartz-18u-n5-gold.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Ruby 16U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/Ruby-16U-n5-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/Ruby-16U-n5-gold.jpg"
+    },
+    {
+        "year":"2019",
+        "description":"Titanium 15U NERVA V Gold",
+        "photo":"/assets/img/photo-gallery/champions/2019/Titanium-15U-n5-gold.jpg",
+        "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/Titanium-15U-n5-gold.jpg"
+    },
+    {
+        "year":"2019",
         "description":"Jade 18U RIR #2 Gold Silver Bracket",
         "photo":"/assets/img/photo-gallery/champions/2019/jade_rir_silver_gold.jpg",
         "thumbnail":"/assets/img/photo-gallery/champions/2019/thumbnails/jade_rir_silver_gold.jpg"
