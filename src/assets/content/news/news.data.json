@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"200",
+        "title":"Looking For Coaches",
+        "category":"Coaches",
+        "summary":"Pumas Volleyball Club is always looking for coaches (head or assistant). If you have any volleyball experience, please see our <a href='/coaches-interested' routerLink='/coaches-interested'>Looking for Coaches</a> page.",
+        "detail":"<strong>Pumas Volleyball Club</strong> is always looking for coaches (head or assistant). If you have any volleyball experience, please see our <a href='/coaches-interested' routerLink='/coaches-interested'>Looking for Coaches</a> page and <a href='/club-contact' routerLink='/club-contact'>contact the director</a> for more specific information.",
+        "displayIcon":"icon-sport-008",
+        "displayIconStyle":"",
+        "postedOn": "2019-08-18",
+        "postedOnDisplay":"",
+        "postedBy":"Mike Ezekiel",
+        "endAnnouncement": "2019-11-26"
+    },
+    {
         "id":"199",
         "title":"2019 Outdoor Tournament Listings",
         "category":"Tournaments",
