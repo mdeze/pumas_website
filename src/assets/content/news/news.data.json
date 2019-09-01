@@ -1,5 +1,44 @@
 {"data":[
     {
+        "id":"203",
+        "title":"Program Tryout Dates",
+        "category":"Tryouts",
+        "summary":"<p>Pumas program tryout dates for the 2020 season.<ul><li>14U & 15U tryouts will be 10/13 & 10/20</li><li>16U & 18U tryouts will be 11/10 & 11/17</li></ul></p>",
+        "detail":"<p>Pumas program tryout dates for the 2020 season.<ul><li>14U & 15U tryouts will be <strong>Sunday 10/13 & Sunday 10/20</strong></li><li>16U & 18U tryouts will be Sunday 11/10 & Sunday 11/17</li></ul></p>",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2019-09-01",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-10-06"
+    },    
+    {
+        "id":"202",
+        "title":"Boys Program",
+        "category":"Tryouts",
+        "summary":"Pumas Boys Program tryouts will be 10/6 and 10/13. The program will have two practices a week, 4 Single day tournaments and three Multi-day tournaments.",
+        "detail":"Pumas Boys Program tryouts will be 10/6 and 10/13. The program will have two practices a week, 4 Single day tournaments and three Multi-day tournaments. More information on the Boys program available on the web site soon.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2019-09-01",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-10-06"
+    },
+    {
+        "id":"201",
+        "title":"12U Coed Fall Program",
+        "category":"Tryouts",
+        "summary":"The 12U Fall Program is available for players 12 and under. Practices are one hour per week for a 6-week program. No experience necessary. No tryouts necessary. We will be running two six-week programs for the fall starting 9/22.",
+        "detail":"The 12U Fall Program is available for players 12 and under. Practices are one hour per week for a 6-week program. No experience necessary. No tryouts necessary. We will be running two six-week programs for the fall starting 9/22. More information on the 12U Fall program available on the web site soon.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2019-09-01",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-09-22"
+    },
+    {
         "id":"200",
         "title":"Looking For Coaches",
         "category":"Coaches",
