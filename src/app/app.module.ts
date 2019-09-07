@@ -25,6 +25,7 @@ import { ProgramsCostComponent } from './programs-cost/programs-cost.component';
 import { ProgramsInhouseComponent } from './programs-inhouse/programs-inhouse.component';
 import { ProgramsJncComponent } from './programs-jnc/programs-jnc.component';
 import { ProgramsOpenComponent } from './programs-open/programs-open.component';
+import { ProgramsBoysComponent } from './programs-boys/programs-boys.component';
 import { ProgramsPhilosophyComponent } from './programs-philosophy/programs-philosophy.component';
 import { ProgramsParentsGuideComponent } from './programs-parents-guide/programs-parents-guide.component';
 import { ProgramsSideMenuComponent } from './programs-side-menu/programs-side-menu.component';
@@ -75,6 +76,7 @@ const appRoutes: Routes = [
   { path: 'programs-club', component: ProgramsClubComponent },
   { path: 'programs-open', component: ProgramsOpenComponent },
   { path: 'programs-jnc', component: ProgramsJncComponent },
+  { path: 'programs-boys', component: ProgramsBoysComponent },
   { path: 'programs-12u-coed', component: Programs12uCoedComponent },
   { path: 'programs-inhouse', component: ProgramsInhouseComponent },
   { path: 'programs-cost', component: ProgramsCostComponent },
@@ -122,6 +124,7 @@ const appRoutes: Routes = [
     ProgramsCostComponent,
     ProgramsInhouseComponent,
     ProgramsJncComponent,
+    ProgramsBoysComponent,
     ProgramsOpenComponent,
     ProgramsPhilosophyComponent,
     ProgramsSideMenuComponent,
@@ -156,7 +159,8 @@ const appRoutes: Routes = [
     GalleryOnCourtComponent,
     GalleryOnCourtListComponent,
     ProgramsParentsGuideComponent,
-    Programs12uCoedComponent
+    Programs12uCoedComponent,
+    ProgramsBoysComponent
   ],
   imports: [
     BrowserModule,

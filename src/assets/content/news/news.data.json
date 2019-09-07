@@ -14,13 +14,13 @@
     },    
     {
         "id":"202",
-        "title":"Boys Program",
+        "title":"Boys Program Updates",
         "category":"Tryouts",
-        "summary":"Pumas Boys Program tryouts will be 10/6 and 10/13. The program will have two practices a week, 4 Single day tournaments and three Multi-day tournaments.",
-        "detail":"Pumas Boys Program tryouts will be 10/6 and 10/13. The program will have two practices a week, 4 Single day tournaments and three Multi-day tournaments. More information on the Boys program available on the web site soon.",
+        "summary":"Pumas Boys Program tryouts will be 10/6 and 10/13. Details for the Boys Program has been updated and is available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page",
+        "detail":"Pumas Boys Program tryouts will be 10/6 and 10/13. Details for the Boys Program has been updated and is available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page",
         "displayIcon":"icon-sport-085",
         "displayIconStyle":"",
-        "postedOn": "2019-09-01",
+        "postedOn": "2019-09-06",
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-10-06"
