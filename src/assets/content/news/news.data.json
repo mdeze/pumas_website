@@ -1,7 +1,33 @@
 {"data":[
     {
         "id":"203",
-        "title":"Program Tryout Dates",
+        "title":"12U Coed Fall Program Registration Open",
+        "category":"Tryouts",
+        "summary":"Now accepting registration for the 12U Coed Fall Program which is available for players 12 and under. No tryouts necessary. The first of the two six-week sessions starts 9/22. See the <a href='/programs-12u-coed-fall' routerLink='/programs-12u-coed-fall'>12U Coed Fall Program</a> page for more information.",
+        "detail":"Now accepting registration for the 12U Coed Fall Program which is available for players 12 and under. Practices are one hour per week for a 6-week program. No experience necessary. No tryouts necessary. We will be running two six-week sessions for the fall starting 9/22. See the <a href='/programs-12u-coed-fall' routerLink='/programs-12u-coed-fall'>12U Coed Fall Program</a> page for more information.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2019-09-01",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-10-22"
+    },
+    {
+        "id":"202",
+        "title":"Boys Program Registration Open",
+        "category":"Tryouts",
+        "summary":"Boys Program <a href='/schedule-tryouts' routerLink='/schedule-tryouts'>Tryouts</a> will be 10/6 and 10/13. Details for the Boys Program is available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page. Registration now open! See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Boys Program Registration</a> section of the registration page for more details.",
+        "detail":"Pumas Boys Program tryouts will be 10/6 and 10/13. Details for the Boys Program is available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page. Registration now open! See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Boys Program Registration</a> section of the registration page for more details.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2019-09-06",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-10-13"
+    },
+    {
+        "id":"201",
+        "title":"Girls Program Tryout Dates",
         "category":"Tryouts",
         "summary":"<p>Pumas program tryout dates for the 2020 season.<ul><li>14U & 15U tryouts will be 10/20 & 10/27</li><li>16U & 18U tryouts will be 11/10 & 11/17</li></ul></p>",
         "detail":"<p>Pumas program tryout dates for the 2020 season.<ul><li>14U & 15U tryouts will be <strong>Sunday 10/20 & Sunday 10/27</strong></li><li>16U & 18U tryouts will be Sunday 11/10 & Sunday 11/17</li></ul></p>",
@@ -12,32 +38,6 @@
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-10-06"
     },    
-    {
-        "id":"202",
-        "title":"Boys Program Updates",
-        "category":"Tryouts",
-        "summary":"Pumas Boys Program tryouts will be 10/6 and 10/13. Details for the Boys Program has been updated and is available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page",
-        "detail":"Pumas Boys Program tryouts will be 10/6 and 10/13. Details for the Boys Program has been updated and is available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page",
-        "displayIcon":"icon-sport-085",
-        "displayIconStyle":"",
-        "postedOn": "2019-09-06",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2019-10-06"
-    },
-    {
-        "id":"201",
-        "title":"12U Coed Fall Program",
-        "category":"Tryouts",
-        "summary":"The 12U Fall Program is available for players 12 and under. Practices are one hour per week for a 6-week program. No experience necessary. No tryouts necessary. We will be running two six-week programs for the fall starting 9/22.",
-        "detail":"The 12U Fall Program is available for players 12 and under. Practices are one hour per week for a 6-week program. No experience necessary. No tryouts necessary. We will be running two six-week programs for the fall starting 9/22. More information on the 12U Fall program available on the web site soon.",
-        "displayIcon":"icon-sport-085",
-        "displayIconStyle":"",
-        "postedOn": "2019-09-01",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2019-09-22"
-    },
     {
         "id":"200",
         "title":"Looking For Coaches",
