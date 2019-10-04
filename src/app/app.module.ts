@@ -61,6 +61,10 @@ import { GalleryOnCourtComponent } from './gallery-on-court/gallery-on-court.com
 import { GalleryOnCourtListComponent } from './gallery-on-court-list/gallery-on-court-list.component';
 import { Programs12uCoedComponent } from './programs-12u-coed/programs-12u-coed.component';
 import { Programs12uCoedFallComponent } from './programs-12u-coed-fall/programs-12u-coed-fall.component';
+import { EducationPlayerComponent } from './education-player/education-player.component';
+import { EducationParentComponent } from './education-parent/education-parent.component';
+import { EducationCoachesComponent } from './education-coaches/education-coaches.component';
+import { EducationSideMenuComponent } from './education-side-menu/education-side-menu.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -103,6 +107,9 @@ const appRoutes: Routes = [
   { path: 'gallery-off-court/:year', component: GalleryOffCourtComponent },
   { path: 'gallery-on-court-list', component: GalleryOnCourtListComponent },
   { path: 'gallery-on-court/:year', component: GalleryOnCourtComponent },
+  { path: 'education-coaches', component: EducationCoachesComponent },
+  { path: 'education-parent', component: EducationParentComponent },
+  { path: 'education-player', component: EducationPlayerComponent },
   { path: '**', redirectTo: '/home', pathMatch: 'full' } // handle bad links/404s
 ];
 
@@ -163,7 +170,11 @@ const appRoutes: Routes = [
     ProgramsParentsGuideComponent,
     Programs12uCoedComponent,
     ProgramsBoysComponent,
-    Programs12uCoedFallComponent
+    Programs12uCoedFallComponent,
+    EducationPlayerComponent,
+    EducationParentComponent,
+    EducationCoachesComponent,
+    EducationSideMenuComponent
   ],
   imports: [
     BrowserModule,
