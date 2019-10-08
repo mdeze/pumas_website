@@ -1,18 +1,5 @@
 {"data":[
     {
-        "id":"201",
-        "title":"Boys Program Tryouts Postponed Until 10/13",
-        "category":"Tryouts",
-        "summary":"<p>We are postponing the first boys tryout and will hold a 1 day of tryout for the Boys Program on Sunday 10/13. We apologize for any inconvenience this may cause.</p>",
-        "detail":"<p>We are postponing the first boys tryout and will hold a 1 day of tryout for the Boys Program on Sunday 10/13. We apologize for any inconvenience this may cause.</p>",
-        "displayIcon":"icon-communication-049",
-        "displayIconStyle":"",
-        "postedOn": "2019-10-05",
-        "postedOnDisplay":"",
-        "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2019-10-07"
-    },
-    {
         "id":"205",
         "title":"Girls Program Registration Open",
         "category":"Tryouts",
@@ -52,7 +39,7 @@
         "endAnnouncement": "2019-10-22"
     },
     {
-        "id":"201",
+        "id":"202",
         "title":"Program Tryout Schedule Updated",
         "category":"Tryouts",
         "summary":"<p>Pumas program tryout dates for the 2020 season.<ul><li>Boys program tryouts will be Sunday 10/13</li><li>Girls 14U & 15U tryouts will be 10/20 & 10/27</li><li>Girls 16U & 18U tryouts will be 11/10 & 11/17</li></ul> See <a href='/schedule-tryouts' routerLink='/schedule-tryouts'>Tryouts</a> schedule for more information.</p>",
@@ -64,6 +51,19 @@
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-11-18"
     },
+    {
+        "id":"201",
+        "title":"Boys Program Tryouts Postponed Until 10/13",
+        "category":"Tryouts",
+        "summary":"<p>We are postponing the first boys tryout and will hold a 1 day of tryout for the Boys Program on Sunday 10/13. We apologize for any inconvenience this may cause.</p>",
+        "detail":"<p>We are postponing the first boys tryout and will hold a 1 day of tryout for the Boys Program on Sunday 10/13. We apologize for any inconvenience this may cause.</p>",
+        "displayIcon":"icon-communication-049",
+        "displayIconStyle":"",
+        "postedOn": "2019-10-05",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-10-07"
+    },    
     {
         "id":"200",
         "title":"Looking For Coaches",
