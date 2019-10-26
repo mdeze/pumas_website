@@ -1,22 +1,5 @@
 {"data":[
     {
-        "id" : "10",
-        "firstName" : "Fred",
-        "lastName" : "Ahlholm",
-        "hasFullBio" : false,
-        "isHeadCoach" : false,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Asst Coach",
-        "age" : "18U",
-        "division" : "Club",
-        "team" : "Jade",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    },
-    {
         "id" : "1",
         "firstName" : "Stephen",
         "lastName" : "Boyle",
@@ -114,12 +97,18 @@
         "isHeadCoach" : true,
         "picture" : "/assets/img/coaches/kylie-desrosiers.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/kylie-desrosiers.jpg",
-        "title" : "Head Coach",
-        "age" : "16U",
+        "title" : "Alternate Coach",
+        "age" : "TBD",
         "division" : "Club",
-        "team" : " Bloodstone",
-        "years" : "2",
+        "team" : "TBD",
+        "years" : "3",
         "experience" : [
+            {
+                "year" : "2019",
+                "organizationName" : "Pumas VBC",
+                "teamName" : "Bloodstone 16U",
+                "position" : "Head Coach"
+            },
             {
                 "year" : "2018",
                 "organizationName" : "Pumas VBC",
@@ -154,132 +143,25 @@
         "bio" : ""
     },
     {
-        "id" : "13",
-        "firstName" : "Steve",
-        "lastName" : "D'Orto",
-        "hasFullBio" : false,
-        "isHeadCoach" : false,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Alternate Coach",
-        "age" : "TBD",
-        "division" : "Club",
-        "team" : "TBD",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    },
-    {
-        "id" : "17",
-        "firstName" : "Lizzy",
-        "lastName" : "Ezekiel",
-        "hasFullBio" : true,
-        "isHeadCoach" : true,
-        "title" : "Asst Coach",
-        "picture" : "/assets/img/coaches/lizzy-ezekiel.jpg",
-        "thumbnail" : "/assets/img/coaches/thumbnails/lizzy-ezekiel.jpg",
-        "age" : "17U",
-        "division" : "Club",
-        "team" : "Sapphire",
-        "years" : "2",
-        "experience" : [
-            {
-                "year" : "2018",
-                "organizationName" : "Tewksbury High School",
-                "teamName" : "Redmen",
-                "position" : "Varsity Team Captain"
-            },
-            {
-                "year" : "2018",
-                "organizationName" : "Volleyball MD",
-                "teamName" : "Summer Indoor Program",
-                "position" : "Middle School Coach"
-            },
-            {
-                "year" : "2018",
-                "organizationName" : "Volleyball MD",
-                "teamName" : "Summer Beach Program",
-                "position" : "Player"
-            },
-            {
-                "year" : "2018",
-                "organizationName" : "Pumas VBC",
-                "teamName" : "Sapphire 15U",
-                "position" : "Assistant Coach"
-            },            
-            {
-                "year" : "2017",
-                "organizationName" : "Tewksbury High School",
-                "teamName" : "Redmen",
-                "position" : "Varsity"
-            },
-            {
-                "year" : "2017",
-                "organizationName" : "Volleyball MD",
-                "teamName" : "Summer Indoor Program",
-                "position" : "Middle School Coach"
-            },
-            {
-                "year" : "2017",
-                "organizationName" : "Volleyball MD",
-                "teamName" : "Summer Beach Program",
-                "position" : "Player"
-            },
-            {
-                "year" : "2017",
-                "organizationName" : "Pumas VBC",
-                "teamName" : "Sapphire 16U",
-                "position" : "Team Captain"
-            },
-            {
-                "year" : "2016",
-                "organizationName" : "Tewksbury High School",
-                "teamName" : "Redmen",
-                "position" : "Varsity"
-            },
-            {
-                "year" : "2016",
-                "organizationName" : "Pumas",
-                "teamName" : "Summer Beach Sapphirians",
-                "position" : "Player"
-            },
-            {
-                "year" : "2016",
-                "organizationName" : "Pumas",
-                "teamName" : "Sapphire 15U",
-                "position" : "Team Captain"
-            },
-            {
-                "year" : "2015",
-                "organizationName" : "Tewksbury High School",
-                "teamName" : "Redmen",
-                "position" : "Junior Varsity"
-            },
-            {
-                "year" : "2015",
-                "organizationName" : "Pumas",
-                "teamName" : "Sapphire 14U",
-                "position" : "Team Captain"
-            }
-        ],
-        "summary" : "<p>Hello! My name is Elizabeth and I’m so excited to continue my job as an assistant coach. I began coaching in 2017 in a summer program working with middle school kids, and also started working with Pumas at the 15U level in 2017. I love working with kids, which is why in 2019, I will be attending college to study secondary education with concentrations in English and Spanish! </p><p>Outside of Pumas, I am always busy with a variety of activities. With my high school, I am an active member of our class council, mock trial team, tutoring program, yearbook, and in the National Honor Society. For athletics, I have played and been a captain of both our girls’ varsity volleyball and tennis teams - I will be continuing my tennis career at the D3 level in college. </p><p>While I love the competitive side of athletics, I believe that personal growth and the ability to work with others are the most important parts to being a successful athlete and overall good person. I am so excited for the upcoming season - see you on the court!</p>",
-        "bio" : "<p>Hello! My name is Elizabeth and I’m so excited to continue my job as an assistant coach. I began coaching in 2017 in a summer program working with middle school kids, and also started working with Pumas at the 15U level in 2017. I love working with kids, which is why in 2019, I will be attending college to study secondary education with concentrations in English and Spanish! </p><p>Outside of Pumas, I am always busy with a variety of activities. With my high school, I am an active member of our class council, mock trial team, tutoring program, yearbook, and in the National Honor Society. For athletics, I have played and been a captain of both our girls’ varsity volleyball and tennis teams - I will be continuing my tennis career at the D3 level in college. </p><p>While I love the competitive side of athletics, I believe that personal growth and the ability to work with others are the most important parts to being a successful athlete and overall good person. I am so excited for the upcoming season - see you on the court!</p>"
-    },
-    {
         "id" : "3",
         "firstName" : "Mike",
         "lastName" : "Ezekiel",
         "hasFullBio" : true,
         "isHeadCoach" : true,
-        "title" : "Head Coach",
         "picture" : "/assets/img/coaches/mike-ezekiel.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/mike-ezekiel.jpg",
-        "age" : "17U",
+        "title" : "Alternate Coach",
+        "age" : "TBD",
         "division" : "Club",
-        "team" : "Sapphire",
-        "years" : "6",
+        "team" : "TBD",
+        "years" : "7",
         "experience" : [
+            {
+                "year" : "2019",
+                "organizationName" : "Pumas VBC",
+                "teamName" : "Sapphire 17U",
+                "position" : "Head Coach"
+            },
             {
                 "year" : "2018",
                 "organizationName" : "Volleyball MD",
@@ -373,23 +255,6 @@
         "bio" : ""
     },
     {
-        "id" : "16",
-        "firstName" : "Amanda",
-        "lastName" : "Forgetta",
-        "hasFullBio" : false,
-        "isHeadCoach" : true,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Asst Coach",
-        "age" : "17U",
-        "division" : "Club",
-        "team" : "Quartz",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    },
-    {
         "id" : "18",
         "firstName" : "Maura",
         "lastName" : "Green",
@@ -412,14 +277,20 @@
         "lastName" : "Healy",
         "hasFullBio" : true,
         "isHeadCoach" : true,
-        "title" : "Head Coach",
         "picture" : "/assets/img/coaches/BrianHealey.jpg",
         "thumbnail" : "/assets/img/coaches/thumbnails/BrianHealey.jpg",
+        "title" : "Alternate Coach",
+        "age" : "TBD",
         "division" : "Club",
-        "age" : "18U",
-        "team" : "Jade",
-        "years" : "13",
+        "team" : "TBD",
+        "years" : "14",
         "experience" : [
+            {
+                "year" : "2019",
+                "organizationName" : "Pumas VBC",
+                "teamName" : "Jade 18U",
+                "position" : "Head Coach"
+            },
             {
                 "year" : "2018",
                 "organizationName" : "Volleyball MD",
@@ -555,23 +426,6 @@
         "bio" : ""
     },
     {
-        "id" : "38",
-        "firstName" : "Jessica",
-        "lastName" : "Maucieri",
-        "hasFullBio" : false,
-        "isHeadCoach" : false,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Asst Coach",
-        "age" : "18U",
-        "division" : "Club",
-        "team" : "Rose Quartz",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    }, 
-    {
         "id" : "21",
         "firstName" : "Steve",
         "lastName" : "McRoy",
@@ -600,8 +454,14 @@
         "age" : "16U",
         "division" : "Club",
         "team" : "Flashfire",
-        "years" : "3",
+        "years" : "4",
         "experience" : [
+            {
+                "year" : "2019",
+                "organizationName" : "Pumas VBC",
+                "teamName" : "Flashfire 16U",
+                "position" : "Head Coach"
+            },
             {
                 "year" : "2018",
                 "organizationName" : "Cambridge School of Weston",
@@ -629,23 +489,6 @@
         ],
         "summary" : "<p>This marks my third season coaching with Pumas, having previously coached 18U club and 17U club. I am also the head coach at the Cambridge School of Weston, a private high school and part of the Independent Girl's League, and was the assistant coach at Lesley University, a Division III liberal arts college in Cambridge, MA. I currently play in the Littleton Volleyball League, the Boston Volleyball Association and the Nashoba Valley Summer Volleyball league. Previously I played in college, high school and club.</p><p>In May of 2018, the 89th USA Volleyball Open National Championships were held. Bob Litchsinn, 89 years old, played in the Men's 78-and-Over Division. Bob exemplifies my coaching philosophy in which I strive to foster a love of volleyball in a competitive environment, ensuring players are aware and excited to continue with the sport even beyond Bob's years. Additionally, I focus on team and individual goals over outcome as incremental goal achievements lead to more favorable outcomes. </p>",
         "bio" : "<p>This marks my third season coaching with Pumas, having previously coached 18U club and 17U club. I am also the head coach at the Cambridge School of Weston, a private high school and part of the Independent Girl's League, and was the assistant coach at Lesley University, a Division III liberal arts college in Cambridge, MA. I currently play in the Littleton Volleyball League, the Boston Volleyball Association and the Nashoba Valley Summer Volleyball league. Previously I played in college, high school and club.</p><p>In May of 2018, the 89th USA Volleyball Open National Championships were held. Bob Litchsinn, 89 years old, played in the Men's 78-and-Over Division. Bob exemplifies my coaching philosophy in which I strive to foster a love of volleyball in a competitive environment, ensuring players are aware and excited to continue with the sport even beyond Bob's years. Additionally, I focus on team and individual goals over outcome as incremental goal achievements lead to more favorable outcomes. </p><p>It is a coach's responsibility to provide a safe environment for the players. As such, I am certified in:</p><ul><li>SafeSport</li><li>IMPACT</li><li>Concussion In Sports</li><li>Heat Illness Prevention</li><li>First Aid and CPR</li><li>I have also received ALICE Training</li></ul><p>Outside of volleyball, I am an avid table-top gamer and am in the process of coordinating my very own gaming convention. It is slated to be held June of 2021 near Portsmouth, NH.</p>"
-    },
-    {
-        "id" : "23",
-        "firstName" : "Katie",
-        "lastName" : "Monahan",
-        "hasFullBio" : false,
-        "isHeadCoach" : false,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Jr Coach",
-        "age" : "TBD",
-        "division" : "Club",
-        "team" : "TBD",
-        "years" : "1",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
     },
     {
         "id" : "24",
@@ -682,23 +525,6 @@
         "bio" : ""
     },
     {
-        "id" : "26",
-        "firstName" : "Mike",
-        "lastName" : "Pelosi",
-        "hasFullBio" : false,
-        "isHeadCoach" : true,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Head Coach",
-        "age" : "17U",
-        "division" : "Club",
-        "team" : "Quartz",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    },
-    {
         "id" : "27",
         "firstName" : "Jim",
         "lastName" : "Ray",
@@ -710,23 +536,6 @@
         "age" : "16U",
         "division" : "Club",
         "team" : "Ruby",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    },
-    {
-        "id" : "28",
-        "firstName" : "Ali",
-        "lastName" : "Remagio",
-        "hasFullBio" : false,
-        "isHeadCoach" : true,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Asst Coach",
-        "age" : "TBD",
-        "division" : "Club",
-        "team" : "TBD",
         "years" : "0",
         "experience" : [],
         "summary" : "",
@@ -745,23 +554,6 @@
         "division" : "Club",
         "team" : "Platinum",
         "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    },
-    {
-        "id" : "31",
-        "firstName" : "Olivia",
-        "lastName" : "Roscoe",
-        "hasFullBio" : false,
-        "isHeadCoach" : false,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Jr Coach",
-        "age" : "TBD",
-        "division" : "Club",
-        "team" : "TBD",
-        "years" : "1",
         "experience" : [],
         "summary" : "",
         "bio" : ""
@@ -795,8 +587,14 @@
         "age" : "16U",
         "division" : "Open",
         "team" : "Emerald",
-        "years" : "11",
+        "years" : "12",
         "experience" : [
+            {
+                "year" : "2019",
+                "organizationName" : "Pumas",
+                "teamName" : "Emerald 16U Open",
+                "position" : "Head Coach"
+            },
             {
                 "year" : "2018",
                 "organizationName" : "Wilmington HS",
@@ -987,8 +785,14 @@
         "age" : "12U",
         "division" : "Club",
         "team" : "Scarlet",
-        "years" : "5",
+        "years" : "6",
         "experience" : [
+            {
+                "year" : "2019",
+                "organizationName" : "Pumas",
+                "teamName" : "Scarlet 12U",
+                "position" : "Head Coach"
+            },
             {
                 "year" : "2017",
                 "organizationName" : "Volleyball MD",
@@ -1107,23 +911,6 @@
         "age" : "12U",
         "division" : "Club",
         "team" : "Scarlet",
-        "years" : "0",
-        "experience" : [],
-        "summary" : "",
-        "bio" : ""
-    },
-    {
-        "id" : "35",
-        "firstName" : "Anthony",
-        "lastName" : "Warren",
-        "hasFullBio" : false,
-        "isHeadCoach" : false,
-        "picture" : "/assets/img/coach.png",
-        "thumbnail" : "/assets/img/coach.png",
-        "title" : "Asst Coach",
-        "age" : "16U",
-        "division" : "Open",
-        "team" : "Emerald",
         "years" : "0",
         "experience" : [],
         "summary" : "",
