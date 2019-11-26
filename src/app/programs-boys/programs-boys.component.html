@@ -8,9 +8,52 @@
       <p>After 15 years of providing superior Pumas Girls programs we have added a Boys program for the 2019-2020 season. We are excited to bring the same passion we have for developing female athletes to a boys program that will help teach them to love the game of volleyball and prepare them for future High School and College competition.
       </p>
 
+      <div class="panel panel-green equal-height-column">
+        <div class="panel-heading">
+          <h3 class="panel-title">Boys High School Prep Program <span *ngIf="prepProgramIsActive()">{{prepProgramCurrentStatus}}</span></h3>
+        </div>
+        <div class="panel-body">
+
+          <dl class="dl-horizontal">
+    
+              <dt>Session:</dt> 
+              <dd>Starts Sunday 12/01/19 and will run for 8 weeks.</dd>
+
+              <dt>Dates:</dt>
+              <dd><ul>
+                <li>December 1st, 8th and 29th</li>
+                <li>January 5th and 26th</li>
+                <li>February 2nd, 16th and 23rd </li>
+              </ul></dd>
+    
+              <dt>Time:</dt>
+              <dd>Sundays morning from 9:00 am - 11:00 am</dd>
+
+              <dt>Location:</dt> 
+              <dd><a href="/club-directions" routerLink="/club-directions">Lawrence Boys and Girls Club</a></dd>
+              
+              <dt>Cost:</dt> 
+              <dd>$250 per player</dd>
+    
+              <dt>USAV Registration:</dt> 
+              <dd>All players will need a USAV membership to participate in the program. The cost is $60 which is paid directly to USA Volleyball (our national governing body). <a href="/usav-registration" routerLink="/usav-registration" >USAV Registration Instructions</a>
+              </dd>
+    
+              <dt>Practices:</dt>
+              <dd>Practice time will be spent on individual skills (passing, serving, setting, hitting) and then learning how to apply those skills in game-like situations. </dd>
+
+              <dt>Program Registration:</dt> 
+              <dd><a href="https://pumasvolleyball.sportngin.com/register/form/632502892" target="_blank">Program Registration & Payment</a></dd>
+    
+            </dl>
+
+        </div>
+      </div>
+
+
       <div class="panel panel-blue equal-height-column">
         <div class="panel-heading">
-          <h3 class="panel-title">Boys Fall Practice Program</h3>
+          <h3 class="panel-title">Boys Fall Practice Program <span *ngIf="fallProgramIsActive()">{{fallProgramCurrentStatus}}</span></h3>
         </div>
         <div class="panel-body">
 
