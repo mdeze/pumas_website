@@ -1,16 +1,16 @@
 {"data":[
     {
-        "id":"209",
-        "title":"Boys High School Prep Program Registration Open",
-        "category":"Tryouts",
-        "summary":"Details for the Boys High School Prep Program are available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page.",
-        "detail":"Registration now open! Details for the Boys High School Prep Program are available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page.",
-        "displayIcon":"icon-sport-085",
+        "id":"210",
+        "title":"Updated Practice Schedule",
+        "category":"Schedule",
+        "summary":"An updated season practice schedule has been <a href='/assets/files/practice/PracticeSchedule2019-20.pdf' target='_blank'>posted</a>.",
+        "detail":"An updated season practice schedule has been <a href='/assets/files/practice/PracticeSchedule2019-20.pdf' target='_blank'>posted</a>.",
+        "displayIcon":"icon-calendar",
         "displayIconStyle":"",
-        "postedOn": "2019-11-26",
+        "postedOn": "2019-12-13",
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
-        "endAnnouncement": "2019-12-10"
+        "endAnnouncement": "2019-12-30"
     },
     {
         "id":"208",
@@ -38,6 +38,19 @@
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-12-29"
     },
+    {
+        "id":"209",
+        "title":"Boys High School Prep Program Registration Open",
+        "category":"Tryouts",
+        "summary":"Details for the Boys High School Prep Program are available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page.",
+        "detail":"Registration now open! Details for the Boys High School Prep Program are available on the <a href='/programs-boys' routerLink='/programs-boys'>Boys Program</a> page.",
+        "displayIcon":"icon-sport-085",
+        "displayIconStyle":"",
+        "postedOn": "2019-11-26",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2019-12-10"
+    },    
     {
         "id":"206",
         "title":"Coed InHouse Skills Program Registration Open",
