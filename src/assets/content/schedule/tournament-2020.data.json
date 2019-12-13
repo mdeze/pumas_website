@@ -170,12 +170,12 @@
     {
         "id":"12",
         "season":"2020",
-        "name":"Big South National Qualifier #1",
+        "name":"Big South National Qualifier",
         "url":"http://bigsouth.us",
         "date":"2020-04-10",
         "dateOnDisplay":"Apr 10-12",
         "location":"Atlanta, GA",
-        "info":"15U - 18U Club & Open - 3 days",
+        "info":"11U - 18U Club & Open - 3 days",
         "displayIcon":" ",
         "displayIconStyle":""
     },
@@ -188,18 +188,6 @@
         "dateOnDisplay":"Apr 19",
         "location":"NERVA Regional",
         "info":"Open + Club",
-        "displayIcon":" ",
-        "displayIconStyle":""
-    },
-    {
-        "id":"14",
-        "season":"2020",
-        "name":"Big South National Qualifier #2",
-        "url":"http://bigsouth.us",
-        "date":"2020-04-12",
-        "dateOnDisplay":"Apr 12-14",
-        "location":"Atlanta, GA",
-        "info":"11U - 14U Club & Open - 3 days",
         "displayIcon":" ",
         "displayIconStyle":""
     },
