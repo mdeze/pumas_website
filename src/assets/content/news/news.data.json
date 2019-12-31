@@ -1,5 +1,18 @@
 {"data":[
     {
+        "id":"211",
+        "title":"Updated Practice Schedule",
+        "category":"Schedule",
+        "summary":"An updated season practice schedule has been <a href='/assets/files/practice/PracticeSchedule2019-20.pdf' target='_blank'>posted</a>.",
+        "detail":"An updated season practice schedule has been <a href='/assets/files/practice/PracticeSchedule2019-20.pdf' target='_blank'>posted</a>.",
+        "displayIcon":"icon-calendar",
+        "displayIconStyle":"",
+        "postedOn": "2019-12-31",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2020-01-15"
+    },
+    {
         "id":"210",
         "title":"Updated Practice Schedule",
         "category":"Schedule",
@@ -50,7 +63,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-12-10"
-    },    
+    },
     {
         "id":"206",
         "title":"Coed InHouse Skills Program Registration Open",
@@ -89,7 +102,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-11-18"
-    },    
+    },
     {
         "id":"204",
         "title":"Boys Fall Practice Program Registration Open",
@@ -128,7 +141,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-10-07"
-    },    
+    },
     {
         "id":"200",
         "title":"Looking For Coaches",
@@ -219,7 +232,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2019-05-06"
-    },    
+    },
     {
         "id":"193",
         "title":"NERVA IV Highlights",
@@ -492,7 +505,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2018-11-26"
-    },    
+    },
     {
         "id":"172",
         "title":"Pre-Tryout Tune Up Clinics",
@@ -622,7 +635,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2018-05-07"
-    },    
+    },
     {
         "id":"162",
         "title":"Pumas Tuesday Night Clinics",
@@ -726,7 +739,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2018-03-26"
-    },    
+    },
     {
         "id":"155",
         "title":"2018 Champion and On The Court Gallery Updates",
@@ -778,7 +791,7 @@
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2018-03-12"
-    },    
+    },
     {
         "id":"151",
         "title":"Boston VB Festival Schedule",

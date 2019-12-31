@@ -85,8 +85,8 @@
         "name":"Rose Quartz",
         "division":"Club",
         "ageGroup":"18U",
-        "headCoach":"Johnny Rodgers",
-        "assistantCoaches": ["Jessica Maucieri"],
+        "headCoach":"Steve McRoy",
+        "assistantCoaches": ["Bonnie Zeigler"],
         "players": ["Deanna Bosco","Vanessa Brown","Amber Buttaro","Alana Connelly","Lilly Dunn","Nicole Harrison","Chloe Jackson","Colleen Levangie","Ruby Trvalik","Natalia Villanueva"],
         "teamPhoto":"assets/img/teams/2019/rose_quartz_team.jpg",
         "teamPhotoThumbNail":"assets/img/teams/2019/thumbnails/rose_quartz_team.jpg"

@@ -1,0 +1,93 @@
+{"data":[
+    {
+        "year":"2020",
+        "name":"Cobalt",
+        "division":"Club",
+        "ageGroup":"16U",
+        "headCoach":"Maura Green",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2020",
+        "name":"Ebony",
+        "division":"Club",
+        "ageGroup":"18U",
+        "headCoach":"Steve McRoy",
+        "assistantCoaches": ["Bonnie Zeigler"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2020",
+        "name":"Emerald",
+        "division":"Open",
+        "ageGroup":"16U",
+        "headCoach":"Bruce Shainwald",
+        "coachBioUrl":"coaches-profile-full/2",
+        "assistantCoaches": ["Bridget Shainwald"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2020",
+        "name":"Fire",
+        "division":"Club",
+        "ageGroup":"15U",
+        "headCoach":"Tina Miller",
+        "coachBioUrl":"coaches-profile-full/22",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2020",
+        "name":"Platinum",
+        "division":"Club",
+        "ageGroup":"16U",
+        "headCoach":"Casey Roberts",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2020",
+        "name":"Ruby",
+        "division":"Club",
+        "ageGroup":"18U",
+        "headCoach":"Jim Ray",
+        "assistantCoaches": [],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2020",
+        "name":"Scarlet",
+        "division":"Club",
+        "ageGroup":"12U",
+        "headCoach":"Saraha Shainwald",
+        "coachBioUrl":"coaches-profile-full/33",
+        "assistantCoaches": ["Ming Fang", "Bin Wang"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    },
+    {
+        "year":"2020",
+        "name":"Titanium",
+        "division":"Club",
+        "ageGroup":"16U",
+        "headCoach":"Rosella Latam",
+        "assistantCoaches": ["Olivia Roscoe"],
+        "players": [],
+        "teamPhoto":"",
+        "teamPhotoThumbNail":""
+    }
+]}
