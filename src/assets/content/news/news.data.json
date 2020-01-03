@@ -7,10 +7,23 @@
         "detail":"The 2020 team rosters have been posted. See the <a href='/team-roster/2020' routerLink='/team-roster/2020'>2020 Rosters</a> page for more details",
         "displayIcon":"icon-sport-124",
         "displayIconStyle":"",
-        "postedOn": "2020-01-01",
+        "postedOn": "2020-01-03",
         "postedOnDisplay":"",
         "postedBy": "Mike Ezekiel",
         "endAnnouncement": "2020-01-31"
+    },
+    {
+        "id":"212",
+        "title":"2019 Off The Court Gallery Updates",
+        "category":"Teams",
+        "summary":"Pumas at the NCAA Championships, competing in local DIII college action and summer beach tournaments in the <a href='/gallery-off-court/2019' routerLink='/gallery-off-court/2019'>2019 Off The Court</a> gallery.",
+        "detail":"Pumas at the NCAA Championships, competing in local DIII college action and summer beach tournaments in the <a href='/gallery-off-court/2019' routerLink='/gallery-off-court/2019'>2019 Off The Court</a> gallery.",
+        "displayIcon":"icon-electronics-103",
+        "displayIconStyle":"",
+        "postedOn": "2020-01-03",
+        "postedOnDisplay":"",
+        "postedBy": "Mike Ezekiel",
+        "endAnnouncement": "2020-01-18"
     },
     {
         "id":"211",

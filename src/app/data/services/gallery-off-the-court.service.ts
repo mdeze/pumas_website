@@ -13,6 +13,9 @@ export class GalleryOffTheCourtService {
         let galleryURL: string;
 
         switch (year) {
+            case 2019:
+                galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2019.data.json';
+                break;
             case 2018:
                 galleryURL = '/assets/content/gallery/off-the-court/gallery-off-the-court-2018.data.json';
                 break;
