@@ -15,7 +15,7 @@
         "id":"1",
         "season":"2020",
         "name":"Winterfest #1",
-        "url":"http://jvctournaments.com/MizunoNewEnglandWinterfest",
+        "url":"https://jvctournaments.com/WinterfestTournamentInformation",
         "date":"2020-01-11",
         "dateOnDisplay":"Jan 11-12",
         "location":"Hartford, CT",
@@ -27,7 +27,7 @@
         "id":"2",
         "season":"2020",
         "name":"Winterfest #2",
-        "url":"http://jvctournaments.com/MizunoNewEnglandWinterfest",
+        "url":"https://jvctournaments.com/WinterfestTournamentInformation",
         "date":"2020-01-18",
         "dateOnDisplay":"Jan 18-20",
         "location":"Hartford, CT",
@@ -106,7 +106,7 @@
         "info":"Open + Club",
         "displayIcon":" ",
         "displayIconStyle":""
-    },    
+    },
     {
         "id":"6",
         "season":"2020",
@@ -214,7 +214,7 @@
         "info":"14U,15U,16U,18U Club - 2 days",
         "displayIcon":" ",
         "displayIconStyle":""
-    },    
+    },
     {
         "id":"17",
         "season":"2020",
@@ -238,7 +238,7 @@
         "info":"10U, 11U, 12U, 13U Club, 14U, 15U, 16U, 17U, 18U Open - 2 days",
         "displayIcon":" ",
         "displayIconStyle":""
-    },    
+    },
     {
         "id":"19",
         "season":"2020",
