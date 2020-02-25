@@ -1,4 +1,17 @@
 {"data":[
+{
+    "id":"216",
+    "title":"NERVA I Assignments",
+    "category":"Tournaments",
+    "summary":"NERVA I (March 1) <a href='https://nevolleyball.org/wp-content/uploads/NERVA-1-Updated-official-schedule-March-1-2020-ver-3.pdf' target='_blank'>Tournament Assignments</a> are posted. <a href='https://sportwrench.com/event/20020' target='_blank'>SportWrench</a> game schedule available Thursday evening.",
+    "detail":"NERVA I (March 1) <a href='https://nevolleyball.org/wp-content/uploads/NERVA-1-Updated-official-schedule-March-1-2020-ver-3.pdf' target='_blank'>Tournament Assignments</a> are posted. The game schedule will be posted on <a href='https://sportwrench.com/event/20020' target='_blank'>SportWrench</a> on Thursday by 5pm",
+    "displayIcon":"icon-calendar",
+    "displayIconStyle":"",
+    "postedOn": "2020-02-25",
+    "postedOnDisplay":"",
+    "postedBy": "Mike Ezekiel",
+    "endAnnouncement": "2020-03-02"
+},
   {
       "id":"215",
       "title":"Qualifiers & Spikefest 2020 Results",
