@@ -1,41 +1,49 @@
-    <!-- main body -->
-    <div class="col-md-9">
+<!-- main body -->
+<div class="col-md-9">
+  <div class="blog-grid margin-bottom-10">
+    <h2 class="blog-grid-title-lg text-center">
+      <span aria-hidden="true" class="icon-sport-004 sport-icon-small"></span>
+      2021 Tournament Schedule <i class="fa fa-calendar" aria-hidden="true"></i>
+    </h2>
+  </div>
 
-        <div class="blog-grid margin-bottom-10">
-            <h2 class="blog-grid-title-lg text-center"><span aria-hidden="true" class="icon-sport-004 sport-icon-small"></span> 2020 Tournament Schedule <i class="fa fa-calendar" aria-hidden="true"></i></h2>
-        </div>
-
-        <div class="panel panel-black equal-height-column">
-            <div class="panel-heading">
-                <h3 class="panel-title">2020 Tournament Schedule</h3>
-            </div>
-            <div class="panel-body">
-                <p>
-                Below are the potential tournament dates for both divisions (Open + Club). 
-                This tournament list will be updated as more accurate information is available. 
-                All Open teams and some club teams will be playing some or all of the multi-day tournaments.
-                
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Tournament</th>
-                            <th>Date</th>
-                            <th>Location</th>
-                            <th>Info</th>
-                        </tr>
-                    </thead>
-                    <tbody *ngFor="let tournament of tournamentItems">
-                        <tr id="vb-tournament-{{tournament.id}}">
-                            <td><a href='{{tournament.url}}' target="_blank">{{tournament.name}}</a></td>
-                            <td>{{tournament.dateOnDisplay}}</td>
-                            <td>{{tournament.location}}</td>
-                            <td>{{tournament.info}}</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+  <div class="panel panel-black equal-height-column">
+    <div class="panel-heading">
+      <h3 class="panel-title">2021 Tournament Schedule</h3>
     </div>
-    <!-- end main body -->
+    <div class="panel-body">
+      <p>
+        Below are the potential tournament dates for both divisions (Open +
+        Club). This tournament list will be updated as more accurate information
+        is available. All Open teams and some club teams will be playing some or
+        all of the multi-day tournaments.
+      </p>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Tournament</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Info</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let tournament of tournamentItems">
+          <tr id="vb-tournament-{{ tournament.id }}">
+            <td>
+              <a href="{{ tournament.url }}" target="_blank">{{
+                tournament.name
+              }}</a>
+            </td>
+            <td>{{ tournament.dateOnDisplay }}</td>
+            <td>{{ tournament.location }}</td>
+            <td>{{ tournament.info }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- end main body -->
 
 <app-schedule-side-menu></app-schedule-side-menu>
