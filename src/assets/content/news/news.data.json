@@ -1,6 +1,45 @@
 {
   "data": [
     {
+      "id": "225",
+      "title": "12U Coed Fall Program Registration Open",
+      "category": "Tryouts",
+      "summary": "Now accepting registration for the 12U Coed Fall Program which is available for players 12 and under. No tryouts necessary. The first of the two four-week sessions starts 10/11/20. See the <a href='/programs-12u-coed-fall' routerLink='/programs-12u-coed-fall'>12U Coed Fall Program</a> page for more information.",
+      "detail": "Now accepting registration for the 12U Coed Fall Program which is available for players 12 and under. Practices are one hour per week for a 6-week program. No experience necessary. No tryouts necessary. We will be running two four-week sessions for the fall starting 10/11/20. See the <a href='/programs-12u-coed-fall' routerLink='/programs-12u-coed-fall'>12U Coed Fall Program</a> page for more information.",
+      "displayIcon": "icon-sport-085",
+      "displayIconStyle": "",
+      "postedOn": "2020-10-07",
+      "postedOnDisplay": "",
+      "postedBy": "Mike Ezekiel",
+      "endAnnouncement": "2020-10-22"
+    },
+    {
+      "id": "224",
+      "title": "Girls Program Registration Open",
+      "category": "Tryouts",
+      "summary": "Registration now open! Details for the Girls Programs are available on the <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-open' routerLink='/programs-open'>Open Program</a> pages. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Girls Program Registration</a> section of the registration page for more details.",
+      "detail": "Registration now open! Details for the Girls Programs are available on the <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-open' routerLink='/programs-open'>Open Program</a> pages. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Girls Program Registration</a> section of the registration page for more details.",
+      "displayIcon": "icon-sport-085",
+      "displayIconStyle": "",
+      "postedOn": "2020-10-07",
+      "postedOnDisplay": "",
+      "postedBy": "Mike Ezekiel",
+      "endAnnouncement": "2020-10-25"
+    },
+    {
+      "id": "223",
+      "title": "Program Tryout Schedule Updated",
+      "category": "Tryouts",
+      "summary": "<p>Pumas program tryout dates for the 2021 season.<ul><li>Girls 14U & 15U tryouts will be 10/25 & 11/01</li><li>Girls 16U & 18U tryouts will be 11/15 & 11/22</li></ul> See <a href='/schedule-tryouts' routerLink='/schedule-tryouts'>Tryouts</a> schedule for more information.</p>",
+      "detail": "<p>Pumas program tryout dates for the 2021 season.<ul><li>Girls 14U & 15U tryouts will be 10/25 & 11/01</li><li>Girls 16U & 18U tryouts will be 11/15 & 11/22</li></ul>See <a href='/schedule-tryouts' routerLink='/schedule-tryouts'>Tryouts</a> schedule for more information.</p>",
+      "displayIcon": "icon-calendar",
+      "displayIconStyle": "",
+      "postedOn": "2020-10-07",
+      "postedOnDisplay": "",
+      "postedBy": "Mike Ezekiel",
+      "endAnnouncement": "2020-10-25"
+    },
+    {
       "id": "222",
       "title": "Looking For Coaches",
       "category": "Coaches",
