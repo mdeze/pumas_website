@@ -1,6 +1,19 @@
 {
   "data": [
     {
+      "id": "226",
+      "title": "Program Tryout Schedule Updated",
+      "category": "Tryouts",
+      "summary": "<p>Girls 16U, 17U & 18U tryouts will be 11/15 & 11/22 from 9-12. See <a href='/schedule-tryouts' routerLink='/schedule-tryouts'>Tryouts</a> schedule for more information.</p>",
+      "detail": "<p>Girls 16U, 17U & 18U tryouts will be 11/15 & 11/22 from 9-12. See <a href='/schedule-tryouts' routerLink='/schedule-tryouts'>Tryouts</a> schedule for more information.</p>",
+      "displayIcon": "icon-calendar",
+      "displayIconStyle": "",
+      "postedOn": "2020-11-12",
+      "postedOnDisplay": "",
+      "postedBy": "Mike Ezekiel",
+      "endAnnouncement": "2020-11-22"
+    },
+    {
       "id": "225",
       "title": "12U Coed Fall Program Registration Open",
       "category": "Tryouts",
@@ -11,14 +24,14 @@
       "postedOn": "2020-10-07",
       "postedOnDisplay": "",
       "postedBy": "Mike Ezekiel",
-      "endAnnouncement": "2020-11-15"
+      "endAnnouncement": "2020-11-12"
     },
     {
       "id": "224",
       "title": "Girls Program Registration Open",
       "category": "Tryouts",
-      "summary": "Registration now open! Details for the Girls Programs are available on the <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-open' routerLink='/programs-open'>Open Program</a> pages. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Girls Program Registration</a> section of the registration page for more details.",
-      "detail": "Registration now open! Details for the Girls Programs are available on the <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-open' routerLink='/programs-open'>Open Program</a> pages. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Girls Program Registration</a> section of the registration page for more details.",
+      "summary": "Details for the Girls Programs are available on the <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-open' routerLink='/programs-open'>Open Program</a> pages. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Girls Program Registration</a> section of the registration page for more details. Please note the recently updated COVID restrictions.",
+      "detail": "Registration now open! Details for the Girls Programs are available on the <a href='/programs-club' routerLink='/programs-club'>Club Program</a> and <a href='/programs-open' routerLink='/programs-open'>Open Program</a> pages. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Girls Program Registration</a> section of the registration page for more details.  Please note the recently updated COVID restrictions.",
       "displayIcon": "icon-sport-085",
       "displayIconStyle": "",
       "postedOn": "2020-10-07",
@@ -37,7 +50,7 @@
       "postedOn": "2020-10-07",
       "postedOnDisplay": "",
       "postedBy": "Mike Ezekiel",
-      "endAnnouncement": "2020-11-22"
+      "endAnnouncement": "2020-11-12"
     },
     {
       "id": "222",
