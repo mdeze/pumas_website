@@ -1,6 +1,19 @@
 {
   "data": [
     {
+      "id": "227",
+      "title": "Coed InHouse Skills Program Registration Open",
+      "category": "Tryouts",
+      "summary": "Registration now open! Open to boys and girls 13 and older. At this time, one session is scheduled but if there is interest, we would look to have a second session after the new year. Program details are available on the <a href='/programs-inhouse' routerLink='/programs-inhouse'>Coed InHouse Skills Program</a> page. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Coed In-House Skills Program</a> section of the registration page for more registration information.",
+      "detail": "Registration now open! Open to boys and girls 13 and older. At this time, one session is scheduled but if there is interest, we would look to have a second session after the new year. Program details are available on the <a href='/programs-inhouse' routerLink='/programs-inhouse'>Coed InHouse Skills Program</a> page. See the <a href='/tryouts-registration' routerLink='/tryouts-registration'> Coed In-House Skills Program</a> section of the registration page for more registration information.",
+      "displayIcon": "icon-sport-085",
+      "displayIconStyle": "",
+      "postedOn": "2020-11-27",
+      "postedOnDisplay": "",
+      "postedBy": "Mike Ezekiel",
+      "endAnnouncement": "2020-12-12"
+    },
+    {
       "id": "226",
       "title": "Program Tryout Schedule Updated",
       "category": "Tryouts",
