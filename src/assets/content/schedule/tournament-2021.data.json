@@ -3,113 +3,17 @@
     {
       "id": "1",
       "season": "2021",
-      "name": "Winterfest #1",
-      "url": "https://jvctournaments.com/WinterfestTournamentInformation",
-      "date": "2021-01-02",
-      "dateOnDisplay": "Jan 2-3",
-      "location": "Mohegan Sun, CT",
-      "info": "Levels TBD - 2 days",
-      "displayIcon": "",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "2",
-      "season": "2021",
-      "name": "Winterfest #2",
-      "url": "https://jvctournaments.com/WinterfestTournamentInformation",
-      "date": "2021-01-16",
-      "dateOnDisplay": "Jan 16-17",
-      "location": "Mohegan Sun, CT",
-      "info": "Levels TBD - 2 days",
-      "displayIcon": "",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "3",
-      "season": "2021",
-      "name": "Winterfest #2",
-      "url": "https://jvctournaments.com/WinterfestTournamentInformation",
-      "date": "2021-01-16",
-      "dateOnDisplay": "Jan 16-18",
-      "location": "Springfield, MA",
-      "info": "Levels TBD - 3 days",
-      "displayIcon": "",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "4",
-      "season": "2021",
-      "name": "Spikefest - Providence",
-      "url": "#",
-      "date": "2021-02-13",
-      "dateOnDisplay": "Feb 13-15",
-      "location": "Providence, RI",
-      "info": "Levels TBD - 3 days",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "5",
-      "season": "2021",
-      "name": "Spikefest - Mohegan Sun",
-      "url": "#",
-      "date": "2021-02-13",
-      "dateOnDisplay": "Feb 13-15",
-      "location": "Mohegan Sun, CT",
-      "info": "Levels TBD - 3 days",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "6",
-      "season": "2021",
-      "name": "Spikefest - Springfield",
-      "url": "#",
-      "date": "2021-02-13",
-      "dateOnDisplay": "Feb 13-15",
-      "location": "Springfield, Ma",
-      "info": "Levels TBD - 3 days",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "7",
-      "season": "2021",
-      "name": "Boston VB Festival #1",
-      "url": "http://jvctournaments.com/MizunoBostonVolleyballFestival",
-      "date": "2021-02-26",
-      "dateOnDisplay": "Feb 26-28",
-      "location": "Boston, MA",
-      "info": "15O, 16O,16USA, 17O/USA/Club, 18 All – 3 days",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "8",
-      "season": "2021",
       "name": "NERVA I",
       "url": "http://nevolleyball.org/junior-girls-info-schedule/",
-      "date": "2021-03-03",
-      "dateOnDisplay": "Mar 3",
+      "date": "2021-02-21",
+      "dateOnDisplay": "Feb 21",
       "location": "NERVA Regional",
       "info": "Single day All levels",
       "displayIcon": " ",
       "displayIconStyle": ""
     },
     {
-      "id": "9",
-      "season": "2021",
-      "name": "Boston VB Festival #2",
-      "url": "http://jvctournaments.com/MizunoBostonVolleyballFestival",
-      "date": "2021-03-5",
-      "dateOnDisplay": "Mar 5-7",
-      "location": "Boston, MA",
-      "info": "12U & 13U 2 days, 14O/USA/Club, 15 USA/Club, 16 Club – 3 days",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "10",
+      "id": "2",
       "season": "2021",
       "name": "NERVA II",
       "url": "http://nevolleyball.org/junior-girls-info-schedule/",
@@ -121,7 +25,7 @@
       "displayIconStyle": ""
     },
     {
-      "id": "11",
+      "id": "3",
       "season": "2021",
       "name": "NERVA III",
       "url": "http://nevolleyball.org/junior-girls-info-schedule/",
@@ -133,19 +37,7 @@
       "displayIconStyle": ""
     },
     {
-      "id": "12",
-      "season": "2021",
-      "name": "Northeast National Qualifier",
-      "url": "#",
-      "date": "2021-04-9",
-      "dateOnDisplay": "Apr 9-11",
-      "location": "Philadelphia, PA",
-      "info": "16 Open",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "13",
+      "id": "4",
       "season": "2021",
       "name": "NERVA IV",
       "url": "http://nevolleyball.org/junior-girls-info-schedule/",
@@ -157,31 +49,7 @@
       "displayIconStyle": ""
     },
     {
-      "id": "14",
-      "season": "2021",
-      "name": "Rhode Island Rumble #1",
-      "url": "http://jvctournaments.com/RhodeIslandRumbleTournamentInformation",
-      "date": "2021-04-17",
-      "dateOnDisplay": "Apr 17-18",
-      "location": "Rhode Island TBD",
-      "info": "12s-15s – 2 days",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "15",
-      "season": "2021",
-      "name": "Rhode Island Rumble #2",
-      "url": "http://jvctournaments.com/RhodeIslandRumbleTournamentInformation",
-      "date": "2021-04-24",
-      "dateOnDisplay": "Apr 24-25",
-      "location": "Rhode Island TBD",
-      "info": "16s-18s – 2 days",
-      "displayIcon": " ",
-      "displayIconStyle": ""
-    },
-    {
-      "id": "16",
+      "id": "5",
       "season": "2021",
       "name": "NERVA V",
       "url": "http://nevolleyball.org/junior-girls-info-schedule/",
@@ -189,6 +57,30 @@
       "dateOnDisplay": "May 2",
       "location": "NERVA Regional",
       "info": "Open + Club",
+      "displayIcon": " ",
+      "displayIconStyle": ""
+    },
+    {
+      "id": "6",
+      "season": "2021",
+      "name": "Boston VB Festival #1",
+      "url": "http://jvctournaments.com/MizunoBostonVolleyballFestival",
+      "date": "2021-05-21",
+      "dateOnDisplay": "May 21-23",
+      "location": "Boston, MA",
+      "info": "3 days",
+      "displayIcon": " ",
+      "displayIconStyle": ""
+    },
+    {
+      "id": "7",
+      "season": "2021",
+      "name": "Spikefest",
+      "url": "#",
+      "date": "2021-06-12",
+      "dateOnDisplay": "Jun 12-13",
+      "location": "Springfield, Ma",
+      "info": "2 days",
       "displayIcon": " ",
       "displayIconStyle": ""
     }

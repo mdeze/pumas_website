@@ -13,6 +13,9 @@ export class TeamRosterService {
         let rosterURL: string;
 
         switch (year) {
+            case 2021:
+              rosterURL = '/assets/content/roster/team-roster-2021.data.json';
+              break;
             case 2020:
               rosterURL = '/assets/content/roster/team-roster-2020.data.json';
               break;

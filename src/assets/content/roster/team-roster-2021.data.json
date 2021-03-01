@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "year": "2021",
+      "name": "Cobalt",
+      "division": "Club",
+      "ageGroup": "18U",
+      "headCoach": "Maura Green",
+      "players": [
+        "Sophia Ferrarini",
+        "Maude Focke",
+        "Bridget Johnson",
+        "Emma Jordan",
+        "Sabina Kamanda",
+        "Adriana Kotler",
+        "Abbie Ledoux",
+        "Kelly Ly",
+        "Terry Njogu",
+        "Emma Norska",
+        "Jalyn Pearl",
+        "Julia Rowe",
+        "Loran Zolkos"
+      ],
+      "teamPhoto": "",
+      "teamPhotoThumbNail": ""
+    },
+    {
+      "year": "2021",
+      "name": "FlashFire",
+      "division": "Club",
+      "ageGroup": "16U",
+      "headCoach": "Tina Miller",
+      "coachBioUrl": "coaches-profile-full/22",
+      "assistantCoaches": ["Mike Ezekiel"],
+      "players": [
+        "Rowan Brennan",
+        "Katelyn Brooks",
+        "Abigail  Crump",
+        "Hannah Daneau",
+        "Samantha Dion",
+        "Nicole Donati",
+        "Lillian Elmstrom",
+        "Gabriella Lucarotti",
+        "Sydney Mather",
+        "Victoria Rowe",
+        "Sadie Salafia"
+      ],
+      "teamPhoto": "",
+      "teamPhotoThumbNail": ""
+    },
+    {
+      "year": "2021",
+      "name": "Ruby",
+      "division": "Club",
+      "ageGroup": "15U",
+      "headCoach": "Stephen Boyle",
+      "coachBioUrl": "coaches-profile-full/1",
+      "assistantCoaches": ["Jim Ray"],
+      "players": [
+        "Chloe Burns",
+        "Rachel Cox",
+        "Payton Crump",
+        "Olivia Cueva",
+        "Makenna Dube",
+        "Ava Fernandes",
+        "Meaghan Irwin",
+        "Abby Kirk",
+        "Elizabeth Koral",
+        "Margaret Mcquide",
+        "Leeann Pen"
+      ],
+      "teamPhoto": "",
+      "teamPhotoThumbNail": ""
+    }
+  ]
+}
