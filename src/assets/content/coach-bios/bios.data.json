@@ -256,23 +256,6 @@
       "bio": ""
     },
     {
-      "id": "100",
-      "firstName": "Niamh",
-      "lastName": "Green",
-      "hasFullBio": false,
-      "isHeadCoach": false,
-      "picture": "/assets/img/coach.png",
-      "thumbnail": "/assets/img/coach.png",
-      "title": "Asst Coach",
-      "age": "16U",
-      "division": "Club",
-      "team": "Cobalt",
-      "years": "0",
-      "experience": [],
-      "summary": "",
-      "bio": ""
-    },
-    {
       "id": "4",
       "firstName": "Brian",
       "lastName": "Healy",
@@ -410,40 +393,6 @@
       "bio": ""
     },
     {
-      "id": "20",
-      "firstName": "Rosella",
-      "lastName": "Latam",
-      "hasFullBio": false,
-      "isHeadCoach": true,
-      "picture": "/assets/img/coach.png",
-      "thumbnail": "/assets/img/coach.png",
-      "title": "Head Coach",
-      "age": "16U",
-      "division": "Club",
-      "team": "Titanium ",
-      "years": "0",
-      "experience": [],
-      "summary": "",
-      "bio": ""
-    },
-    {
-      "id": "21",
-      "firstName": "Steve",
-      "lastName": "McRoy",
-      "hasFullBio": false,
-      "isHeadCoach": true,
-      "picture": "/assets/img/coach.png",
-      "thumbnail": "/assets/img/coach.png",
-      "title": "Head Coach",
-      "age": "18U",
-      "division": "Club",
-      "team": "Ebony",
-      "years": "0",
-      "experience": [],
-      "summary": "",
-      "bio": ""
-    },
-    {
       "id": "22",
       "firstName": "Tina",
       "lastName": "Miller",
@@ -543,132 +492,6 @@
       "bio": ""
     },
     {
-      "id": "33",
-      "firstName": "Sarah",
-      "lastName": "Shainwald",
-      "hasFullBio": true,
-      "isHeadCoach": true,
-      "picture": "/assets/img/coach.png",
-      "thumbnail": "/assets/img/coach.png",
-      "title": "Head Coach",
-      "age": "12U",
-      "division": "Club",
-      "team": "Scarlet",
-      "years": "6",
-      "experience": [
-        {
-          "year": "2019",
-          "organizationName": "Pumas",
-          "teamName": "Scarlet 12U",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2017",
-          "organizationName": "Volleyball MD",
-          "teamName": "Summer Indoor Program",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2017",
-          "organizationName": "Pumas",
-          "teamName": "Viridian 18U",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2017",
-          "organizationName": "Pumas",
-          "teamName": "In-House Program",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2017",
-          "organizationName": "North Andover Booster Club",
-          "teamName": "7th & 8th Grade",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2017",
-          "organizationName": "North Andover Booster Club",
-          "teamName": "5th & 6th Grade",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2016",
-          "organizationName": "Volleyball MD",
-          "teamName": "Summer Club Warmup and Tune-up",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2016",
-          "organizationName": "Pumas",
-          "teamName": "Viridian 17U Open",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2016",
-          "organizationName": "Pumas",
-          "teamName": "In-House Program",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2016",
-          "organizationName": "North Andover Booster Club",
-          "teamName": "7th & 8th Grade",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2015",
-          "organizationName": "Volleyball MD",
-          "teamName": "Summer Club Warmup and Tune-up",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2015",
-          "organizationName": "Pumas",
-          "teamName": "Viridian 16U",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2015",
-          "organizationName": "Pumas",
-          "teamName": "In-House Program",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2015",
-          "organizationName": "North Andover Booster Club",
-          "teamName": "7th & 8th Grade",
-          "position": "Head Coach"
-        },
-        {
-          "year": "2014",
-          "organizationName": "Volleyball MD",
-          "teamName": "Summer Club Warmup and Tune-up",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2014",
-          "organizationName": "Pumas",
-          "teamName": "Titanium 15U",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2013",
-          "organizationName": "Volleyball MD",
-          "teamName": "Summer Club Warmup and Tune-up",
-          "position": "Assistant Coach"
-        },
-        {
-          "year": "2013",
-          "organizationName": "Pumas",
-          "teamName": "Magenta 15U Open",
-          "position": "Assistant Coach"
-        }
-      ],
-      "summary": "<p>I believe in developing players’ character and ability through focusing on their attitude, effort, and performance. A positive attitude and growth mindset will lead to a better teammate and better outcomes in life as well as on the court. At the end of the day, volleyball is just a game. If you are not having fun, then there is something wrong and if you aren’t making mistakes, then you aren’t learning.</p><p>Volleyball is in my blood and stole my heart. I never played on an organized team in Middle or High School. I learned the game through playing pickup with my parents the summer after High School graduation. They had met on the court and didn’t want to push their passion on my sisters or me. I quickly joined SED’s intramural team in college and that (as they say) was that. I was hooked.</p>",
-      "bio": "<p>I believe in developing players’ character and ability through focusing on their attitude, effort, and performance. A positive attitude and growth mindset will lead to a better teammate and better outcomes in life as well as on the court. At the end of the day, volleyball is just a game. If you are not having fun, then there is something wrong and if you aren’t making mistakes, then you aren’t learning.</p><p>Volleyball is in my blood and stole my heart. I never played on an organized team in Middle or High School. I learned the game through playing pickup with my parents the summer after High School graduation. They had met on the court and didn’t want to push their passion on my sisters or me. I quickly joined SED’s intramural team in college and that (as they say) was that. I was hooked.</p><p>After college graduation, I met Coach McRoy and Coach Boyle while playing pickup volleyball. My dad was already coaching with Pumas and made the introductions. That year I became an assistant coach on the 15s Open team, Magenta. I’ve been with Pumas ever since and have since gotten involved with VolleyballMD and their offseason clinics. I started coaching for the North Andover Boosters Program my second year with Pumas as if I didn’t spend enough time on the court.</p><p>I graduated North Andover High School and graduated with my Bachelors of Science in Elementary Education from Boston University (Go Terriers!). When I am not on the court, I work as an Intellectual Property Project Manager at an online textbook company in Boston. I’ve been keeping 3rd party permissions cleared on budget and on time since 2013. As a project manager, I have learned time management, clear communication, and organization. Coaching and project management complement each other splendidly. I feel like I wouldn’t be where I am in one job without having the experience of the other.</p><p>See you on the court!</p>"
-    },
-    {
       "id": "34",
       "firstName": "Bin",
       "lastName": "Wang",
@@ -680,23 +503,6 @@
       "age": "12U",
       "division": "Club",
       "team": "Scarlet",
-      "years": "0",
-      "experience": [],
-      "summary": "",
-      "bio": ""
-    },
-    {
-      "id": "36",
-      "firstName": "Bonnie",
-      "lastName": "Zeigler",
-      "hasFullBio": false,
-      "isHeadCoach": false,
-      "picture": "/assets/img/coach.png",
-      "thumbnail": "/assets/img/coach.png",
-      "title": "Asst Coach",
-      "age": "18U",
-      "division": "Club",
-      "team": "Ebony",
       "years": "0",
       "experience": [],
       "summary": "",
