@@ -148,15 +148,21 @@
       "firstName": "Mike",
       "lastName": "Ezekiel",
       "hasFullBio": true,
-      "isHeadCoach": true,
+      "isHeadCoach": false,
       "picture": "/assets/img/coaches/mike-ezekiel.jpg",
       "thumbnail": "/assets/img/coaches/thumbnails/mike-ezekiel.jpg",
-      "title": "Alternate Coach",
-      "age": "TBD",
+      "title": "Asst Coach",
+      "age": "16U",
       "division": "Club",
-      "team": "TBD",
-      "years": "7",
+      "team": "Flashfire",
+      "years": "8",
       "experience": [
+        {
+          "year": "2021",
+          "organizationName": "Pumas VBC",
+          "teamName": "Flashfire 16U",
+          "position": "Assistant Coach"
+        },
         {
           "year": "2019",
           "organizationName": "Pumas VBC",
@@ -400,12 +406,24 @@
       "isHeadCoach": true,
       "picture": "/assets/img/coaches/tina-miller.png",
       "thumbnail": "/assets/img/coaches/thumbnails/tina-miller.png",
-      "title": "Alternate Coach",
-      "age": "15U",
+      "title": "Head Coach",
+      "age": "16U",
       "division": "Club",
-      "team": "Fire",
-      "years": "4",
+      "team": "Flashfire",
+      "years": "6",
       "experience": [
+        {
+          "year": "2021",
+          "organizationName": "Pumas VBC",
+          "teamName": "Flashfire 16U",
+          "position": "Head Coach"
+        },
+        {
+          "year": "2020",
+          "organizationName": "Pumas VBC",
+          "teamName": "Fire 15U",
+          "position": "Head Coach"
+        },
         {
           "year": "2019",
           "organizationName": "Pumas VBC",
