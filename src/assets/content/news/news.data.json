@@ -40,6 +40,19 @@
       "endAnnouncement": "2021-03-31"
     },
     {
+      "id": "230",
+      "title": "Updated Program Costs",
+      "category": "Programs",
+      "summary": "<a href='/programs-cost' routerLink='/programs-cost'>Program Costs</a> page has been updated for the 2021 season.",
+      "detail": "<a href='/programs-cost' routerLink='/programs-cost'>Program Costs</a> page has been updated for the 2021 season.",
+      "displayIcon": "icon-communication-049",
+      "displayIconStyle": "",
+      "postedOn": "2021-03-08",
+      "postedOnDisplay": "",
+      "postedBy": "Mike Ezekiel",
+      "endAnnouncement": "2021-03-21"
+    },
+    {
       "id": "227",
       "title": "Coed InHouse Skills Program Registration Open",
       "category": "Tryouts",
